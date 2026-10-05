@@ -1,72 +1,804 @@
 'use strict';
 const CONTENT = {
-ru: {
-brand:'МГУ–ППИ',brandSub:'BUSINESS DAY · BRICS',skip:'Перейти к содержанию',navLabel:'Навигация',navAbout:'О бизнес-дне',navAI:'ИИ и образование',navProgram:'Программа',navFormat:'Формат',
-title:'МГУ–ППИ · Россия × Китай · 22 ноября 2026',description:'Бизнес-день в Шэньчжэне: сотрудничество России и Китая, образование и внедрение ИИ. 22 ноября 2026 года. Проект программы.',
-eyebrow:'Шэньчжэнь · Бизнес-день 2026',heroCountries:['Россия','Китай'],heroSub:'От диалога к совместным проектам.',intro:'Объединяем бизнес, университеты и технологические команды России и Китая. Финансы, образование и искусственный интеллект — в повестке сотрудничества стран БРИКС.',viewProgram:'Смотреть программу',saveDate:'Сохранить дату',month:'ноября 2026',location:'Шэньчжэнь, Китай',herotag:'Знания становятся практикой. Знакомства — партнёрствами. Идеи — совместными проектами.',herobar1:'На площадке Университета МГУ–ППИ',herobar2:'Проект программы · состав участников формируется',ticker1:'БИЗНЕС И ДОВЕРИЕ',ticker2:'ОБРАЗОВАНИЕ И ТЕХНОЛОГИИ',ticker3:'РОССИЯ × КИТАЙ × БРИКС',
-aboutLabel:'01 / Точка встречи',aboutTitle:'Две страны.\nОбщая работа.',aboutLead:'Мы собираем бизнес-день на площадке МГУ–ППИ, чтобы соединить запросы компаний с возможностями науки, образования и технологий.',aboutBody:'Университет МГУ–ППИ в Шэньчжэне — совместный российско-китайский образовательный проект. Его соучредители — МГУ имени М. В. Ломоносова, Пекинский политехнический институт и муниципальное правительство Шэньчжэня. Эта связь задаёт основу встречи: фундаментальное знание, инженерная практика и задачи бизнеса.',aboutBRICS:'БРИКС — более широкий контекст нашего диалога: экономическое сотрудничество, обмен знаниями и подготовка кадров. Фокус бизнес-дня — конкретные российско-китайские инициативы в этой общей повестке.',
-bridge:[['МГУ','Наука и образование'],['ППИ','Инженерная школа'],['Шэньчжэнь','Технологическая среда']],
-topics:[['Инфраструктура доверия','Как финансовые сервисы, образовательные инициативы и личные связи помогают компаниям работать между Россией и Китаем.'],['Технологии в бизнесе','Как выбирать инструменты ИИ, встраивать их в рабочие процессы и оценивать эффект на реальных задачах.'],['Люди и совместные проекты','Как университетам, корпорациям и стартапам готовить команды и запускать совместные образовательные и прикладные проекты.']],
-companiesLabel:'02 / Компании в проекте программы',companiesTitle:'Сильные компании.\nПредметный разговор.',companiesNote:'ВТБ и Альфа-Банк выразили интерес по информации организаторов. Alibaba и GPTunneL предложены для участия. Финальный состав согласуется.',
-companies:[['ВТБ','Финансовая инфраструктура, образование и доверие в российско-китайском сотрудничестве.','Выражен интерес',true],['Альфа-Банк','Развитие талантов, связь бизнеса и университетов, образовательные проекты.','Выражен интерес',true],['Alibaba','Технологические экосистемы, ИИ и цифровые платформы для совместного бизнеса.','Предлагается к приглашению',false],['GPTunneL','Доступ к моделям ИИ, собственные разработки и практическое применение в обучении и компаниях.','Предлагается к приглашению',false]],
-aiLabel:'03 / Центральная секция · 14:00–15:30',aiTitle:'ИИ в работе:\nот модели к новому процессу.',aiLead:'Как пройти путь от доступа к нейросетям до решения, которым пользуется команда. Соединяем технологию, обучение сотрудников и изменение ежедневной работы.',
-focus:[['Модели и платформы','Где мы сейчас: международные и российские модели, собственные разработки и платформа доступа. Предлагаемый разбор GPTunneL и заявленных платформой моделей Grom: как выбирать инструменты под задачу, данные и ограничения компании.'],['Образование через практику','Как строить обучение вокруг задач сотрудников: документы, поиск знаний, коммуникации, маркетинг. Что делает ИИ, что проверяет человек и как закрепляется новый навык.'],['Стартап как команда внедрения','Разбор стартапа с участием основателя: погружение в бизнес клиента, прототип, интеграция, обучение команды и сопровождение. Почему один инструмент требует разных решений для разных компаний.'],['От пилота к рабочему процессу','Как назначить владельца процесса, сравнить качество и время до и после, измерить использование решения и принять решение о масштабировании.']],
-manifesto:'Внедрение ИИ — это работа с людьми, процессами и технологиями.',manifestoBody:'Новая роль — инженер внедрения ИИ: специалист, который работает рядом с бизнесом, понимает его ограничения и доводит решение до ежедневного использования.',role:'Результат секции: понятная схема пилота — задача, команда, инструмент, правила проверки и метрика эффекта.',steps:['Задача','Прототип','Обучение','Новый процесс','Измерение'],
-programLabel:'04 / 22 ноября 2026',programTitle:'Один день.\nОбщая повестка.',programLead:'Предлагаемый сценарий бизнес-дня. Всё время — местное, Шэньчжэнь (UTC+8). Откройте блок, чтобы увидеть содержание.',expand:'Развернуть всю программу',collapse:'Свернуть программу',
-agenda:[
-['08:30–09:30','Регистрация и знакомство','МГУ–ППИ · Приветственный кофе',['Встреча участников и знакомство с университетской площадкой.','Первые деловые знакомства: компании, университеты и технологические команды.']],
-['09:30–10:00','Открытие бизнес-дня','МГУ–ППИ · Общая сессия',['Роль совместного университета в диалоге бизнеса и образования России и Китая.','Общие задачи дня: сформировать темы сотрудничества, познакомить команды и определить следующий шаг.']],
-['10:00–11:10','Россия–Китай: инфраструктура доверия','МГУ–ППИ · Пленарная сессия',['10:00–10:20 · ВТБ: от финансовой инфраструктуры к инфраструктуре доверия. Образовательные инициативы и деловое сотрудничество — тема из предложений участников.','10:20–10:40 · Альфа-Банк: партнёрство бизнеса и университетов, развитие талантов — предлагаемая тема.','10:40–11:00 · Alibaba: цифровые экосистемы как среда для совместных проектов — предлагаемая тема и участие.','11:00–11:10 · Общая дискуссия: что помогает перейти от знакомства к проекту.']],
-['11:10–11:30','Кофе и продолжение разговора','МГУ–ППИ · Нетворкинг',['Время для обмена контактами и уточнения общих интересов.']],
-['11:30–12:30','Бизнес без границ: технологии, торговля, логистика','МГУ–ППИ · Прикладная дискуссия',['11:30–11:50 · Цифровая трансформация транспортно-логистической отрасли: возможности для российского и китайского предпринимательства.','11:50–12:10 · Совместные промышленные проекты и цифровые платформы: задачи бизнеса и точки входа для партнёров.','12:10–12:30 · Обсуждение: как найти партнёра, согласовать процесс и подготовить первый совместный проект.']],
-['12:30–14:00','Обед и переезд на вторую площадку','Организационный блок · Маршрут уточняется',['Обед в университете или гостинице — вариант согласуется.','Резерв времени на трансфер. Точное расписание зависит от выбранного отеля и маршрута.']],
-['14:00–15:30','ИИ в работе: от модели к новому процессу','Гостиничная площадка · Центральная секция',['14:00–14:20 · Карта технологий: модели, платформы и собственные разработки. GPTunneL — предлагаемый участник технологического разбора.','14:20–14:40 · Образовательный проект с ИИ: учимся на рабочих задачах и собираем первый прототип.','14:40–15:00 · От основателя стартапа к инженеру внедрения: как встроиться в бизнес клиента и изменить процесс вместе с командой.','15:00–15:20 · Практикум: выбираем один процесс, распределяем роли человека и ИИ, задаём критерии качества и метрику эффекта.','15:20–15:30 · Вопросы и выводы: что нужно для запуска пилота.'],true],
-['15:30–16:00','Кофе и деловые знакомства','Гостиничная площадка · Нетворкинг',['Обсуждение идей, возникших на секции, и поиск партнёров для следующих шагов.']],
-['16:00–17:00','Университет × компания: собираем совместный проект','Гостиничная площадка · Рабочие столы',['16:00–16:15 · Компании формулируют задачи; университеты и технологические команды предлагают формат участия.','16:15–16:45 · Работа по направлениям: обучение с ИИ, цифровизация бизнес-процессов, российско-китайские проекты.','16:45–17:00 · Короткие представления: задача, партнёры, ожидаемый результат и следующий шаг.']],
-['17:00–17:30','Итоги и продолжение работы','Гостиничная площадка · Закрытие',['Фиксация предложений и команд, готовых продолжить обсуждение.','Согласование следующих встреч и ответственных — по результатам дня.']],
-['18:00–20:00','Ужин и неформальное общение','Гостиничная площадка · Вечерняя встреча',['Продолжение делового общения в неформальной обстановке.','Место и условия участия будут объявлены отдельно.']]
-],
-programNote:'Программа является предложением для обсуждения. Темы, участие компаний, площадки и время отдельных блоков уточняются. Указание компании не означает подтверждённое участие или партнёрство.',
-formatLabel:'05 / Как пройдёт встреча',formatTitle:'Университетская среда.\nДеловое продолжение.',formatLead:'Утро — на площадке МГУ–ППИ. После обеда — тематические сессии и вечерняя встреча в гостинице. Такой формат предложен организаторами и находится на согласовании.',
-formatBlocks:[['Для кого','Для руководителей и предпринимателей, команд корпоративного обучения, университетов, разработчиков ИИ и стартапов, которые ищут практические направления сотрудничества России и Китая.'],['С чем выйти из дня','С пониманием возможностей партнёров, идеями совместных проектов и наброском пилота: какую задачу решаем, кто участвует, что проверяем и какой следующий шаг.'],['Площадки и логистика','Университет МГУ–ППИ, Шэньчжэнь. Отель, трансфер и формат обеда уточняются. Адрес второй площадки появится после согласования.'],['Участие и приглашения','Порядок регистрации и оформления приглашений будет опубликован после согласования организаторами. Эта страница представляет концепцию и проект программы.']],
-closingLabel:'22 ноября 2026 · Шэньчжэнь',closingTitle:'Следующий шаг\nсделаем вместе.',closingBody:'Один день, чтобы увидеть общие задачи, найти людей для совместной работы и наметить путь от идеи к первому проекту.',footerBrand:'МГУ–ППИ · Россия × Китай · Бизнес-день 2026',footerNote:'Проект программы · 22 ноября 2026',sourcesLabel:'Контекст и источники',sourcesNote:'Концепция подготовлена по рабочим материалам организаторов. Дата бизнес-дня — 22 ноября — уточнена отдельно от дат в исходном документе. Связь с БРИКС описывает тематику; статус официального мероприятия БРИКС не заявляется. Сведения о моделях Grom — заявление GPTunneL, а не независимая оценка технологии.',sources:['МГУ: соучредители Университета МГУ–ППИ','БРИКС: направления сотрудничества','GPTunneL: платформа и собственные разработки'],calendarTitle:'Россия × Китай — бизнес-день МГУ–ППИ',calendarDescription:'22 ноября 2026. Шэньчжэнь. Дата бизнес-дня; программа и площадки уточняются.'
-},
-en:{
-brand:'MSU–BIT',brandSub:'BUSINESS DAY · BRICS',skip:'Skip to content',navLabel:'Navigation',navAbout:'About',navAI:'AI & education',navProgram:'Programme',navFormat:'Format',title:'MSU–BIT · Russia × China · 22 November 2026',description:'Business Day in Shenzhen: Russia–China cooperation, education and practical AI adoption. 22 November 2026. Proposed programme.',eyebrow:'Shenzhen · Business Day 2026',heroCountries:['Russia','China'],heroSub:'From dialogue to shared projects.',intro:'Bringing together businesses, universities and technology teams from Russia and China. Finance, education and artificial intelligence within the broader BRICS cooperation agenda.',viewProgram:'Explore the programme',saveDate:'Save the date',month:'November 2026',location:'Shenzhen, China',herotag:'Knowledge into practice. Connections into partnerships. Ideas into shared projects.',herobar1:'At Shenzhen MSU–BIT University',herobar2:'Proposed programme · participants to be confirmed',ticker1:'BUSINESS & TRUST',ticker2:'EDUCATION & TECHNOLOGY',ticker3:'RUSSIA × CHINA × BRICS',
-aboutLabel:'01 / A meeting point',aboutTitle:'Two countries.\nShared work.',aboutLead:'We are bringing a Business Day to MSU–BIT to connect the needs of companies with opportunities in research, education and technology.',aboutBody:'Shenzhen MSU–BIT University is a joint Russian–Chinese educational project, co-founded by Lomonosov Moscow State University, Beijing Institute of Technology and the Shenzhen Municipal Government. This connection shapes the meeting: academic knowledge, engineering practice and business needs.',aboutBRICS:'BRICS provides the broader context: economic cooperation, knowledge exchange and skills development. The Business Day focuses on practical Russia–China initiatives within that shared agenda.',bridge:[['MSU','Research & education'],['BIT','Engineering expertise'],['Shenzhen','Technology ecosystem']],topics:[['Infrastructure of trust','How financial services, educational initiatives and personal connections help companies work across Russia and China.'],['Technology at work','How to select AI tools, integrate them into workflows and assess their impact on real business tasks.'],['People & shared projects','How universities, corporations and startups can develop teams and launch joint educational and applied projects.']],companiesLabel:'02 / Companies in the proposed programme',companiesTitle:'Leading companies.\nFocused conversations.',companiesNote:'According to the organisers, VTB and Alfa-Bank have expressed interest. Alibaba and GPTunneL are proposed invitees. The final line-up is being discussed.',companies:[['VTB','Financial infrastructure, education and trust in Russia–China business cooperation.','Interest expressed',true],['Alfa-Bank','Talent development, business–university partnerships and educational initiatives.','Interest expressed',true],['Alibaba','Technology ecosystems, AI and digital platforms for shared business projects.','Proposed invitee',false],['GPTunneL','Access to AI models, proprietary developments and practical use in education and business.','Proposed invitee',false]],
-aiLabel:'03 / Featured session · 14:00–15:30',aiTitle:'AI at work:\nfrom model to workflow.',aiLead:'How to move from access to AI models to a solution a team actually uses. Connecting technology, employee learning and changes in everyday work.',focus:[['Models and platforms','Where we are today: international and Russian models, proprietary developments and access platforms. A proposed case covering GPTunneL and its stated Grom models: choosing tools for the task, data and company constraints.'],['Learning through practice','Building learning around employees’ tasks: documents, knowledge retrieval, communications and marketing. What AI does, what people check and how a new skill becomes a habit.'],['The startup as an implementation team','A founder-led startup case: understanding a client’s business, prototyping, integration, team training and ongoing support. Why the same tool needs different implementations in different companies.'],['From pilot to daily workflow','Assigning a process owner, comparing time and quality before and after, measuring actual use and deciding whether to scale.']],manifesto:'AI adoption brings people, processes and technology together.',manifestoBody:'An emerging role: the AI deployment engineer. A specialist who works alongside the business, understands its constraints and carries a solution through to everyday use.',role:'Session outcome: a clear pilot outline — task, team, tool, review rules and an impact metric.',steps:['Task','Prototype','Learning','Workflow','Measurement'],
-programLabel:'04 / 22 November 2026',programTitle:'One day.\nA shared agenda.',programLead:'Proposed Business Day schedule. All times are local to Shenzhen (UTC+8). Open a session to explore its content.',expand:'Expand all sessions',collapse:'Collapse all sessions',agenda:[
-['08:30–09:30','Registration and introductions','MSU–BIT · Welcome coffee',['Welcome and an introduction to the university setting.','First connections between companies, universities and technology teams.']],
-['09:30–10:00','Opening the Business Day','MSU–BIT · Opening session',['The joint university’s role in connecting business and education in Russia and China.','Objectives for the day: identify areas of cooperation, connect teams and define a next step.']],
-['10:00–11:10','Russia–China: an infrastructure of trust','MSU–BIT · Plenary session',['10:00–10:20 · VTB: from financial infrastructure to an infrastructure of trust. Educational initiatives and business cooperation — a topic proposed by participants.','10:20–10:40 · Alfa-Bank: business–university partnerships and talent development — proposed topic.','10:40–11:00 · Alibaba: digital ecosystems as a setting for shared projects — proposed topic and participation.','11:00–11:10 · Discussion: what helps a new connection become a project.']],
-['11:10–11:30','Coffee and conversation','MSU–BIT · Networking',['Time to exchange contacts and explore shared interests.']],
-['11:30–12:30','Business across borders: technology, trade and logistics','MSU–BIT · Practical discussion',['11:30–11:50 · Digital transformation in transport and logistics: opportunities for Russian and Chinese businesses.','11:50–12:10 · Joint industrial projects and digital platforms: business needs and ways for partners to get involved.','12:10–12:30 · Discussion: finding a partner, agreeing on a process and preparing a first joint project.']],
-['12:30–14:00','Lunch and transfer to the second venue','Logistics · Route to be confirmed',['Lunch at the university or hotel — arrangements under discussion.','Time reserved for the transfer. The final schedule depends on the hotel and route.']],
-['14:00–15:30','AI at work: from model to workflow','Hotel venue · Featured session',['14:00–14:20 · The technology landscape: models, platforms and proprietary developments. GPTunneL is a proposed participant for this discussion.','14:20–14:40 · An AI learning project: using workplace tasks to learn and build a first prototype.','14:40–15:00 · From startup founder to deployment engineer: working inside a client’s business and changing a process with its team.','15:00–15:20 · Workshop: choose a process, assign human and AI roles, define quality criteria and an impact metric.','15:20–15:30 · Questions and takeaways: what it takes to launch a pilot.'],true],
-['15:30–16:00','Coffee and business connections','Hotel venue · Networking',['Discussing ideas from the session and finding partners for the next step.']],
-['16:00–17:00','University × company: shaping a shared project','Hotel venue · Working groups',['16:00–16:15 · Companies present their needs; universities and technology teams propose ways to contribute.','16:15–16:45 · Group work: AI-enabled learning, business process digitalisation and Russia–China projects.','16:45–17:00 · Short presentations: the task, partners, intended outcome and next step.']],
-['17:00–17:30','Takeaways and next steps','Hotel venue · Closing session',['Recording proposals and teams interested in continuing the conversation.','Agreeing on follow-up meetings and owners based on the day’s discussions.']],
-['18:00–20:00','Dinner and informal conversation','Hotel venue · Evening gathering',['Continuing business conversations in an informal setting.','The venue and participation arrangements will be announced separately.']]
-],programNote:'This is a programme proposal for discussion. Topics, company participation, venues and session times remain subject to confirmation. Listing a company does not indicate confirmed attendance or partnership.',
-formatLabel:'05 / The meeting format',formatTitle:'A university setting.\nA business conversation.',formatLead:'The morning at MSU–BIT. After lunch, thematic sessions and an evening gathering at a hotel. This format has been proposed by the organisers and is under discussion.',formatBlocks:[['Who it is for','Executives and entrepreneurs, corporate learning teams, universities, AI developers and startups exploring practical Russia–China cooperation.'],['What to take away','An understanding of potential partners, ideas for shared projects and a pilot outline: the task, the people involved, what to test and the next step.'],['Venues and logistics','Shenzhen MSU–BIT University. The hotel, transfer and lunch arrangements are being discussed. The second venue’s address will be announced once agreed.'],['Participation and invitations','Registration and invitation arrangements will be published after approval by the organisers. This page presents the concept and proposed programme.']],closingLabel:'22 November 2026 · Shenzhen',closingTitle:'Let’s take\nthe next step together.',closingBody:'One day to discover shared needs, find people to work with and map the path from an idea to a first project.',footerBrand:'MSU–BIT · Russia × China · Business Day 2026',footerNote:'Proposed programme · 22 November 2026',sourcesLabel:'Context and sources',sourcesNote:'The concept draws on organisers’ working materials. The Business Day date, 22 November, was clarified separately from the dates in the source document. BRICS refers to the thematic context; this page does not claim official BRICS event status. Information about Grom models is a GPTunneL statement, not an independent technology assessment.',sources:['MSU: co-founders of Shenzhen MSU–BIT University','BRICS: areas of cooperation','GPTunneL: platform and proprietary developments'],calendarTitle:'Russia × China — MSU–BIT Business Day',calendarDescription:'22 November 2026. Shenzhen. Business Day date; programme and venues to be confirmed.'
-},
-zh:{
-brand:'深圳北理莫斯科大学',brandSub:'BUSINESS DAY · BRICS',skip:'跳转到正文',navLabel:'导航',navAbout:'关于商务日',navAI:'人工智能与教育',navProgram:'日程',navFormat:'活动形式',title:'深圳北理莫斯科大学 · 中俄商务日 · 2026年11月22日',description:'深圳中俄商务日：中俄合作、教育与人工智能落地。2026年11月22日。拟议日程。',eyebrow:'深圳 · 2026商务日',heroCountries:['俄罗斯','中国'],heroSub:'从交流对话，走向合作项目。',intro:'汇聚中俄企业、高校与技术团队，围绕金融、教育和人工智能，探讨金砖合作背景下的务实合作。',viewProgram:'查看日程',saveDate:'保存日期',month:'2026年11月',location:'中国 · 深圳',herotag:'让知识融入实践，让相识促成伙伴关系，让创意成为合作项目。',herobar1:'拟于深圳北理莫斯科大学举行',herobar2:'拟议日程 · 参会阵容正在筹备',ticker1:'商业与信任',ticker2:'教育与技术',ticker3:'俄罗斯 × 中国 × 金砖合作',
-aboutLabel:'01 / 合作交汇点',aboutTitle:'两国携手。\n共同行动。',aboutLead:'我们正在筹备以深圳北理莫斯科大学为平台的商务日，将企业需求与科研、教育及技术资源连接起来。',aboutBody:'深圳北理莫斯科大学是由莫斯科国立罗蒙诺索夫大学、北京理工大学和深圳市人民政府共同创办的中俄合作大学。这一合作基础也构成了商务日的核心：将学术知识、工程实践与企业需求相结合。',aboutBRICS:'金砖合作为对话提供了更广阔的背景，包括经济合作、知识交流与人才培养。商务日将聚焦这一共同议题下的中俄务实合作项目。',bridge:[['莫斯科大学','科研与教育'],['北京理工大学','工程技术'],['深圳','科技创新生态']],topics:[['建立信任基础','探讨金融服务、教育项目与人际联系如何助力中俄企业开展跨境合作。'],['让技术服务业务','如何选择人工智能工具、将其融入工作流程，并在真实业务任务中评估效果。'],['人才与合作项目','高校、企业与初创团队如何共同培养人才，推动教育合作与应用项目。']],companiesLabel:'02 / 拟议日程中的企业',companiesTitle:'汇聚企业。\n聚焦实际议题。',companiesNote:'据组织方提供的信息，VTB银行和阿尔法银行已表达兴趣。阿里巴巴与GPTunneL为拟邀请对象，最终参会阵容仍在协商。',companies:[['VTB银行','探讨金融基础设施、教育与信任在中俄经贸合作中的作用。','已表达兴趣',true],['阿尔法银行','人才发展、校企合作及教育项目。','已表达兴趣',true],['阿里巴巴','技术生态、人工智能及支持合作项目的数字平台。','拟邀请',false],['GPTunneL','人工智能模型接入、自主研发成果及其在教育和企业中的应用。','拟邀请',false]],
-aiLabel:'03 / 核心专题 · 14:00–15:30',aiTitle:'人工智能落地：\n从模型到工作流程。',aiLead:'如何从接入人工智能模型，走向团队日常使用的解决方案。将技术、员工学习与工作方式的改变结合起来。',focus:[['模型与平台','梳理当前技术：国际与俄罗斯模型、自主研发成果及模型接入平台。拟以GPTunneL及其所介绍的Grom模型为案例，讨论如何根据任务、数据和企业限制选择工具。'],['在实践中学习','围绕员工的真实任务开展培训：文档处理、知识检索、沟通和营销。明确人工智能承担什么、人需要检查什么，以及如何形成稳定的工作习惯。'],['初创团队的实施角色','拟由创始人分享初创项目：理解客户业务、制作原型、系统集成、团队培训与持续支持。同一工具如何适应不同企业的需求。'],['从试点到日常使用','明确流程负责人，对比实施前后的时间与质量，衡量实际使用情况，并决定是否扩大应用。']],manifesto:'人工智能落地，需要人才、流程与技术共同推进。',manifestoBody:'正在形成的新角色：人工智能实施工程师。深入业务现场，理解企业限制，并推动解决方案进入团队的日常工作。',role:'专题成果：一份清晰的试点框架——任务、团队、工具、审核规则与效果指标。',steps:['业务任务','原型','培训','工作流程','效果评估'],
-programLabel:'04 / 2026年11月22日',programTitle:'一天相聚。\n共商合作。',programLead:'商务日拟议日程。所有时间均为深圳当地时间（UTC+8）。展开各环节可查看详细内容。',expand:'展开全部日程',collapse:'收起全部日程',agenda:[
-['08:30–09:30','签到与交流','深圳北理莫斯科大学 · 欢迎茶歇',['欢迎与会者，了解大学环境。','企业、高校与技术团队初步交流。']],
-['09:30–10:00','商务日开幕','深圳北理莫斯科大学 · 开幕环节',['探讨中俄合作大学在连接教育与商业中的作用。','明确当天目标：形成合作议题、对接团队并确定下一步行动。']],
-['10:00–11:10','中俄合作：构建信任基础','深圳北理莫斯科大学 · 全体会议',['10:00–10:20 · VTB银行：从金融基础设施到信任基础设施。教育项目与商务合作——来自潜在参与方的议题建议。','10:20–10:40 · 阿尔法银行：校企合作与人才发展——拟议主题。','10:40–11:00 · 阿里巴巴：数字生态如何支持合作项目——拟议主题，参会待确认。','11:00–11:10 · 共同讨论：如何从建立联系走向实际项目。']],
-['11:10–11:30','茶歇与交流','深圳北理莫斯科大学 · 自由交流',['交换联系方式，进一步了解共同兴趣。']],
-['11:30–12:30','跨境商务：技术、贸易与物流','深圳北理莫斯科大学 · 实务讨论',['11:30–11:50 · 交通物流行业的数字化转型：中俄企业的合作机遇。','11:50–12:10 · 联合工业项目与数字平台：企业需求及合作切入点。','12:10–12:30 · 讨论：寻找伙伴、协商工作流程并筹备首个合作项目。']],
-['12:30–14:00','午餐与转场','行程安排 · 路线待确认',['午餐拟安排在大学或酒店，具体方案正在协商。','预留转场时间。最终安排将根据酒店位置与路线调整。']],
-['14:00–15:30','人工智能落地：从模型到工作流程','酒店会场 · 核心专题',['14:00–14:20 · 技术概览：模型、平台与自主研发。拟邀请GPTunneL参与技术案例讨论。','14:20–14:40 · 人工智能教育项目：通过真实工作任务开展学习并搭建首个原型。','14:40–15:00 · 从初创企业创始人到实施工程师：深入客户业务，与团队共同改变工作流程。','15:00–15:20 · 实践讨论：选择一个流程，划分人与人工智能的职责，确定质量标准与效果指标。','15:20–15:30 · 提问与总结：启动试点需要哪些条件。'],true],
-['15:30–16:00','茶歇与商务交流','酒店会场 · 自由交流',['继续讨论专题中形成的想法，寻找下一步合作伙伴。']],
-['16:00–17:00','高校 × 企业：共同设计合作项目','酒店会场 · 分组研讨',['16:00–16:15 · 企业提出需求，高校与技术团队提出参与方式。','16:15–16:45 · 分组研讨：人工智能辅助学习、业务流程数字化及中俄合作项目。','16:45–17:00 · 简要汇报：任务、合作伙伴、预期成果与下一步行动。']],
-['17:00–17:30','总结与后续行动','酒店会场 · 闭幕环节',['记录合作建议及愿意继续沟通的团队。','根据当天讨论，商定后续会谈与负责人。']],
-['18:00–20:00','晚宴与自由交流','酒店会场 · 晚间聚会',['在轻松氛围中继续商务交流。','地点及参加安排将另行公布。']]
-],programNote:'本日程为讨论稿。主题、企业参与情况、场地及各环节时间均有待确认。列出企业名称不代表其已确认出席或建立合作关系。',
-formatLabel:'05 / 活动形式',formatTitle:'从大学校园，\n延续商务对话。',formatLead:'上午拟在深圳北理莫斯科大学举行。午餐后在酒店进行专题讨论，并举办晚间交流。这一方案由组织方提出，目前仍在协商。',formatBlocks:[['面向哪些参与者','面向企业管理者与创业者、企业培训团队、高校、人工智能开发者和初创团队，共同探索中俄务实合作。'],['期望带走什么','了解潜在伙伴的能力，形成合作项目想法，并梳理试点框架：解决什么任务、由谁参与、如何验证以及下一步做什么。'],['场地与交通','深圳北理莫斯科大学。酒店、接驳交通及午餐安排正在协商。第二会场地址将在确认后公布。'],['参加方式与邀请','报名及邀请函办理安排将在组织方确认后公布。本页展示活动构想与拟议日程。']],closingLabel:'2026年11月22日 · 深圳',closingTitle:'携手迈出\n下一步。',closingBody:'用一天时间发现共同需求、结识合作伙伴，梳理从创意到首个项目的实施路径。',footerBrand:'深圳北理莫斯科大学 · 中俄商务日2026',footerNote:'拟议日程 · 2026年11月22日',sourcesLabel:'背景与资料来源',sourcesNote:'本构想根据组织方工作材料编制。商务日日期已另行明确为11月22日，与原始文件中的会议日期有所区别。金砖合作仅为主题背景，本页不宣称活动具有金砖国家官方活动身份。关于Grom模型的信息来自GPTunneL自身介绍，不构成独立技术评估。',sources:['莫斯科大学：深圳北理莫斯科大学的创办方','金砖合作：合作领域','GPTunneL：平台与自主研发'],calendarTitle:'中俄商务日 — 深圳北理莫斯科大学',calendarDescription:'2026年11月22日，深圳。商务日日期；日程与场地待确认。'
-}
+  "ru": {
+    "brand": "МГУ–ППИ",
+    "brandSub": "BUSINESS DAY · BRICS",
+    "skip": "Перейти к содержанию",
+    "navLabel": "Навигация",
+    "navAbout": "О бизнес-дне",
+    "navAI": "ИИ и образование",
+    "navProgram": "Программа",
+    "navFormat": "Формат",
+    "title": "МГУ–ППИ · Россия × Китай · 22 ноября 2026",
+    "description": "Бизнес-день в Шэньчжэне: сотрудничество России и Китая, образование и внедрение ИИ. 22 ноября 2026 года. Проект программы.",
+    "eyebrow": "Шэньчжэнь · Воскресенье, 22 ноября 2026",
+    "heroCountries": [
+      "Россия",
+      "Китай"
+    ],
+    "heroSub": "От диалога к совместным проектам.",
+    "intro": "Деловые связи России и Китая в научной среде МГУ–ППИ. Технологические рынки, искусство, образование и обмен разработками — в контексте сотрудничества стран БРИКС.",
+    "viewProgram": "Смотреть программу",
+    "saveDate": "Сохранить дату",
+    "month": "ноября 2026",
+    "location": "Шэньчжэнь, Китай",
+    "herotag": "Знания становятся практикой. Знакомства — партнёрствами. Идеи — совместными проектами.",
+    "herobar1": "На площадке Университета МГУ–ППИ",
+    "herobar2": "Проект программы · состав участников формируется",
+    "ticker1": "БИЗНЕС И ДОВЕРИЕ",
+    "ticker2": "ОБРАЗОВАНИЕ И ТЕХНОЛОГИИ",
+    "ticker3": "РОССИЯ × КИТАЙ × БРИКС",
+    "aboutLabel": "01 / Точка встречи",
+    "aboutTitle": "Две страны.\nОбщая работа.",
+    "aboutLead": "Бизнес-день МГУ–ППИ — встреча предпринимателей, исследователей и технологических команд для обмена опытом, деловых знакомств и обсуждения взаимовыгодного сотрудничества.",
+    "aboutBody": "Университет МГУ–ППИ в Шэньчжэне — совместный российско-китайский образовательный проект. Его соучредители — МГУ имени М. В. Ломоносова, Пекинский политехнический институт и муниципальное правительство Шэньчжэня. Эта связь задаёт основу встречи: фундаментальное знание, инженерная практика и задачи бизнеса.",
+    "aboutBRICS": "БРИКС задаёт широкий контекст диалога: экономическое сотрудничество, обмен знаниями и подготовка кадров. В центре бизнес-дня — российско-китайские связи и роль университета как экспертной среды, модератора диалога и площадки для развития и ускорения совместных инициатив.",
+    "bridge": [
+      [
+        "МГУ",
+        "Наука и образование"
+      ],
+      [
+        "ППИ",
+        "Инженерная школа"
+      ],
+      [
+        "Шэньчжэнь",
+        "Технологическая среда"
+      ]
+    ],
+    "topics": [
+      [
+        "Технологические рынки и обмен разработками",
+        "Тренды России и Китая, запросы компаний и возможности технологического сотрудничества: от обмена экспертизой до совместных прикладных исследований."
+      ],
+      [
+        "Искусство, образование и технологии",
+        "Искусственный интеллект и цифровые инструменты в творческих индустриях, образовательных проектах и бизнесе. Новые формы взаимодействия авторов, исследователей и технологических команд."
+      ],
+      [
+        "Деловые связи и научная среда",
+        "Нетворкинг, встречи компаний и университетов, обсуждение взаимных интересов. Экспертная поддержка и модерация как основа долгосрочного сотрудничества."
+      ]
+    ],
+    "companiesLabel": "02 / Компании в проекте программы",
+    "companiesTitle": "Бизнес и технологии.\nДиалог о сотрудничестве.",
+    "companiesNote": "ВТБ и Альфа-Банк выразили интерес по информации организаторов. Alibaba и GPTunneL предложены для участия. Финальный состав согласуется.",
+    "companies": [
+      [
+        "ВТБ",
+        "Финансовая инфраструктура, образование и доверие в российско-китайском сотрудничестве.",
+        "Выражен интерес",
+        true
+      ],
+      [
+        "Альфа-Банк",
+        "Развитие талантов, связь бизнеса и университетов, образовательные проекты.",
+        "Выражен интерес",
+        true
+      ],
+      [
+        "Alibaba",
+        "Технологические экосистемы, ИИ и цифровые платформы для совместного бизнеса.",
+        "Предлагается к приглашению",
+        false
+      ],
+      [
+        "GPTunneL",
+        "Доступ к моделям ИИ, собственные разработки и практическое применение в обучении и компаниях.",
+        "Предлагается к приглашению",
+        false
+      ]
+    ],
+    "aiLabel": "03 / Центральная секция · 14:00–15:30",
+    "aiTitle": "ИИ в работе:\nот модели к новому процессу.",
+    "aiLead": "Как пройти путь от доступа к нейросетям до решения, которым пользуется команда. Соединяем технологию, обучение сотрудников и изменение ежедневной работы.",
+    "focus": [
+      [
+        "Модели и платформы",
+        "Где мы сейчас: международные и российские модели, собственные разработки и платформа доступа. Предлагаемый разбор GPTunneL и заявленных платформой моделей Grom: как выбирать инструменты под задачу, данные и ограничения компании."
+      ],
+      [
+        "Образование через практику",
+        "Как строить обучение вокруг задач сотрудников: документы, поиск знаний, коммуникации, маркетинг. Что делает ИИ, что проверяет человек и как закрепляется новый навык."
+      ],
+      [
+        "Стартап как команда внедрения",
+        "Разбор стартапа с участием основателя: погружение в бизнес клиента, прототип, интеграция, обучение команды и сопровождение. Почему один инструмент требует разных решений для разных компаний."
+      ],
+      [
+        "От пилота к рабочему процессу",
+        "Как назначить владельца процесса, сравнить качество и время до и после, измерить использование решения и принять решение о масштабировании."
+      ]
+    ],
+    "manifesto": "Внедрение ИИ — это работа с людьми, процессами и технологиями.",
+    "manifestoBody": "Новая роль — инженер внедрения ИИ: специалист, который работает рядом с бизнесом, понимает его ограничения и доводит решение до ежедневного использования.",
+    "role": "Результат секции: понятная схема пилота — задача, команда, инструмент, правила проверки и метрика эффекта.",
+    "steps": [
+      "Задача",
+      "Прототип",
+      "Обучение",
+      "Новый процесс",
+      "Измерение"
+    ],
+    "programLabel": "04 / Воскресенье, 22 ноября 2026",
+    "programTitle": "Программа\nбизнес-дня.",
+    "programLead": "Пленарная дискуссия, тематические сессии и деловое общение в научной среде. Время местное — Шэньчжэнь (UTC+8). Подробности каждого блока доступны по нажатию.",
+    "expand": "Развернуть всю программу",
+    "collapse": "Свернуть программу",
+    "agenda": [
+      [
+        "08:30–09:30",
+        "Регистрация и знакомство",
+        "МГУ–ППИ · Приветственный кофе",
+        [
+          "Встреча участников и знакомство с университетской площадкой.",
+          "Первые деловые знакомства: компании, университеты и технологические команды."
+        ]
+      ],
+      [
+        "09:30–10:00",
+        "Открытие бизнес-дня",
+        "МГУ–ППИ · Общая сессия",
+        [
+          "Российско-китайское сотрудничество бизнеса и науки в контексте БРИКС.",
+          "Университет как экспертная площадка, модератор делового диалога и среда развития совместных инициатив."
+        ]
+      ],
+      [
+        "10:00–11:10",
+        "Россия–Китай: инфраструктура доверия",
+        "МГУ–ППИ · Пленарная сессия",
+        [
+          "10:00–10:20 · ВТБ: от финансовой инфраструктуры к инфраструктуре доверия. Образовательные инициативы и деловое сотрудничество — тема из предложений участников.",
+          "10:20–10:40 · Альфа-Банк: партнёрство бизнеса и университетов, развитие талантов — предлагаемая тема.",
+          "10:40–11:00 · Alibaba: цифровые экосистемы как среда для совместных проектов — предлагаемая тема и участие.",
+          "11:00–11:10 · Общая дискуссия: что помогает перейти от знакомства к проекту."
+        ]
+      ],
+      [
+        "11:10–11:30",
+        "Кофе и продолжение разговора",
+        "МГУ–ППИ · Нетворкинг",
+        [
+          "Время для обмена контактами и уточнения общих интересов."
+        ]
+      ],
+      [
+        "11:30–12:30",
+        "Технологические рынки России и Китая: искусство, индустрия, обмен разработками",
+        "МГУ–ППИ · Межотраслевая дискуссия",
+        [
+          "11:30–11:50 · Технологические рынки России и Китая: новые направления, потребности компаний и возможности обмена разработками.",
+          "11:50–12:10 · Искусство и технологии: ИИ, цифровое творчество и сотрудничество бизнеса с творческими индустриями.",
+          "12:10–12:30 · Технологии в промышленности, торговле и логистике: взаимодополняющие компетенции и перспективы совместных проектов."
+        ]
+      ],
+      [
+        "12:30–14:00",
+        "Обед и переезд на вторую площадку",
+        "Организационный блок · Маршрут уточняется",
+        [
+          "Обед в университете или гостинице — вариант согласуется.",
+          "Резерв времени на трансфер. Точное расписание зависит от выбранного отеля и маршрута."
+        ]
+      ],
+      [
+        "14:00–15:30",
+        "ИИ в работе: от модели к новому процессу",
+        "Гостиничная площадка · Центральная секция",
+        [
+          "14:00–14:20 · Карта технологий: модели, платформы и собственные разработки. GPTunneL — предлагаемый участник технологического разбора.",
+          "14:20–14:40 · Образовательный проект с ИИ: учимся на рабочих задачах и собираем первый прототип.",
+          "14:40–15:00 · От основателя стартапа к инженеру внедрения: как встроиться в бизнес клиента и изменить процесс вместе с командой.",
+          "15:00–15:20 · Практикум: выбираем один процесс, распределяем роли человека и ИИ, задаём критерии качества и метрику эффекта.",
+          "15:20–15:30 · Вопросы и выводы: что нужно для запуска пилота."
+        ],
+        true
+      ],
+      [
+        "15:30–16:00",
+        "Кофе и деловые знакомства",
+        "Гостиничная площадка · Нетворкинг",
+        [
+          "Профессиональное общение участников, обмен опытом и обсуждение общих деловых интересов."
+        ]
+      ],
+      [
+        "16:00–17:00",
+        "Бизнес и университет: партнёрства и развитие инициатив",
+        "Гостиничная площадка · Модерируемая дискуссия и деловые встречи",
+        [
+          "16:00–16:20 · Взаимные интересы компаний: технологии, экспертиза, образование и доступ к новым рынкам.",
+          "16:20–16:40 · Научная и акселерационная поддержка: экспертная оценка, прикладные исследования и сопровождение совместных инициатив — возможные форматы взаимодействия с университетом.",
+          "16:40–17:00 · Деловые встречи по направлениям: ИИ и образование, творческие индустрии, технологическое сотрудничество России и Китая."
+        ]
+      ],
+      [
+        "17:00–17:30",
+        "Итоги деловой программы",
+        "Гостиничная площадка · Заключительная дискуссия",
+        [
+          "Обобщение тем и предложений, прозвучавших в ходе сессий.",
+          "Перспективы научного, образовательного и делового сотрудничества."
+        ]
+      ],
+      [
+        "18:00–20:00",
+        "Ужин и неформальное общение",
+        "Гостиничная площадка · Вечерняя встреча",
+        [
+          "Продолжение делового общения в неформальной обстановке.",
+          "Место и условия участия будут объявлены отдельно."
+        ]
+      ]
+    ],
+    "programNote": "Программа является предложением для обсуждения. Темы, участие компаний, площадки и время отдельных блоков уточняются. Указание компании не означает подтверждённое участие или партнёрство.",
+    "formatLabel": "05 / Как пройдёт встреча",
+    "formatTitle": "Участники и\nорганизация встречи.",
+    "formatLead": "Бизнес-день состоится в воскресенье, 22 ноября 2026 года. Пленарная часть предлагается на площадке МГУ–ППИ; тематические сессии и вечерняя встреча — в гостинице. Площадки и организационные детали согласуются.",
+    "formatBlocks": [
+      [
+        "Участники",
+        "Руководители компаний, предприниматели, представители университетов и научных коллективов, технологические команды и творческие индустрии России и Китая."
+      ],
+      [
+        "Деловое общение",
+        "Знакомство с партнёрами, обмен опытом и обсуждение взаимных интересов. В программе предусмотрено время для профессионального нетворкинга и неформальных встреч."
+      ],
+      [
+        "Площадка и логистика",
+        "Шэньчжэнь, Университет МГУ–ППИ. Гостиничная площадка, трансфер и организация обеда уточняются. Подробная информация будет опубликована после согласования."
+      ],
+      [
+        "Официальные приглашения",
+        "При необходимости организаторы могут оформить официальное приглашение на конференцию. Порядок обращения и регистрации будет опубликован дополнительно."
+      ]
+    ],
+    "footerBrand": "МГУ–ППИ · Россия × Китай · Бизнес-день 2026",
+    "footerNote": "Проект программы · Воскресенье, 22 ноября 2026",
+    "sourcesLabel": "Контекст и источники",
+    "sourcesNote": "Концепция подготовлена по рабочим материалам организаторов. Дата бизнес-дня — 22 ноября — уточнена отдельно от дат в исходном документе. Связь с БРИКС описывает тематику; статус официального мероприятия БРИКС не заявляется. Сведения о моделях Grom — заявление GPTunneL, а не независимая оценка технологии.",
+    "sources": [
+      "МГУ: соучредители Университета МГУ–ППИ",
+      "БРИКС: направления сотрудничества",
+      "GPTunneL: платформа и собственные разработки"
+    ],
+    "calendarTitle": "Россия × Китай — бизнес-день МГУ–ППИ",
+    "calendarDescription": "22 ноября 2026. Шэньчжэнь. Дата бизнес-дня; программа и площадки уточняются."
+  },
+  "en": {
+    "brand": "MSU–BIT",
+    "brandSub": "BUSINESS DAY · BRICS",
+    "skip": "Skip to content",
+    "navLabel": "Navigation",
+    "navAbout": "About",
+    "navAI": "AI & education",
+    "navProgram": "Programme",
+    "navFormat": "Format",
+    "title": "MSU–BIT · Russia × China · 22 November 2026",
+    "description": "Business Day in Shenzhen: Russia–China cooperation, education and practical AI adoption. 22 November 2026. Proposed programme.",
+    "eyebrow": "Shenzhen · Sunday, 22 November 2026",
+    "heroCountries": [
+      "Russia",
+      "China"
+    ],
+    "heroSub": "From dialogue to shared projects.",
+    "intro": "Russia–China business connections in the academic setting of MSU–BIT. Technology markets, art, education and the exchange of innovations within the broader BRICS cooperation agenda.",
+    "viewProgram": "Explore the programme",
+    "saveDate": "Save the date",
+    "month": "November 2026",
+    "location": "Shenzhen, China",
+    "herotag": "Knowledge into practice. Connections into partnerships. Ideas into shared projects.",
+    "herobar1": "At Shenzhen MSU–BIT University",
+    "herobar2": "Proposed programme · participants to be confirmed",
+    "ticker1": "BUSINESS & TRUST",
+    "ticker2": "EDUCATION & TECHNOLOGY",
+    "ticker3": "RUSSIA × CHINA × BRICS",
+    "aboutLabel": "01 / A meeting point",
+    "aboutTitle": "Two countries.\nShared work.",
+    "aboutLead": "MSU–BIT Business Day brings entrepreneurs, researchers and technology teams together to exchange experience, build professional connections and discuss mutually beneficial cooperation.",
+    "aboutBody": "Shenzhen MSU–BIT University is a joint Russian–Chinese educational project, co-founded by Lomonosov Moscow State University, Beijing Institute of Technology and the Shenzhen Municipal Government. This connection shapes the meeting: academic knowledge, engineering practice and business needs.",
+    "aboutBRICS": "BRICS provides a broader context for economic cooperation, knowledge exchange and talent development. The day focuses on Russia–China connections and the university’s role as a source of expertise, a facilitator of dialogue and a setting for developing and accelerating joint initiatives.",
+    "bridge": [
+      [
+        "MSU",
+        "Research & education"
+      ],
+      [
+        "BIT",
+        "Engineering expertise"
+      ],
+      [
+        "Shenzhen",
+        "Technology ecosystem"
+      ]
+    ],
+    "topics": [
+      [
+        "Technology markets and innovation exchange",
+        "Trends in Russia and China, business needs and opportunities for technology cooperation: from sharing expertise to joint applied research."
+      ],
+      [
+        "Art, education and technology",
+        "AI and digital tools in the creative industries, education and business. New forms of collaboration among artists, researchers and technology teams."
+      ],
+      [
+        "Business connections in an academic setting",
+        "Networking, company–university meetings and discussions of shared interests. Expert support and facilitation as a basis for long-term cooperation."
+      ]
+    ],
+    "companiesLabel": "02 / Companies in the proposed programme",
+    "companiesTitle": "Business and technology.\nA dialogue on cooperation.",
+    "companiesNote": "According to the organisers, VTB and Alfa-Bank have expressed interest. Alibaba and GPTunneL are proposed invitees. The final line-up is being discussed.",
+    "companies": [
+      [
+        "VTB",
+        "Financial infrastructure, education and trust in Russia–China business cooperation.",
+        "Interest expressed",
+        true
+      ],
+      [
+        "Alfa-Bank",
+        "Talent development, business–university partnerships and educational initiatives.",
+        "Interest expressed",
+        true
+      ],
+      [
+        "Alibaba",
+        "Technology ecosystems, AI and digital platforms for shared business projects.",
+        "Proposed invitee",
+        false
+      ],
+      [
+        "GPTunneL",
+        "Access to AI models, proprietary developments and practical use in education and business.",
+        "Proposed invitee",
+        false
+      ]
+    ],
+    "aiLabel": "03 / Featured session · 14:00–15:30",
+    "aiTitle": "AI at work:\nfrom model to workflow.",
+    "aiLead": "How to move from access to AI models to a solution a team actually uses. Connecting technology, employee learning and changes in everyday work.",
+    "focus": [
+      [
+        "Models and platforms",
+        "Where we are today: international and Russian models, proprietary developments and access platforms. A proposed case covering GPTunneL and its stated Grom models: choosing tools for the task, data and company constraints."
+      ],
+      [
+        "Learning through practice",
+        "Building learning around employees’ tasks: documents, knowledge retrieval, communications and marketing. What AI does, what people check and how a new skill becomes a habit."
+      ],
+      [
+        "The startup as an implementation team",
+        "A founder-led startup case: understanding a client’s business, prototyping, integration, team training and ongoing support. Why the same tool needs different implementations in different companies."
+      ],
+      [
+        "From pilot to daily workflow",
+        "Assigning a process owner, comparing time and quality before and after, measuring actual use and deciding whether to scale."
+      ]
+    ],
+    "manifesto": "AI adoption brings people, processes and technology together.",
+    "manifestoBody": "An emerging role: the AI deployment engineer. A specialist who works alongside the business, understands its constraints and carries a solution through to everyday use.",
+    "role": "Session outcome: a clear pilot outline — task, team, tool, review rules and an impact metric.",
+    "steps": [
+      "Task",
+      "Prototype",
+      "Learning",
+      "Workflow",
+      "Measurement"
+    ],
+    "programLabel": "04 / Sunday, 22 November 2026",
+    "programTitle": "Business Day\nprogramme.",
+    "programLead": "A plenary discussion, thematic sessions and business networking in an academic setting. All times are local to Shenzhen (UTC+8). Select a session to view details.",
+    "expand": "Expand all sessions",
+    "collapse": "Collapse all sessions",
+    "agenda": [
+      [
+        "08:30–09:30",
+        "Registration and introductions",
+        "MSU–BIT · Welcome coffee",
+        [
+          "Welcome and an introduction to the university setting.",
+          "First connections between companies, universities and technology teams."
+        ]
+      ],
+      [
+        "09:30–10:00",
+        "Opening of Business Day",
+        "MSU–BIT · Opening session",
+        [
+          "Russia–China business and research cooperation in the BRICS context.",
+          "The university as a source of expertise, a facilitator of business dialogue and a setting for joint initiatives."
+        ]
+      ],
+      [
+        "10:00–11:10",
+        "Russia–China: an infrastructure of trust",
+        "MSU–BIT · Plenary session",
+        [
+          "10:00–10:20 · VTB: from financial infrastructure to an infrastructure of trust. Educational initiatives and business cooperation — a topic proposed by participants.",
+          "10:20–10:40 · Alfa-Bank: business–university partnerships and talent development — proposed topic.",
+          "10:40–11:00 · Alibaba: digital ecosystems as a setting for shared projects — proposed topic and participation.",
+          "11:00–11:10 · Discussion: what helps a new connection become a project."
+        ]
+      ],
+      [
+        "11:10–11:30",
+        "Coffee and conversation",
+        "MSU–BIT · Networking",
+        [
+          "Time to exchange contacts and explore shared interests."
+        ]
+      ],
+      [
+        "11:30–12:30",
+        "Russia–China technology markets: art, industry and innovation exchange",
+        "MSU–BIT · Cross-sector discussion",
+        [
+          "11:30–11:50 · Technology markets in Russia and China: emerging trends, company needs and opportunities to exchange innovations.",
+          "11:50–12:10 · Art and technology: AI, digital creativity and business collaboration with the creative industries.",
+          "12:10–12:30 · Technology in industry, trade and logistics: complementary expertise and prospects for joint projects."
+        ]
+      ],
+      [
+        "12:30–14:00",
+        "Lunch and transfer to the second venue",
+        "Logistics · Route to be confirmed",
+        [
+          "Lunch at the university or hotel — arrangements under discussion.",
+          "Time reserved for the transfer. The final schedule depends on the hotel and route."
+        ]
+      ],
+      [
+        "14:00–15:30",
+        "AI at work: from model to workflow",
+        "Hotel venue · Featured session",
+        [
+          "14:00–14:20 · The technology landscape: models, platforms and proprietary developments. GPTunneL is a proposed participant for this discussion.",
+          "14:20–14:40 · An AI learning project: using workplace tasks to learn and build a first prototype.",
+          "14:40–15:00 · From startup founder to deployment engineer: working inside a client’s business and changing a process with its team.",
+          "15:00–15:20 · Workshop: choose a process, assign human and AI roles, define quality criteria and an impact metric.",
+          "15:20–15:30 · Questions and takeaways: what it takes to launch a pilot."
+        ],
+        true
+      ],
+      [
+        "15:30–16:00",
+        "Coffee and business connections",
+        "Hotel venue · Networking",
+        [
+          "Professional networking, experience sharing and discussion of mutual business interests."
+        ]
+      ],
+      [
+        "16:00–17:00",
+        "Business and universities: partnerships and joint initiatives",
+        "Hotel venue · Moderated discussion and business meetings",
+        [
+          "16:00–16:20 · Mutual business interests: technology, expertise, education and access to new markets.",
+          "16:20–16:40 · Research and acceleration support: expert assessment, applied research and support for joint initiatives as potential forms of university cooperation.",
+          "16:40–17:00 · Business meetings by theme: AI and education, creative industries and Russia–China technology cooperation."
+        ]
+      ],
+      [
+        "17:00–17:30",
+        "Closing discussion",
+        "Hotel venue · Programme conclusions",
+        [
+          "Reviewing the themes and proposals raised during the sessions.",
+          "Prospects for research, educational and business cooperation."
+        ]
+      ],
+      [
+        "18:00–20:00",
+        "Dinner and informal conversation",
+        "Hotel venue · Evening gathering",
+        [
+          "Continuing business conversations in an informal setting.",
+          "The venue and participation arrangements will be announced separately."
+        ]
+      ]
+    ],
+    "programNote": "This is a programme proposal for discussion. Topics, company participation, venues and session times remain subject to confirmation. Listing a company does not indicate confirmed attendance or partnership.",
+    "formatLabel": "05 / The meeting format",
+    "formatTitle": "Participants and\nevent arrangements.",
+    "formatLead": "Business Day will take place on Sunday, 22 November 2026. The proposed format places the plenary at MSU–BIT, followed by thematic sessions and an evening gathering at a hotel. Venues and arrangements are being agreed.",
+    "formatBlocks": [
+      [
+        "Participants",
+        "Company executives, entrepreneurs, university representatives, researchers, technology teams and creative industry professionals from Russia and China."
+      ],
+      [
+        "Business networking",
+        "Meeting potential partners, sharing experience and exploring mutual interests. The programme includes time for professional networking and informal conversations."
+      ],
+      [
+        "Venue and logistics",
+        "Shenzhen MSU–BIT University. The hotel venue, transfers and lunch arrangements are being finalised. Details will be published once agreed."
+      ],
+      [
+        "Official invitations",
+        "The organisers can issue an official conference invitation if required. Information on requests and registration will be published separately."
+      ]
+    ],
+    "footerBrand": "MSU–BIT · Russia × China · Business Day 2026",
+    "footerNote": "Proposed programme · Sunday, 22 November 2026",
+    "sourcesLabel": "Context and sources",
+    "sourcesNote": "The concept draws on organisers’ working materials. The Business Day date, 22 November, was clarified separately from the dates in the source document. BRICS refers to the thematic context; this page does not claim official BRICS event status. Information about Grom models is a GPTunneL statement, not an independent technology assessment.",
+    "sources": [
+      "MSU: co-founders of Shenzhen MSU–BIT University",
+      "BRICS: areas of cooperation",
+      "GPTunneL: platform and proprietary developments"
+    ],
+    "calendarTitle": "Russia × China — MSU–BIT Business Day",
+    "calendarDescription": "22 November 2026. Shenzhen. Business Day date; programme and venues to be confirmed."
+  },
+  "zh": {
+    "brand": "深圳北理莫斯科大学",
+    "brandSub": "BUSINESS DAY · BRICS",
+    "skip": "跳转到正文",
+    "navLabel": "导航",
+    "navAbout": "关于商务日",
+    "navAI": "人工智能与教育",
+    "navProgram": "日程",
+    "navFormat": "活动形式",
+    "title": "深圳北理莫斯科大学 · 中俄商务日 · 2026年11月22日",
+    "description": "深圳中俄商务日：中俄合作、教育与人工智能落地。2026年11月22日。拟议日程。",
+    "eyebrow": "深圳 · 2026年11月22日，星期日",
+    "heroCountries": [
+      "俄罗斯",
+      "中国"
+    ],
+    "heroSub": "从交流对话，走向合作项目。",
+    "intro": "依托深圳北理莫斯科大学的学术环境，促进中俄企业交流。在金砖合作背景下，共同探讨技术市场、艺术、教育与技术成果交流。",
+    "viewProgram": "查看日程",
+    "saveDate": "保存日期",
+    "month": "2026年11月",
+    "location": "中国 · 深圳",
+    "herotag": "让知识融入实践，让相识促成伙伴关系，让创意成为合作项目。",
+    "herobar1": "拟于深圳北理莫斯科大学举行",
+    "herobar2": "拟议日程 · 参会阵容正在筹备",
+    "ticker1": "商业与信任",
+    "ticker2": "教育与技术",
+    "ticker3": "俄罗斯 × 中国 × 金砖合作",
+    "aboutLabel": "01 / 合作交汇点",
+    "aboutTitle": "两国携手。\n共同行动。",
+    "aboutLead": "深圳北理莫斯科大学商务日汇聚企业家、科研人员与技术团队，交流经验、拓展商务联系，探讨互利合作。",
+    "aboutBody": "深圳北理莫斯科大学是由莫斯科国立罗蒙诺索夫大学、北京理工大学和深圳市人民政府共同创办的中俄合作大学。这一合作基础也构成了商务日的核心：将学术知识、工程实践与企业需求相结合。",
+    "aboutBRICS": "金砖合作为经济合作、知识交流与人才培养提供了更广阔的背景。商务日聚焦中俄合作，探讨大学如何提供专业支持、促进对话，并为共同倡议的培育与加速发展创造条件。",
+    "bridge": [
+      [
+        "莫斯科大学",
+        "科研与教育"
+      ],
+      [
+        "北京理工大学",
+        "工程技术"
+      ],
+      [
+        "深圳",
+        "科技创新生态"
+      ]
+    ],
+    "topics": [
+      [
+        "技术市场与成果交流",
+        "中俄技术发展趋势、企业需求与技术合作机遇：从专业知识交流到联合应用研究。"
+      ],
+      [
+        "艺术、教育与技术",
+        "人工智能与数字工具在文化创意产业、教育和商业中的应用，以及艺术家、科研人员与技术团队之间的新型合作。"
+      ],
+      [
+        "学术环境中的商务交流",
+        "开展商务社交、校企对接与共同兴趣讨论，以专业支持和对话协调促进长期合作。"
+      ]
+    ],
+    "companiesLabel": "02 / 拟议日程中的企业",
+    "companiesTitle": "商业与技术。\n共话合作。",
+    "companiesNote": "据组织方提供的信息，VTB银行和阿尔法银行已表达兴趣。阿里巴巴与GPTunneL为拟邀请对象，最终参会阵容仍在协商。",
+    "companies": [
+      [
+        "VTB银行",
+        "探讨金融基础设施、教育与信任在中俄经贸合作中的作用。",
+        "已表达兴趣",
+        true
+      ],
+      [
+        "阿尔法银行",
+        "人才发展、校企合作及教育项目。",
+        "已表达兴趣",
+        true
+      ],
+      [
+        "阿里巴巴",
+        "技术生态、人工智能及支持合作项目的数字平台。",
+        "拟邀请",
+        false
+      ],
+      [
+        "GPTunneL",
+        "人工智能模型接入、自主研发成果及其在教育和企业中的应用。",
+        "拟邀请",
+        false
+      ]
+    ],
+    "aiLabel": "03 / 核心专题 · 14:00–15:30",
+    "aiTitle": "人工智能落地：\n从模型到工作流程。",
+    "aiLead": "如何从接入人工智能模型，走向团队日常使用的解决方案。将技术、员工学习与工作方式的改变结合起来。",
+    "focus": [
+      [
+        "模型与平台",
+        "梳理当前技术：国际与俄罗斯模型、自主研发成果及模型接入平台。拟以GPTunneL及其所介绍的Grom模型为案例，讨论如何根据任务、数据和企业限制选择工具。"
+      ],
+      [
+        "在实践中学习",
+        "围绕员工的真实任务开展培训：文档处理、知识检索、沟通和营销。明确人工智能承担什么、人需要检查什么，以及如何形成稳定的工作习惯。"
+      ],
+      [
+        "初创团队的实施角色",
+        "拟由创始人分享初创项目：理解客户业务、制作原型、系统集成、团队培训与持续支持。同一工具如何适应不同企业的需求。"
+      ],
+      [
+        "从试点到日常使用",
+        "明确流程负责人，对比实施前后的时间与质量，衡量实际使用情况，并决定是否扩大应用。"
+      ]
+    ],
+    "manifesto": "人工智能落地，需要人才、流程与技术共同推进。",
+    "manifestoBody": "正在形成的新角色：人工智能实施工程师。深入业务现场，理解企业限制，并推动解决方案进入团队的日常工作。",
+    "role": "专题成果：一份清晰的试点框架——任务、团队、工具、审核规则与效果指标。",
+    "steps": [
+      "业务任务",
+      "原型",
+      "培训",
+      "工作流程",
+      "效果评估"
+    ],
+    "programLabel": "04 / 2026年11月22日，星期日",
+    "programTitle": "商务日\n活动日程。",
+    "programLead": "在学术环境中开展全体会议、专题讨论与商务交流。所有时间均为深圳当地时间（UTC+8）。点击各环节可查看详情。",
+    "expand": "展开全部日程",
+    "collapse": "收起全部日程",
+    "agenda": [
+      [
+        "08:30–09:30",
+        "签到与交流",
+        "深圳北理莫斯科大学 · 欢迎茶歇",
+        [
+          "欢迎与会者，了解大学环境。",
+          "企业、高校与技术团队初步交流。"
+        ]
+      ],
+      [
+        "09:30–10:00",
+        "商务日开幕",
+        "深圳北理莫斯科大学 · 开幕环节",
+        [
+          "金砖合作背景下的中俄商业与科研合作。",
+          "大学作为专业支持平台、商务对话协调者与共同倡议的培育环境。"
+        ]
+      ],
+      [
+        "10:00–11:10",
+        "中俄合作：构建信任基础",
+        "深圳北理莫斯科大学 · 全体会议",
+        [
+          "10:00–10:20 · VTB银行：从金融基础设施到信任基础设施。教育项目与商务合作——来自潜在参与方的议题建议。",
+          "10:20–10:40 · 阿尔法银行：校企合作与人才发展——拟议主题。",
+          "10:40–11:00 · 阿里巴巴：数字生态如何支持合作项目——拟议主题，参会待确认。",
+          "11:00–11:10 · 共同讨论：如何从建立联系走向实际项目。"
+        ]
+      ],
+      [
+        "11:10–11:30",
+        "茶歇与交流",
+        "深圳北理莫斯科大学 · 自由交流",
+        [
+          "交换联系方式，进一步了解共同兴趣。"
+        ]
+      ],
+      [
+        "11:30–12:30",
+        "中俄技术市场：艺术、产业与技术成果交流",
+        "深圳北理莫斯科大学 · 跨领域讨论",
+        [
+          "11:30–11:50 · 中俄技术市场：新兴趋势、企业需求与技术成果交流机遇。",
+          "11:50–12:10 · 艺术与技术：人工智能、数字创意及企业与文化创意产业的合作。",
+          "12:10–12:30 · 工业、贸易与物流中的技术应用：优势互补与合作项目前景。"
+        ]
+      ],
+      [
+        "12:30–14:00",
+        "午餐与转场",
+        "行程安排 · 路线待确认",
+        [
+          "午餐拟安排在大学或酒店，具体方案正在协商。",
+          "预留转场时间。最终安排将根据酒店位置与路线调整。"
+        ]
+      ],
+      [
+        "14:00–15:30",
+        "人工智能落地：从模型到工作流程",
+        "酒店会场 · 核心专题",
+        [
+          "14:00–14:20 · 技术概览：模型、平台与自主研发。拟邀请GPTunneL参与技术案例讨论。",
+          "14:20–14:40 · 人工智能教育项目：通过真实工作任务开展学习并搭建首个原型。",
+          "14:40–15:00 · 从初创企业创始人到实施工程师：深入客户业务，与团队共同改变工作流程。",
+          "15:00–15:20 · 实践讨论：选择一个流程，划分人与人工智能的职责，确定质量标准与效果指标。",
+          "15:20–15:30 · 提问与总结：启动试点需要哪些条件。"
+        ],
+        true
+      ],
+      [
+        "15:30–16:00",
+        "茶歇与商务交流",
+        "酒店会场 · 自由交流",
+        [
+          "开展专业交流，分享经验，探讨共同的商业利益。"
+        ]
+      ],
+      [
+        "16:00–17:00",
+        "企业与大学：伙伴关系与共同倡议",
+        "酒店会场 · 主持讨论与商务会谈",
+        [
+          "16:00–16:20 · 企业的共同利益：技术、专业知识、教育与新市场。",
+          "16:20–16:40 · 科研与加速发展支持：专业评估、应用研究及共同倡议支持等潜在校企合作形式。",
+          "16:40–17:00 · 分主题商务会谈：人工智能与教育、文化创意产业、中俄技术合作。"
+        ]
+      ],
+      [
+        "17:00–17:30",
+        "商务日总结讨论",
+        "酒店会场 · 闭幕讨论",
+        [
+          "梳理各专题提出的议题与合作建议。",
+          "展望科研、教育与商业合作。"
+        ]
+      ],
+      [
+        "18:00–20:00",
+        "晚宴与自由交流",
+        "酒店会场 · 晚间聚会",
+        [
+          "在轻松氛围中继续商务交流。",
+          "地点及参加安排将另行公布。"
+        ]
+      ]
+    ],
+    "programNote": "本日程为讨论稿。主题、企业参与情况、场地及各环节时间均有待确认。列出企业名称不代表其已确认出席或建立合作关系。",
+    "formatLabel": "05 / 活动形式",
+    "formatTitle": "参与者与\n活动安排。",
+    "formatLead": "商务日将于2026年11月22日星期日举行。拟在深圳北理莫斯科大学举办全体会议，并在酒店进行专题讨论与晚间交流。场地及具体安排正在协商。",
+    "formatBlocks": [
+      [
+        "参与者",
+        "来自中俄两国的企业负责人、企业家、高校代表、科研人员、技术团队及文化创意产业从业者。"
+      ],
+      [
+        "商务交流",
+        "结识潜在合作伙伴，分享经验，探讨共同利益。日程安排了专业交流与非正式会谈时间。"
+      ],
+      [
+        "场地与交通",
+        "深圳北理莫斯科大学。酒店会场、接驳交通及午餐安排正在协商，确认后将公布详细信息。"
+      ],
+      [
+        "正式邀请函",
+        "如有需要，组织方可出具正式会议邀请函。申请方式及报名信息将另行公布。"
+      ]
+    ],
+    "footerBrand": "深圳北理莫斯科大学 · 中俄商务日2026",
+    "footerNote": "拟议日程 · 2026年11月22日，星期日",
+    "sourcesLabel": "背景与资料来源",
+    "sourcesNote": "本构想根据组织方工作材料编制。商务日日期已另行明确为11月22日，与原始文件中的会议日期有所区别。金砖合作仅为主题背景，本页不宣称活动具有金砖国家官方活动身份。关于Grom模型的信息来自GPTunneL自身介绍，不构成独立技术评估。",
+    "sources": [
+      "莫斯科大学：深圳北理莫斯科大学的创办方",
+      "金砖合作：合作领域",
+      "GPTunneL：平台与自主研发"
+    ],
+    "calendarTitle": "中俄商务日 — 深圳北理莫斯科大学",
+    "calendarDescription": "2026年11月22日，深圳。商务日日期；日程与场地待确认。"
+  }
 };
