@@ -9,15 +9,15 @@ const CONTENT = {
     "navAI": "ИИ и образование",
     "navProgram": "Программа",
     "navFormat": "Формат",
-    "title": "МГУ–ППИ · Россия × Китай · 22 ноября 2026",
-    "description": "Бизнес-день в Шэньчжэне: сотрудничество России и Китая, образование и внедрение ИИ. 22 ноября 2026 года. Проект программы.",
+    "title": "МГУ–ППИ · Китай × Россия · 22 ноября 2026",
+    "description": "Бизнес-день в Шэньчжэне: сотрудничество Китая и России, образование и внедрение ИИ. 22 ноября 2026 года. Проект программы.",
     "eyebrow": "Шэньчжэнь · Воскресенье, 22 ноября 2026",
     "heroCountries": [
-      "Россия",
-      "Китай"
+      "Китай",
+      "Россия"
     ],
     "heroSub": "Фундаментальные знания.\nТехнологии в действии.",
-    "intro": "Фундаментальная школа МГУ и прикладная технологическая среда Китая: соединяем глубину научной мысли, инженерную практику и скорость внедрения. Бизнес-день для диалога и совместных проектов России и Китая.",
+    "intro": "Фундаментальная школа МГУ и прикладная технологическая среда Китая: соединяем глубину научной мысли, инженерную практику и скорость внедрения. Бизнес-день для диалога и совместных проектов Китая и России.",
     "viewProgram": "Смотреть программу",
     "saveDate": "Сохранить дату",
     "month": "ноября 2026",
@@ -27,12 +27,12 @@ const CONTENT = {
     "herobar2": "Проект программы",
     "ticker1": "БИЗНЕС И ДОВЕРИЕ",
     "ticker2": "ОБРАЗОВАНИЕ И ТЕХНОЛОГИИ",
-    "ticker3": "РОССИЯ × КИТАЙ × БРИКС",
+    "ticker3": "КИТАЙ × РОССИЯ × БРИКС",
     "aboutLabel": "01 / Точка встречи",
     "aboutTitle": "Глубина знаний.\nСкорость воплощения.",
     "aboutLead": "Математика, естественные науки и философская традиция помогают ставить точные вопросы и видеть систему целиком. Инженерная практика и технологическая среда Шэньчжэня дают пространство для проверки идей, прототипирования и внедрения.",
     "aboutBody": "МГУ–ППИ объединяет эти возможности в одной университетской среде. Университет создан МГУ имени М. В. Ломоносова, Пекинским политехническим институтом и муниципальным правительством Шэньчжэня. Для бизнес-дня это основа содержательного диалога: от научной идеи и задачи компании до прикладного решения и перспектив его развития.",
-    "aboutBRICS": "БРИКС задаёт широкий контекст диалога: экономическое сотрудничество, обмен знаниями и подготовка кадров. В центре бизнес-дня — российско-китайские связи и роль университета как экспертной среды, модератора диалога и площадки для развития и ускорения совместных инициатив.",
+    "aboutBRICS": "БРИКС задаёт широкий контекст диалога: экономическое сотрудничество, обмен знаниями и подготовка кадров. В центре бизнес-дня — китайско-российские связи и роль университета как экспертной среды, модератора диалога и площадки для развития и ускорения совместных инициатив.",
     "bridge": [
       [
         "МГУ",
@@ -50,7 +50,7 @@ const CONTENT = {
     "topics": [
       [
         "Технологические рынки и обмен разработками",
-        "Тренды России и Китая, запросы компаний и возможности технологического сотрудничества: от обмена экспертизой до совместных прикладных исследований."
+        "Тренды Китая и России, запросы компаний и возможности технологического сотрудничества: от обмена экспертизой до совместных прикладных исследований."
       ],
       [
         "Искусство, образование и технологии",
@@ -66,7 +66,7 @@ const CONTENT = {
     "companies": [
       [
         "ВТБ",
-        "Финансовая инфраструктура, образование и доверие в российско-китайском сотрудничестве.",
+        "Финансовая инфраструктура, образование и доверие в китайско-российском сотрудничестве.",
         "Предлагается приглашение",
         false
       ],
@@ -140,13 +140,13 @@ const CONTENT = {
         "Открытие бизнес-дня",
         "МГУ–ППИ · Общая сессия",
         [
-          "Российско-китайское сотрудничество бизнеса и науки в контексте БРИКС.",
+          "Китайско-российское сотрудничество бизнеса и науки в контексте БРИКС.",
           "Университет как экспертная площадка, модератор делового диалога и среда развития совместных инициатив."
         ]
       ],
       [
         "10:00–11:10",
-        "Россия–Китай: инфраструктура доверия",
+        "Китай–Россия: инфраструктура доверия",
         "МГУ–ППИ · Пленарная сессия",
         [
           "10:00–10:20 · ВТБ: от финансовой инфраструктуры к инфраструктуре доверия. Образовательные инициативы и деловое сотрудничество.",
@@ -165,10 +165,10 @@ const CONTENT = {
       ],
       [
         "11:30–12:30",
-        "Технологические рынки России и Китая: искусство, индустрия, обмен разработками",
+        "Технологические рынки Китая и России: искусство, индустрия, обмен разработками",
         "МГУ–ППИ · Межотраслевая дискуссия",
         [
-          "11:30–11:50 · Технологические рынки России и Китая: новые направления, потребности компаний и возможности обмена разработками.",
+          "11:30–11:50 · Технологические рынки Китая и России: новые направления, потребности компаний и возможности обмена разработками.",
           "11:50–12:10 · Искусство и технологии: ИИ, цифровое творчество и сотрудничество бизнеса с творческими индустриями.",
           "12:10–12:30 · Технологии в промышленности, торговле и логистике: взаимодополняющие компетенции и перспективы совместных проектов."
         ]
@@ -210,7 +210,7 @@ const CONTENT = {
         [
           "16:00–16:20 · Взаимные интересы компаний: технологии, экспертиза, образование и доступ к новым рынкам.",
           "16:20–16:40 · Научная и акселерационная поддержка: экспертная оценка, прикладные исследования и сопровождение совместных инициатив — возможные форматы взаимодействия с университетом.",
-          "16:40–17:00 · Деловые встречи по направлениям: ИИ и образование, творческие индустрии, технологическое сотрудничество России и Китая."
+          "16:40–17:00 · Деловые встречи по направлениям: ИИ и образование, творческие индустрии, технологическое сотрудничество Китая и России."
         ]
       ],
       [
@@ -239,7 +239,7 @@ const CONTENT = {
     "formatBlocks": [
       [
         "Участники",
-        "Руководители компаний, предприниматели, представители университетов и научных коллективов, технологические команды и творческие индустрии России и Китая."
+        "Руководители компаний, предприниматели, представители университетов и научных коллективов, технологические команды и творческие индустрии Китая и России."
       ],
       [
         "Деловое общение",
@@ -254,7 +254,7 @@ const CONTENT = {
         "При необходимости организаторы могут оформить официальное приглашение на конференцию. Порядок обращения и регистрации будет опубликован дополнительно."
       ]
     ],
-    "footerBrand": "МГУ–ППИ · Россия × Китай · Бизнес-день 2026",
+    "footerBrand": "МГУ–ППИ · Китай × Россия · Бизнес-день 2026",
     "footerNote": "Проект программы · Воскресенье, 22 ноября 2026",
     "sourcesLabel": "Контекст и источники",
     "sourcesNote": "Концепция подготовлена по рабочим материалам организаторов. Дата бизнес-дня — 22 ноября — уточнена отдельно от дат в исходном документе. Связь с БРИКС описывает тематику; статус официального мероприятия БРИКС не заявляется. Сведения о моделях Grom — заявление GPTunneL, а не независимая оценка технологии.",
@@ -263,7 +263,7 @@ const CONTENT = {
       "БРИКС: направления сотрудничества",
       "GPTunneL: платформа и собственные разработки"
     ],
-    "calendarTitle": "Россия × Китай — бизнес-день МГУ–ППИ",
+    "calendarTitle": "Китай × Россия — бизнес-день МГУ–ППИ",
     "calendarDescription": "22 ноября 2026. Шэньчжэнь. Дата бизнес-дня; программа и площадки уточняются.",
     "visualCaption": "Глубина × Динамика"
   },
@@ -276,15 +276,15 @@ const CONTENT = {
     "navAI": "AI & education",
     "navProgram": "Programme",
     "navFormat": "Format",
-    "title": "MSU–BIT · Russia × China · 22 November 2026",
-    "description": "Business Day in Shenzhen: Russia–China cooperation, education and practical AI adoption. 22 November 2026. Proposed programme.",
+    "title": "MSU–BIT · China × Russia · 22 November 2026",
+    "description": "Business Day in Shenzhen: China–Russia cooperation, education and practical AI adoption. 22 November 2026. Proposed programme.",
     "eyebrow": "Shenzhen · Sunday, 22 November 2026",
     "heroCountries": [
-      "Russia",
-      "China"
+      "China",
+      "Russia"
     ],
     "heroSub": "Foundational knowledge.\nTechnology in action.",
-    "intro": "MSU’s academic foundations meet China’s applied technology ecosystem: connecting depth of thought, engineering practice and the pace of implementation. A Business Day for Russia–China dialogue and joint projects.",
+    "intro": "MSU’s academic foundations meet China’s applied technology ecosystem: connecting depth of thought, engineering practice and the pace of implementation. A Business Day for China–Russia dialogue and joint projects.",
     "viewProgram": "Explore the programme",
     "saveDate": "Save the date",
     "month": "November 2026",
@@ -294,12 +294,12 @@ const CONTENT = {
     "herobar2": "Draft programme",
     "ticker1": "BUSINESS & TRUST",
     "ticker2": "EDUCATION & TECHNOLOGY",
-    "ticker3": "RUSSIA × CHINA × BRICS",
+    "ticker3": "CHINA × RUSSIA × BRICS",
     "aboutLabel": "01 / A meeting point",
     "aboutTitle": "Depth of knowledge.\nPace of innovation.",
     "aboutLead": "Mathematics, the natural sciences and philosophical inquiry help us ask precise questions and understand whole systems. Engineering practice and Shenzhen’s technology ecosystem provide a setting to test ideas, build prototypes and bring solutions into use.",
     "aboutBody": "MSU–BIT brings these strengths together in a shared academic environment. The university was co-founded by Lomonosov Moscow State University, Beijing Institute of Technology and the Shenzhen Municipal Government. For Business Day, this is a basis for substantive dialogue: from a research idea and a company’s needs to an applied solution and its development prospects.",
-    "aboutBRICS": "BRICS provides a broader context for economic cooperation, knowledge exchange and talent development. The day focuses on Russia–China connections and the university’s role as a source of expertise, a facilitator of dialogue and a setting for developing and accelerating joint initiatives.",
+    "aboutBRICS": "BRICS provides a broader context for economic cooperation, knowledge exchange and talent development. The day focuses on China–Russia connections and the university’s role as a source of expertise, a facilitator of dialogue and a setting for developing and accelerating joint initiatives.",
     "bridge": [
       [
         "MSU",
@@ -317,7 +317,7 @@ const CONTENT = {
     "topics": [
       [
         "Technology markets and innovation exchange",
-        "Trends in Russia and China, business needs and opportunities for technology cooperation: from sharing expertise to joint applied research."
+        "Trends in China and Russia, business needs and opportunities for technology cooperation: from sharing expertise to joint applied research."
       ],
       [
         "Art, education and technology",
@@ -333,7 +333,7 @@ const CONTENT = {
     "companies": [
       [
         "VTB",
-        "Financial infrastructure, education and trust in Russia–China business cooperation.",
+        "Financial infrastructure, education and trust in China–Russia business cooperation.",
         "Proposed invitation",
         false
       ],
@@ -407,13 +407,13 @@ const CONTENT = {
         "Opening of Business Day",
         "MSU–BIT · Opening session",
         [
-          "Russia–China business and research cooperation in the BRICS context.",
+          "China–Russia business and research cooperation in the BRICS context.",
           "The university as a source of expertise, a facilitator of business dialogue and a setting for joint initiatives."
         ]
       ],
       [
         "10:00–11:10",
-        "Russia–China: an infrastructure of trust",
+        "China–Russia: an infrastructure of trust",
         "MSU–BIT · Plenary session",
         [
           "10:00–10:20 · VTB: from financial infrastructure to an infrastructure of trust. Educational initiatives and business cooperation.",
@@ -432,10 +432,10 @@ const CONTENT = {
       ],
       [
         "11:30–12:30",
-        "Russia–China technology markets: art, industry and innovation exchange",
+        "China–Russia technology markets: art, industry and innovation exchange",
         "MSU–BIT · Cross-sector discussion",
         [
-          "11:30–11:50 · Technology markets in Russia and China: emerging trends, company needs and opportunities to exchange innovations.",
+          "11:30–11:50 · Technology markets in China and Russia: emerging trends, company needs and opportunities to exchange innovations.",
           "11:50–12:10 · Art and technology: AI, digital creativity and business collaboration with the creative industries.",
           "12:10–12:30 · Technology in industry, trade and logistics: complementary expertise and prospects for joint projects."
         ]
@@ -477,7 +477,7 @@ const CONTENT = {
         [
           "16:00–16:20 · Mutual business interests: technology, expertise, education and access to new markets.",
           "16:20–16:40 · Research and acceleration support: expert assessment, applied research and support for joint initiatives as potential forms of university cooperation.",
-          "16:40–17:00 · Business meetings by theme: AI and education, creative industries and Russia–China technology cooperation."
+          "16:40–17:00 · Business meetings by theme: AI and education, creative industries and China–Russia technology cooperation."
         ]
       ],
       [
@@ -506,7 +506,7 @@ const CONTENT = {
     "formatBlocks": [
       [
         "Participants",
-        "Company executives, entrepreneurs, university representatives, researchers, technology teams and creative industry professionals from Russia and China."
+        "Company executives, entrepreneurs, university representatives, researchers, technology teams and creative industry professionals from China and Russia."
       ],
       [
         "Business networking",
@@ -521,7 +521,7 @@ const CONTENT = {
         "The organisers can issue an official conference invitation if required. Information on requests and registration will be published separately."
       ]
     ],
-    "footerBrand": "MSU–BIT · Russia × China · Business Day 2026",
+    "footerBrand": "MSU–BIT · China × Russia · Business Day 2026",
     "footerNote": "Proposed programme · Sunday, 22 November 2026",
     "sourcesLabel": "Context and sources",
     "sourcesNote": "The concept draws on organisers’ working materials. The Business Day date, 22 November, was clarified separately from the dates in the source document. BRICS refers to the thematic context; this page does not claim official BRICS event status. Information about Grom models is a GPTunneL statement, not an independent technology assessment.",
@@ -530,7 +530,7 @@ const CONTENT = {
       "BRICS: areas of cooperation",
       "GPTunneL: platform and proprietary developments"
     ],
-    "calendarTitle": "Russia × China — MSU–BIT Business Day",
+    "calendarTitle": "China × Russia — MSU–BIT Business Day",
     "calendarDescription": "22 November 2026. Shenzhen. Business Day date; programme and venues to be confirmed.",
     "visualCaption": "Depth × Momentum"
   },
@@ -547,8 +547,8 @@ const CONTENT = {
     "description": "深圳中俄商务日：中俄合作、教育与人工智能落地。2026年11月22日。拟议日程。",
     "eyebrow": "深圳 · 2026年11月22日，星期日",
     "heroCountries": [
-      "俄罗斯",
-      "中国"
+      "中国",
+      "俄罗斯"
     ],
     "heroSub": "深厚学术根基。\n科技落地实践。",
     "intro": "将莫斯科大学的基础学科优势与中国的科技应用生态相结合，融汇学术深度、工程实践与成果转化效率，为中俄对话与合作项目搭建交流平台。",
@@ -561,7 +561,7 @@ const CONTENT = {
     "herobar2": "日程草案",
     "ticker1": "商业与信任",
     "ticker2": "教育与技术",
-    "ticker3": "俄罗斯 × 中国 × 金砖合作",
+    "ticker3": "中国 × 俄罗斯 × 金砖合作",
     "aboutLabel": "01 / 合作交汇点",
     "aboutTitle": "深耕基础知识。\n加速创新应用。",
     "aboutLead": "数学、自然科学与哲学思考帮助我们提出准确的问题，并从整体理解复杂系统。工程实践与深圳的科技创新生态，为验证构想、开发原型和推动应用提供了条件。",
