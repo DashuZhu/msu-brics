@@ -175,11 +175,10 @@ const CONTENT = {
       ],
       [
         "12:30–14:00",
-        "Обед и переезд на вторую площадку",
-        "Организационный блок · Маршрут уточняется",
+        "Обед и трансфер",
+        "Организационный блок",
         [
-          "Обед в университете или гостинице — вариант согласуется.",
-          "Резерв времени на трансфер. Точное расписание зависит от выбранного отеля и маршрута."
+          "Перерыв на обед и переезд между площадками."
         ]
       ],
       [
@@ -227,15 +226,14 @@ const CONTENT = {
         "Ужин и неформальное общение",
         "Гостиничная площадка · Вечерняя встреча",
         [
-          "Продолжение делового общения в неформальной обстановке.",
-          "Место и условия участия будут объявлены отдельно."
+          "Продолжение делового общения в неформальной обстановке."
         ]
       ]
     ],
     "programNote": "Программа бизнес-дня · 22 ноября 2026 года.",
     "formatLabel": "05 / Как пройдёт встреча",
     "formatTitle": "Участники и\nорганизация встречи.",
-    "formatLead": "Бизнес-день состоится в воскресенье, 22 ноября 2026 года. Пленарная часть предлагается на площадке МГУ–ППИ; тематические сессии и вечерняя встреча — в гостинице. Площадки и организационные детали согласуются.",
+    "formatLead": "Воскресенье, 22 ноября 2026 года. Пленарная дискуссия, тематические сессии и вечернее общение.",
     "formatBlocks": [
       [
         "Участники",
@@ -247,24 +245,24 @@ const CONTENT = {
       ],
       [
         "Площадка и логистика",
-        "Шэньчжэнь, Университет МГУ–ППИ. Гостиничная площадка, трансфер и организация обеда уточняются. Подробная информация будет опубликована после согласования."
+        "Шэньчжэнь · Университет МГУ–ППИ."
       ],
       [
         "Официальные приглашения",
-        "При необходимости организаторы могут оформить официальное приглашение на конференцию. Порядок обращения и регистрации будет опубликован дополнительно."
+        "При необходимости организаторы могут оформить официальное приглашение на конференцию."
       ]
     ],
     "footerBrand": "МГУ–ППИ · Китай × Россия · Бизнес-день 2026",
     "footerNote": "Проект программы · Воскресенье, 22 ноября 2026",
     "sourcesLabel": "Контекст и источники",
-    "sourcesNote": "Концепция подготовлена по рабочим материалам организаторов. Дата бизнес-дня — 22 ноября — уточнена отдельно от дат в исходном документе. Связь с БРИКС описывает тематику; статус официального мероприятия БРИКС не заявляется. Сведения о моделях Grom — заявление GPTunneL, а не независимая оценка технологии.",
+    "sourcesNote": "БРИКС — тематический контекст сотрудничества. Информация о моделях Grom приведена по материалам GPTunneL.",
     "sources": [
       "МГУ: соучредители Университета МГУ–ППИ",
       "БРИКС: направления сотрудничества",
       "GPTunneL: платформа и собственные разработки"
     ],
     "calendarTitle": "Китай × Россия — бизнес-день МГУ–ППИ",
-    "calendarDescription": "22 ноября 2026. Шэньчжэнь. Дата бизнес-дня; программа и площадки уточняются.",
+    "calendarDescription": "22 ноября 2026. Шэньчжэнь. Бизнес-день МГУ–ППИ.",
     "visualCaption": "Глубина × Динамика"
   },
   "en": {
@@ -442,11 +440,10 @@ const CONTENT = {
       ],
       [
         "12:30–14:00",
-        "Lunch and transfer to the second venue",
-        "Logistics · Route to be confirmed",
+        "Lunch and transfer",
+        "Logistics",
         [
-          "Lunch at the university or hotel — arrangements under discussion.",
-          "Time reserved for the transfer. The final schedule depends on the hotel and route."
+          "Lunch break and transfer between venues."
         ]
       ],
       [
@@ -494,15 +491,14 @@ const CONTENT = {
         "Dinner and informal conversation",
         "Hotel venue · Evening gathering",
         [
-          "Continuing business conversations in an informal setting.",
-          "The venue and participation arrangements will be announced separately."
+          "Continuing business conversations in an informal setting."
         ]
       ]
     ],
     "programNote": "Business Day programme · 22 November 2026.",
     "formatLabel": "05 / The meeting format",
     "formatTitle": "Participants and\nevent arrangements.",
-    "formatLead": "Business Day will take place on Sunday, 22 November 2026. The proposed format places the plenary at MSU–BIT, followed by thematic sessions and an evening gathering at a hotel. Venues and arrangements are being agreed.",
+    "formatLead": "Sunday, 22 November 2026. Plenary discussion, thematic sessions and evening networking.",
     "formatBlocks": [
       [
         "Participants",
@@ -514,24 +510,24 @@ const CONTENT = {
       ],
       [
         "Venue and logistics",
-        "Shenzhen MSU–BIT University. The hotel venue, transfers and lunch arrangements are being finalised. Details will be published once agreed."
+        "Shenzhen · MSU–BIT University."
       ],
       [
         "Official invitations",
-        "The organisers can issue an official conference invitation if required. Information on requests and registration will be published separately."
+        "The organisers can issue an official conference invitation if required."
       ]
     ],
     "footerBrand": "MSU–BIT · China × Russia · Business Day 2026",
     "footerNote": "Proposed programme · Sunday, 22 November 2026",
     "sourcesLabel": "Context and sources",
-    "sourcesNote": "The concept draws on organisers’ working materials. The Business Day date, 22 November, was clarified separately from the dates in the source document. BRICS refers to the thematic context; this page does not claim official BRICS event status. Information about Grom models is a GPTunneL statement, not an independent technology assessment.",
+    "sourcesNote": "BRICS provides the thematic context for cooperation. Information about Grom models is based on GPTunneL materials.",
     "sources": [
       "MSU: co-founders of Shenzhen MSU–BIT University",
       "BRICS: areas of cooperation",
       "GPTunneL: platform and proprietary developments"
     ],
     "calendarTitle": "China × Russia — MSU–BIT Business Day",
-    "calendarDescription": "22 November 2026. Shenzhen. Business Day date; programme and venues to be confirmed.",
+    "calendarDescription": "22 November 2026. Shenzhen. MSU–BIT Business Day.",
     "visualCaption": "Depth × Momentum"
   },
   "zh": {
@@ -710,10 +706,9 @@ const CONTENT = {
       [
         "12:30–14:00",
         "午餐与转场",
-        "行程安排 · 路线待确认",
+        "行程安排",
         [
-          "午餐拟安排在大学或酒店，具体方案正在协商。",
-          "预留转场时间。最终安排将根据酒店位置与路线调整。"
+          "午餐休息及会场间转场。"
         ]
       ],
       [
@@ -761,15 +756,14 @@ const CONTENT = {
         "晚宴与自由交流",
         "酒店会场 · 晚间聚会",
         [
-          "在轻松氛围中继续商务交流。",
-          "地点及参加安排将另行公布。"
+          "在轻松氛围中继续商务交流。"
         ]
       ]
     ],
     "programNote": "商务日日程 · 2026年11月22日。",
     "formatLabel": "05 / 活动形式",
     "formatTitle": "参与者与\n活动安排。",
-    "formatLead": "商务日将于2026年11月22日星期日举行。拟在深圳北理莫斯科大学举办全体会议，并在酒店进行专题讨论与晚间交流。场地及具体安排正在协商。",
+    "formatLead": "2026年11月22日，星期日。全体讨论、专题交流与晚间商务交流。",
     "formatBlocks": [
       [
         "参与者",
@@ -781,24 +775,24 @@ const CONTENT = {
       ],
       [
         "场地与交通",
-        "深圳北理莫斯科大学。酒店会场、接驳交通及午餐安排正在协商，确认后将公布详细信息。"
+        "深圳 · 深圳北理莫斯科大学。"
       ],
       [
         "正式邀请函",
-        "如有需要，组织方可出具正式会议邀请函。申请方式及报名信息将另行公布。"
+        "如有需要，组织方可出具正式会议邀请函。"
       ]
     ],
     "footerBrand": "深圳北理莫斯科大学 · 中俄商务日2026",
     "footerNote": "拟议日程 · 2026年11月22日，星期日",
     "sourcesLabel": "背景与资料来源",
-    "sourcesNote": "本构想根据组织方工作材料编制。商务日日期已另行明确为11月22日，与原始文件中的会议日期有所区别。金砖合作仅为主题背景，本页不宣称活动具有金砖国家官方活动身份。关于Grom模型的信息来自GPTunneL自身介绍，不构成独立技术评估。",
+    "sourcesNote": "金砖合作是本次交流的主题背景。Grom模型相关信息引自GPTunneL资料。",
     "sources": [
       "莫斯科大学：深圳北理莫斯科大学的创办方",
       "金砖合作：合作领域",
       "GPTunneL：平台与自主研发"
     ],
     "calendarTitle": "中俄商务日 — 深圳北理莫斯科大学",
-    "calendarDescription": "2026年11月22日，深圳。商务日日期；日程与场地待确认。",
+    "calendarDescription": "2026年11月22日，深圳。深圳北理莫斯科大学商务日。",
     "visualCaption": "学术深度 × 创新动力"
   }
 };
