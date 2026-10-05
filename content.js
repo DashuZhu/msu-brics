@@ -24,7 +24,7 @@ const CONTENT = {
     "location": "Шэньчжэнь, Китай",
     "herotag": "Наука задаёт глубину. Инженерия превращает идеи в решения. Бизнес открывает им путь на рынок.",
     "herobar1": "На площадке Университета МГУ–ППИ",
-    "herobar2": "Проект программы · состав участников формируется",
+    "herobar2": "Проект программы",
     "ticker1": "БИЗНЕС И ДОВЕРИЕ",
     "ticker2": "ОБРАЗОВАНИЕ И ТЕХНОЛОГИИ",
     "ticker3": "РОССИЯ × КИТАЙ × БРИКС",
@@ -61,32 +61,31 @@ const CONTENT = {
         "Нетворкинг, встречи компаний и университетов, обсуждение взаимных интересов. Экспертная поддержка и модерация как основа долгосрочного сотрудничества."
       ]
     ],
-    "companiesLabel": "02 / Компании в проекте программы",
+    "companiesLabel": "02 / Компании",
     "companiesTitle": "Бизнес и технологии.\nДиалог о сотрудничестве.",
-    "companiesNote": "ВТБ и Альфа-Банк выразили интерес по информации организаторов. Alibaba и GPTunneL предложены для участия. Финальный состав согласуется.",
     "companies": [
       [
         "ВТБ",
         "Финансовая инфраструктура, образование и доверие в российско-китайском сотрудничестве.",
-        "Выражен интерес",
-        true
+        "Предлагается приглашение",
+        false
       ],
       [
         "Альфа-Банк",
         "Развитие талантов, связь бизнеса и университетов, образовательные проекты.",
-        "Выражен интерес",
-        true
+        "Предлагается приглашение",
+        false
       ],
       [
         "Alibaba",
         "Технологические экосистемы, ИИ и цифровые платформы для совместного бизнеса.",
-        "Предлагается к приглашению",
+        "Предлагается приглашение",
         false
       ],
       [
         "GPTunneL",
         "Доступ к моделям ИИ, собственные разработки и практическое применение в обучении и компаниях.",
-        "Предлагается к приглашению",
+        "Предлагается приглашение",
         false
       ]
     ],
@@ -150,9 +149,9 @@ const CONTENT = {
         "Россия–Китай: инфраструктура доверия",
         "МГУ–ППИ · Пленарная сессия",
         [
-          "10:00–10:20 · ВТБ: от финансовой инфраструктуры к инфраструктуре доверия. Образовательные инициативы и деловое сотрудничество — тема из предложений участников.",
-          "10:20–10:40 · Альфа-Банк: партнёрство бизнеса и университетов, развитие талантов — предлагаемая тема.",
-          "10:40–11:00 · Alibaba: цифровые экосистемы как среда для совместных проектов — предлагаемая тема и участие.",
+          "10:00–10:20 · ВТБ: от финансовой инфраструктуры к инфраструктуре доверия. Образовательные инициативы и деловое сотрудничество.",
+          "10:20–10:40 · Альфа-Банк: партнёрство бизнеса и университетов, развитие талантов.",
+          "10:40–11:00 · Alibaba: цифровые экосистемы как среда для совместных проектов.",
           "11:00–11:10 · Общая дискуссия: что помогает перейти от знакомства к проекту."
         ]
       ],
@@ -188,7 +187,7 @@ const CONTENT = {
         "ИИ в работе: от модели к новому процессу",
         "Гостиничная площадка · Центральная секция",
         [
-          "14:00–14:20 · Карта технологий: модели, платформы и собственные разработки. GPTunneL — предлагаемый участник технологического разбора.",
+          "14:00–14:20 · GPTunneL: карта технологий — модели, платформы и собственные разработки.",
           "14:20–14:40 · Образовательный проект с ИИ: учимся на рабочих задачах и собираем первый прототип.",
           "14:40–15:00 · От основателя стартапа к инженеру внедрения: как встроиться в бизнес клиента и изменить процесс вместе с командой.",
           "15:00–15:20 · Практикум: выбираем один процесс, распределяем роли человека и ИИ, задаём критерии качества и метрику эффекта.",
@@ -233,7 +232,7 @@ const CONTENT = {
         ]
       ]
     ],
-    "programNote": "Программа является предложением для обсуждения. Темы, участие компаний, площадки и время отдельных блоков уточняются. Указание компании не означает подтверждённое участие или партнёрство.",
+    "programNote": "Программа бизнес-дня · 22 ноября 2026 года.",
     "formatLabel": "05 / Как пройдёт встреча",
     "formatTitle": "Участники и\nорганизация встречи.",
     "formatLead": "Бизнес-день состоится в воскресенье, 22 ноября 2026 года. Пленарная часть предлагается на площадке МГУ–ППИ; тематические сессии и вечерняя встреча — в гостинице. Площадки и организационные детали согласуются.",
@@ -292,7 +291,7 @@ const CONTENT = {
     "location": "Shenzhen, China",
     "herotag": "Research brings depth. Engineering turns ideas into solutions. Business opens a path to the market.",
     "herobar1": "At Shenzhen MSU–BIT University",
-    "herobar2": "Proposed programme · participants to be confirmed",
+    "herobar2": "Draft programme",
     "ticker1": "BUSINESS & TRUST",
     "ticker2": "EDUCATION & TECHNOLOGY",
     "ticker3": "RUSSIA × CHINA × BRICS",
@@ -329,32 +328,31 @@ const CONTENT = {
         "Networking, company–university meetings and discussions of shared interests. Expert support and facilitation as a basis for long-term cooperation."
       ]
     ],
-    "companiesLabel": "02 / Companies in the proposed programme",
+    "companiesLabel": "02 / Companies",
     "companiesTitle": "Business and technology.\nA dialogue on cooperation.",
-    "companiesNote": "According to the organisers, VTB and Alfa-Bank have expressed interest. Alibaba and GPTunneL are proposed invitees. The final line-up is being discussed.",
     "companies": [
       [
         "VTB",
         "Financial infrastructure, education and trust in Russia–China business cooperation.",
-        "Interest expressed",
-        true
+        "Proposed invitation",
+        false
       ],
       [
         "Alfa-Bank",
         "Talent development, business–university partnerships and educational initiatives.",
-        "Interest expressed",
-        true
+        "Proposed invitation",
+        false
       ],
       [
         "Alibaba",
         "Technology ecosystems, AI and digital platforms for shared business projects.",
-        "Proposed invitee",
+        "Proposed invitation",
         false
       ],
       [
         "GPTunneL",
         "Access to AI models, proprietary developments and practical use in education and business.",
-        "Proposed invitee",
+        "Proposed invitation",
         false
       ]
     ],
@@ -418,10 +416,10 @@ const CONTENT = {
         "Russia–China: an infrastructure of trust",
         "MSU–BIT · Plenary session",
         [
-          "10:00–10:20 · VTB: from financial infrastructure to an infrastructure of trust. Educational initiatives and business cooperation — a topic proposed by participants.",
-          "10:20–10:40 · Alfa-Bank: business–university partnerships and talent development — proposed topic.",
-          "10:40–11:00 · Alibaba: digital ecosystems as a setting for shared projects — proposed topic and participation.",
-          "11:00–11:10 · Discussion: what helps a new connection become a project."
+          "10:00–10:20 · VTB: from financial infrastructure to an infrastructure of trust. Educational initiatives and business cooperation.",
+          "10:20–10:40 · Alfa-Bank: business–university partnerships and talent development.",
+          "10:40–11:00 · Alibaba: digital ecosystems as a setting for shared projects.",
+          "11:00–11:10 · Joint discussion: moving from introductions to a shared project."
         ]
       ],
       [
@@ -456,7 +454,7 @@ const CONTENT = {
         "AI at work: from model to workflow",
         "Hotel venue · Featured session",
         [
-          "14:00–14:20 · The technology landscape: models, platforms and proprietary developments. GPTunneL is a proposed participant for this discussion.",
+          "14:00–14:20 · GPTunneL: the technology landscape — models, platforms and proprietary developments.",
           "14:20–14:40 · An AI learning project: using workplace tasks to learn and build a first prototype.",
           "14:40–15:00 · From startup founder to deployment engineer: working inside a client’s business and changing a process with its team.",
           "15:00–15:20 · Workshop: choose a process, assign human and AI roles, define quality criteria and an impact metric.",
@@ -501,7 +499,7 @@ const CONTENT = {
         ]
       ]
     ],
-    "programNote": "This is a programme proposal for discussion. Topics, company participation, venues and session times remain subject to confirmation. Listing a company does not indicate confirmed attendance or partnership.",
+    "programNote": "Business Day programme · 22 November 2026.",
     "formatLabel": "05 / The meeting format",
     "formatTitle": "Participants and\nevent arrangements.",
     "formatLead": "Business Day will take place on Sunday, 22 November 2026. The proposed format places the plenary at MSU–BIT, followed by thematic sessions and an evening gathering at a hotel. Venues and arrangements are being agreed.",
@@ -560,7 +558,7 @@ const CONTENT = {
     "location": "中国 · 深圳",
     "herotag": "科研赋予深度，工程将构想转化为解决方案，商业为成果走向市场开辟道路。",
     "herobar1": "拟于深圳北理莫斯科大学举行",
-    "herobar2": "拟议日程 · 参会阵容正在筹备",
+    "herobar2": "日程草案",
     "ticker1": "商业与信任",
     "ticker2": "教育与技术",
     "ticker3": "俄罗斯 × 中国 × 金砖合作",
@@ -597,21 +595,20 @@ const CONTENT = {
         "开展商务社交、校企对接与共同兴趣讨论，以专业支持和对话协调促进长期合作。"
       ]
     ],
-    "companiesLabel": "02 / 拟议日程中的企业",
+    "companiesLabel": "02 / 企业",
     "companiesTitle": "商业与技术。\n共话合作。",
-    "companiesNote": "据组织方提供的信息，VTB银行和阿尔法银行已表达兴趣。阿里巴巴与GPTunneL为拟邀请对象，最终参会阵容仍在协商。",
     "companies": [
       [
         "VTB银行",
         "探讨金融基础设施、教育与信任在中俄经贸合作中的作用。",
-        "已表达兴趣",
-        true
+        "拟邀请",
+        false
       ],
       [
         "阿尔法银行",
         "人才发展、校企合作及教育项目。",
-        "已表达兴趣",
-        true
+        "拟邀请",
+        false
       ],
       [
         "阿里巴巴",
@@ -686,9 +683,9 @@ const CONTENT = {
         "中俄合作：构建信任基础",
         "深圳北理莫斯科大学 · 全体会议",
         [
-          "10:00–10:20 · VTB银行：从金融基础设施到信任基础设施。教育项目与商务合作——来自潜在参与方的议题建议。",
-          "10:20–10:40 · 阿尔法银行：校企合作与人才发展——拟议主题。",
-          "10:40–11:00 · 阿里巴巴：数字生态如何支持合作项目——拟议主题，参会待确认。",
+          "10:00–10:20 · VTB银行：从金融基础设施到信任基础设施。教育项目与商务合作。",
+          "10:20–10:40 · 阿尔法银行：校企合作与人才发展。",
+          "10:40–11:00 · 阿里巴巴：数字生态如何支持合作项目。",
           "11:00–11:10 · 共同讨论：如何从建立联系走向实际项目。"
         ]
       ],
@@ -724,7 +721,7 @@ const CONTENT = {
         "人工智能落地：从模型到工作流程",
         "酒店会场 · 核心专题",
         [
-          "14:00–14:20 · 技术概览：模型、平台与自主研发。拟邀请GPTunneL参与技术案例讨论。",
+          "14:00–14:20 · GPTunneL：技术概览——模型、平台与自主研发。",
           "14:20–14:40 · 人工智能教育项目：通过真实工作任务开展学习并搭建首个原型。",
           "14:40–15:00 · 从初创企业创始人到实施工程师：深入客户业务，与团队共同改变工作流程。",
           "15:00–15:20 · 实践讨论：选择一个流程，划分人与人工智能的职责，确定质量标准与效果指标。",
@@ -769,7 +766,7 @@ const CONTENT = {
         ]
       ]
     ],
-    "programNote": "本日程为讨论稿。主题、企业参与情况、场地及各环节时间均有待确认。列出企业名称不代表其已确认出席或建立合作关系。",
+    "programNote": "商务日日程 · 2026年11月22日。",
     "formatLabel": "05 / 活动形式",
     "formatTitle": "参与者与\n活动安排。",
     "formatLead": "商务日将于2026年11月22日星期日举行。拟在深圳北理莫斯科大学举办全体会议，并在酒店进行专题讨论与晚间交流。场地及具体安排正在协商。",
