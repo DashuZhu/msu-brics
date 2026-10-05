@@ -16,35 +16,35 @@ const CONTENT = {
       "Россия",
       "Китай"
     ],
-    "heroSub": "От диалога к совместным проектам.",
-    "intro": "Деловые связи России и Китая в научной среде МГУ–ППИ. Технологические рынки, искусство, образование и обмен разработками — в контексте сотрудничества стран БРИКС.",
+    "heroSub": "Фундаментальные знания.\nТехнологии в действии.",
+    "intro": "Фундаментальная школа МГУ и прикладная технологическая среда Китая: соединяем глубину научной мысли, инженерную практику и скорость внедрения. Бизнес-день для диалога и совместных проектов России и Китая.",
     "viewProgram": "Смотреть программу",
     "saveDate": "Сохранить дату",
     "month": "ноября 2026",
     "location": "Шэньчжэнь, Китай",
-    "herotag": "Знания становятся практикой. Знакомства — партнёрствами. Идеи — совместными проектами.",
+    "herotag": "Наука задаёт глубину. Инженерия превращает идеи в решения. Бизнес открывает им путь на рынок.",
     "herobar1": "На площадке Университета МГУ–ППИ",
     "herobar2": "Проект программы · состав участников формируется",
     "ticker1": "БИЗНЕС И ДОВЕРИЕ",
     "ticker2": "ОБРАЗОВАНИЕ И ТЕХНОЛОГИИ",
     "ticker3": "РОССИЯ × КИТАЙ × БРИКС",
     "aboutLabel": "01 / Точка встречи",
-    "aboutTitle": "Две страны.\nОбщая работа.",
-    "aboutLead": "Бизнес-день МГУ–ППИ — встреча предпринимателей, исследователей и технологических команд для обмена опытом, деловых знакомств и обсуждения взаимовыгодного сотрудничества.",
-    "aboutBody": "Университет МГУ–ППИ в Шэньчжэне — совместный российско-китайский образовательный проект. Его соучредители — МГУ имени М. В. Ломоносова, Пекинский политехнический институт и муниципальное правительство Шэньчжэня. Эта связь задаёт основу встречи: фундаментальное знание, инженерная практика и задачи бизнеса.",
+    "aboutTitle": "Глубина знаний.\nСкорость воплощения.",
+    "aboutLead": "Математика, естественные науки и философская традиция помогают ставить точные вопросы и видеть систему целиком. Инженерная практика и технологическая среда Шэньчжэня дают пространство для проверки идей, прототипирования и внедрения.",
+    "aboutBody": "МГУ–ППИ объединяет эти возможности в одной университетской среде. Университет создан МГУ имени М. В. Ломоносова, Пекинским политехническим институтом и муниципальным правительством Шэньчжэня. Для бизнес-дня это основа содержательного диалога: от научной идеи и задачи компании до прикладного решения и перспектив его развития.",
     "aboutBRICS": "БРИКС задаёт широкий контекст диалога: экономическое сотрудничество, обмен знаниями и подготовка кадров. В центре бизнес-дня — российско-китайские связи и роль университета как экспертной среды, модератора диалога и площадки для развития и ускорения совместных инициатив.",
     "bridge": [
       [
         "МГУ",
-        "Наука и образование"
+        "Фундаментальная школа"
       ],
       [
         "ППИ",
-        "Инженерная школа"
+        "Инженерная практика"
       ],
       [
         "Шэньчжэнь",
-        "Технологическая среда"
+        "От идеи к внедрению"
       ]
     ],
     "topics": [
@@ -265,7 +265,8 @@ const CONTENT = {
       "GPTunneL: платформа и собственные разработки"
     ],
     "calendarTitle": "Россия × Китай — бизнес-день МГУ–ППИ",
-    "calendarDescription": "22 ноября 2026. Шэньчжэнь. Дата бизнес-дня; программа и площадки уточняются."
+    "calendarDescription": "22 ноября 2026. Шэньчжэнь. Дата бизнес-дня; программа и площадки уточняются.",
+    "visualCaption": "Глубина × Динамика"
   },
   "en": {
     "brand": "MSU–BIT",
@@ -283,35 +284,35 @@ const CONTENT = {
       "Russia",
       "China"
     ],
-    "heroSub": "From dialogue to shared projects.",
-    "intro": "Russia–China business connections in the academic setting of MSU–BIT. Technology markets, art, education and the exchange of innovations within the broader BRICS cooperation agenda.",
+    "heroSub": "Foundational knowledge.\nTechnology in action.",
+    "intro": "MSU’s academic foundations meet China’s applied technology ecosystem: connecting depth of thought, engineering practice and the pace of implementation. A Business Day for Russia–China dialogue and joint projects.",
     "viewProgram": "Explore the programme",
     "saveDate": "Save the date",
     "month": "November 2026",
     "location": "Shenzhen, China",
-    "herotag": "Knowledge into practice. Connections into partnerships. Ideas into shared projects.",
+    "herotag": "Research brings depth. Engineering turns ideas into solutions. Business opens a path to the market.",
     "herobar1": "At Shenzhen MSU–BIT University",
     "herobar2": "Proposed programme · participants to be confirmed",
     "ticker1": "BUSINESS & TRUST",
     "ticker2": "EDUCATION & TECHNOLOGY",
     "ticker3": "RUSSIA × CHINA × BRICS",
     "aboutLabel": "01 / A meeting point",
-    "aboutTitle": "Two countries.\nShared work.",
-    "aboutLead": "MSU–BIT Business Day brings entrepreneurs, researchers and technology teams together to exchange experience, build professional connections and discuss mutually beneficial cooperation.",
-    "aboutBody": "Shenzhen MSU–BIT University is a joint Russian–Chinese educational project, co-founded by Lomonosov Moscow State University, Beijing Institute of Technology and the Shenzhen Municipal Government. This connection shapes the meeting: academic knowledge, engineering practice and business needs.",
+    "aboutTitle": "Depth of knowledge.\nPace of innovation.",
+    "aboutLead": "Mathematics, the natural sciences and philosophical inquiry help us ask precise questions and understand whole systems. Engineering practice and Shenzhen’s technology ecosystem provide a setting to test ideas, build prototypes and bring solutions into use.",
+    "aboutBody": "MSU–BIT brings these strengths together in a shared academic environment. The university was co-founded by Lomonosov Moscow State University, Beijing Institute of Technology and the Shenzhen Municipal Government. For Business Day, this is a basis for substantive dialogue: from a research idea and a company’s needs to an applied solution and its development prospects.",
     "aboutBRICS": "BRICS provides a broader context for economic cooperation, knowledge exchange and talent development. The day focuses on Russia–China connections and the university’s role as a source of expertise, a facilitator of dialogue and a setting for developing and accelerating joint initiatives.",
     "bridge": [
       [
         "MSU",
-        "Research & education"
+        "Academic foundations"
       ],
       [
         "BIT",
-        "Engineering expertise"
+        "Engineering practice"
       ],
       [
         "Shenzhen",
-        "Technology ecosystem"
+        "From idea to application"
       ]
     ],
     "topics": [
@@ -532,7 +533,8 @@ const CONTENT = {
       "GPTunneL: platform and proprietary developments"
     ],
     "calendarTitle": "Russia × China — MSU–BIT Business Day",
-    "calendarDescription": "22 November 2026. Shenzhen. Business Day date; programme and venues to be confirmed."
+    "calendarDescription": "22 November 2026. Shenzhen. Business Day date; programme and venues to be confirmed.",
+    "visualCaption": "Depth × Momentum"
   },
   "zh": {
     "brand": "深圳北理莫斯科大学",
@@ -550,35 +552,35 @@ const CONTENT = {
       "俄罗斯",
       "中国"
     ],
-    "heroSub": "从交流对话，走向合作项目。",
-    "intro": "依托深圳北理莫斯科大学的学术环境，促进中俄企业交流。在金砖合作背景下，共同探讨技术市场、艺术、教育与技术成果交流。",
+    "heroSub": "深厚学术根基。\n科技落地实践。",
+    "intro": "将莫斯科大学的基础学科优势与中国的科技应用生态相结合，融汇学术深度、工程实践与成果转化效率，为中俄对话与合作项目搭建交流平台。",
     "viewProgram": "查看日程",
     "saveDate": "保存日期",
     "month": "2026年11月",
     "location": "中国 · 深圳",
-    "herotag": "让知识融入实践，让相识促成伙伴关系，让创意成为合作项目。",
+    "herotag": "科研赋予深度，工程将构想转化为解决方案，商业为成果走向市场开辟道路。",
     "herobar1": "拟于深圳北理莫斯科大学举行",
     "herobar2": "拟议日程 · 参会阵容正在筹备",
     "ticker1": "商业与信任",
     "ticker2": "教育与技术",
     "ticker3": "俄罗斯 × 中国 × 金砖合作",
     "aboutLabel": "01 / 合作交汇点",
-    "aboutTitle": "两国携手。\n共同行动。",
-    "aboutLead": "深圳北理莫斯科大学商务日汇聚企业家、科研人员与技术团队，交流经验、拓展商务联系，探讨互利合作。",
-    "aboutBody": "深圳北理莫斯科大学是由莫斯科国立罗蒙诺索夫大学、北京理工大学和深圳市人民政府共同创办的中俄合作大学。这一合作基础也构成了商务日的核心：将学术知识、工程实践与企业需求相结合。",
+    "aboutTitle": "深耕基础知识。\n加速创新应用。",
+    "aboutLead": "数学、自然科学与哲学思考帮助我们提出准确的问题，并从整体理解复杂系统。工程实践与深圳的科技创新生态，为验证构想、开发原型和推动应用提供了条件。",
+    "aboutBody": "深圳北理莫斯科大学在共同的学术环境中汇聚这些优势。大学由莫斯科国立罗蒙诺索夫大学、北京理工大学和深圳市人民政府共同创办。这为商务日的深入交流奠定基础：从科研构想与企业需求出发，共同探讨应用方案及其发展前景。",
     "aboutBRICS": "金砖合作为经济合作、知识交流与人才培养提供了更广阔的背景。商务日聚焦中俄合作，探讨大学如何提供专业支持、促进对话，并为共同倡议的培育与加速发展创造条件。",
     "bridge": [
       [
         "莫斯科大学",
-        "科研与教育"
+        "基础学科优势"
       ],
       [
         "北京理工大学",
-        "工程技术"
+        "工程实践"
       ],
       [
         "深圳",
-        "科技创新生态"
+        "从构想到应用"
       ]
     ],
     "topics": [
@@ -799,6 +801,7 @@ const CONTENT = {
       "GPTunneL：平台与自主研发"
     ],
     "calendarTitle": "中俄商务日 — 深圳北理莫斯科大学",
-    "calendarDescription": "2026年11月22日，深圳。商务日日期；日程与场地待确认。"
+    "calendarDescription": "2026年11月22日，深圳。商务日日期；日程与场地待确认。",
+    "visualCaption": "学术深度 × 创新动力"
   }
 };
