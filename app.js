@@ -1,6 +1,6 @@
 'use strict';
 const $ = (s) => document.querySelector(s);
-const sourceUrls = ['https://www.fnm.msu.ru/international/mgu-ppi/','https://brics.br/en/about-the-brics/areas-of-cooperation','https://www.gptunnel.ru/ru'];
+const sourceUrls = ['https://www.fnm.msu.ru/international/mgu-ppi/','https://brics.br/en/about-the-brics/areas-of-cooperation','https://www.gptunnel.ru/ru/about','https://waiwai.is/training/','https://www.minimax.io/blog/minimax-h3'];
 let language = 'ru';
 function el(tag, text, className) { const n = document.createElement(tag); if(text !== undefined) n.textContent = text; if(className) n.className = className; return n; }
 function render(lang) {
@@ -19,7 +19,9 @@ function render(lang) {
   $('#topics').replaceChildren(...t.topics.map(([a,b],i) => {const n=el('article',undefined,'topic');n.append(el('span',`0${i+1}`, 'num'),el('h3',a),el('p',b));return n;}));
   $('#companyList').replaceChildren(...t.companies.map(([a,b,c,d])=>{const n=el('article',undefined,'company');n.append(el('h3',a),el('p',b),el('div',c,'status'+(d?' interest':'')));return n;}));
   $('#focusList').replaceChildren(...t.focus.map(([a,b],i)=>{const n=el('article',undefined,'focusrow'),body=el('div');body.append(el('h3',a),el('p',b));n.append(el('span',`0${i+1}`),body);return n;}));
-  $('#steps').replaceChildren(...t.steps.map(s=>el('span',s)));
+  if ($('#aiParticipants')) $('#aiParticipants').replaceChildren(...t.aiParticipants.map(([name,role,description])=>{const n=el('article',undefined,'roundtable-person');n.append(el('h4',name),el('p',role,'person-role'),el('p',description));return n;}));
+  if ($('#aiSchedule')) $('#aiSchedule').replaceChildren(...t.aiSchedule.map(([time,title,description])=>{const n=el('article',undefined,'roundtable-block'),body=el('div');body.append(el('h4',title),el('p',description));n.append(el('time',time),body);return n;}));
+  if ($('#steps')) $('#steps').replaceChildren(...t.steps.map(s=>el('span',s)));
   $('#agenda').replaceChildren(...t.agenda.map(([time,title,place,items,featured],i)=>{
     const n=el('details',undefined,'slot'+(featured?' feature':''));n.dataset.index=String(i);n.open=openSlots.has(String(i));
     const summary=el('summary'),head=el('span',title,'slottitle');head.append(el('small',place));const plus=el('span','+','plus');plus.setAttribute('aria-hidden','true');summary.append(el('span',time,'time'),head,plus);
