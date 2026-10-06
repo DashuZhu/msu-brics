@@ -91,23 +91,47 @@ const CONTENT = {
     ],
     "aiLabel": "03 / Круглый стол · 14:00–15:30",
     "aiTitle": "Искусственный интеллект\nи цифровая трансформация",
-    "aiLead": "Бизнес, образование и сотрудничество Китая и России. Диалог о том, как развитие искусственного интеллекта меняет финансовые услуги, промышленность и творческие индустрии — и какие возможности открывает для совместной работы компаний и университетов.",
+    "aiLead": "Банк ищет ответ в тысячах документов. Инженер сверяет технические требования. Команда готовит материалы для другого рынка. Что меняется, когда в этих задачах появляется ИИ — и где компании Китая и России могут быть полезны друг другу?",
     "focus": [
       [
         "Новые возможности для экономики",
-        "Как ИИ меняет конкуренцию, продукты и взаимодействие с клиентами? Какие задачи объединяют банки, промышленные предприятия и технологические компании?"
+        "Какие задачи бизнеса уже стоит обсуждать с разработчиками ИИ?",
+        [
+          "Банки: поиск по внутренним документам, подготовка ответов клиентам, помощь сотруднику при разборе сложного запроса.",
+          "Промышленность: работа с инструкциями и техническими требованиями, передача знаний между специалистами, подготовка материалов для обучения.",
+          "Торговля и творческие индустрии: карточки товаров, видео, перевод и адаптация материалов для другого рынка.",
+          "По каким признакам заказчик отличает полезное решение от эффектной демонстрации?"
+        ]
       ],
       [
         "Технологии и доверие",
-        "Как выбирать между готовыми платформами и собственными решениями? Что определяет качество, надёжность и допустимые границы применения ИИ в бизнесе?"
+        "Что нужно знать о модели, прежде чем включать её в работу компании?",
+        [
+          "Как проверить ответ на материалах компании, а не только на общих тестах?",
+          "Где проходят границы доступа к документам и действиям? Кто подтверждает результат, если ошибка влияет на клиента или производство?",
+          "Одна модель или несколько: что меняется в качестве, стоимости и зависимости от поставщика?",
+          "Как объяснить сотруднику, когда ответу можно доверять, а когда нужно обратиться к специалисту?"
+        ]
       ],
       [
         "Образование и новые профессии",
-        "Как меняются компетенции руководителей, инженеров и специалистов? Как обучение через практику помогает командам осваивать технологии и создавать собственные решения?"
+        "Как научиться работать с ИИ на собственной задаче?",
+        [
+          "Что должен уметь руководитель, чтобы поставить задачу разработчику и оценить результат?",
+          "Как объединить предметного специалиста и техническую команду: от описания задачи до работающего прототипа?",
+          "Что делает инженер внедрения: разбирается в бизнесе, связывает инструменты, обучает пользователей и сопровождает решение.",
+          "Как после мастер-класса или хакатона сохранить навык в команде и продолжить работу над проектом?"
+        ]
       ],
       [
         "Международное сотрудничество",
-        "Где востребованы совместные разработки, локализация и обмен экспертизой? Как университетская среда может поддерживать прикладные исследования и новые инициативы бизнеса?"
+        "Какие проекты имеет смысл создавать вместе?",
+        [
+          "Проверка китайских моделей на русскоязычных отраслевых задачах и обмен результатами с разработчиками.",
+          "Совместные образовательные материалы: языки, видео, техническая терминология и проверка содержания преподавателем.",
+          "Пилот с участием компании-заказчика, технологической команды и университета: какую задачу каждая сторона готова взять на себя?",
+          "Как начать с ограниченной задачи и понять, есть ли основа для долгосрочного партнёрства?"
+        ]
       ]
     ],
     "programLabel": "04 / Воскресенье, 22 ноября 2026",
@@ -259,7 +283,7 @@ const CONTENT = {
     "calendarDescription": "22 ноября 2026. Шэньчжэнь. Бизнес-день МГУ–ППИ.",
     "visualCaption": "Глубина × Динамика",
     "aiFormatLabel": "Формат",
-    "aiFormat": "Модерируемое интервью с участниками круглого стола: короткие вступительные позиции, тематические раунды, встречные вопросы и открытое обсуждение с залом.",
+    "aiFormat": "Разговор основателей и разработчиков с представителями бизнеса: вопросы ведущей, разные позиции участников и конкретные ситуации из зала.",
     "aiParticipantsLabel": "Предлагаемый состав круглого стола",
     "aiParticipants": [
       [
@@ -270,7 +294,7 @@ const CONTENT = {
       [
         "Климент Викулов",
         "Сооснователь GPTunneL",
-        "Модели и платформы ИИ: собственные разработки, доступ к технологиям и возможности их применения компаниями."
+        "Сооснователь GPTunneL — платформы команды ScriptHeads. Компания развивает доступ к различным моделям, инструменты для работы с текстом, изображениями, видео и звуком, а также собственную линейку Grom. В интервью с Климентом обсудим, как запросы корпоративных заказчиков влияют на развитие платформы, где полезна комбинация моделей и что мешает перенести удачный эксперимент в ежедневную работу компании."
       ],
       [
         "Дарья Жуйкова",
@@ -321,7 +345,24 @@ const CONTENT = {
       "Обучение",
       "Новый процесс",
       "Измерение"
-    ]
+    ],
+    "aiFormatDetails": [
+      "В начале каждый участник называет одну задачу, с которой к нему приходит бизнес, и одну трудность, которую технология сама по себе не снимает.",
+      "Далее — четыре темы разговора. Дарья Жуйкова задаёт вопросы; участники сопоставляют опыт разработки моделей, создания платформ и обучения корпоративных команд.",
+      "В каждом раунде — пример, встречный вопрос и обсуждение ограничений. Представители банков, промышленных компаний и университетов могут предложить свою ситуацию.",
+      "Заключительные 15 минут отведены вопросам зала и обсуждению возможных совместных проектов."
+    ],
+    "aiBricsTitle": "Китай × Россия: сотрудничество в контексте БРИКС",
+    "aiBricsLead": "Обсудим, что нужно для совместного проекта: от языка и данных до проверки технологии на реальной задаче.",
+    "aiBricsDetails": [
+      "Совместная проверка решений. Как китайская модель работает с русскоязычной технической документацией, отраслевыми терминами и материалами компании? Кто готовит примеры и оценивает результат?",
+      "Локализация и обмен опытом. Что приходится менять при переносе продукта на другой рынок: интерфейс, содержание, интеграции, обучение пользователей?",
+      "Университет как участник проекта. Прикладные исследования, экспертиза, студенческие команды и совместные образовательные программы вокруг запросов бизнеса.",
+      "БРИКС здесь — контекст научного, технологического и образовательного сотрудничества. Круглый стол посвящён конкретным направлениям работы компаний и университетов Китая и России."
+    ],
+    "aiExpand": "Развернуть подробности",
+    "aiCollapse": "Свернуть подробности",
+    "aiHint": "Нажмите на участника, тему или время, чтобы открыть подробности."
   },
   "en": {
     "brand": "MSU–BIT",
@@ -414,23 +455,47 @@ const CONTENT = {
     ],
     "aiLabel": "03 / Roundtable · 14:00–15:30",
     "aiTitle": "Artificial intelligence\nand digital transformation",
-    "aiLead": "Business, education and cooperation between China and Russia. A dialogue on how AI is changing financial services, industry and the creative sector — and opening opportunities for companies and universities to work together.",
+    "aiLead": "A bank searches thousands of documents for an answer. An engineer checks technical requirements. A team prepares materials for another market. What changes when AI enters these tasks — and where can companies from China and Russia help each other?",
     "focus": [
       [
         "New opportunities for the economy",
-        "How is AI changing competition, products and customer relationships? Which needs do banks, industrial businesses and technology companies share?"
+        "Which business tasks are worth discussing with AI developers now?",
+        [
+          "Banking: searching internal documents, drafting customer responses and helping staff handle complex enquiries.",
+          "Industry: working with manuals and technical requirements, transferring specialist knowledge and preparing training materials.",
+          "Trade and creative industries: product listings, video, translation and adapting content for another market.",
+          "How can a customer distinguish a useful solution from an impressive demonstration?"
+        ]
       ],
       [
         "Technology and trust",
-        "How should companies choose between existing platforms and their own solutions? What determines quality, reliability and appropriate boundaries for AI use in business?"
+        "What should a company know about a model before using it at work?",
+        [
+          "How can answers be tested on company materials as well as general benchmarks?",
+          "What access to documents and actions is appropriate? Who approves a result when mistakes could affect a customer or production?",
+          "One model or several: how does this affect quality, cost and reliance on a supplier?",
+          "How can employees learn when to trust an answer and when to ask a specialist?"
+        ]
       ],
       [
         "Education and emerging roles",
-        "How are the skills of executives, engineers and specialists changing? How can practical learning help teams adopt technology and build their own solutions?"
+        "How do people learn to use AI on their own tasks?",
+        [
+          "What must a manager understand to brief a developer and assess the result?",
+          "How can a domain specialist and a technical team work together, from defining a task to building a prototype?",
+          "The implementation engineer’s role: understanding the business, connecting tools, training users and supporting the solution.",
+          "How can teams retain skills after a workshop or hackathon and keep developing their project?"
+        ]
       ],
       [
         "International cooperation",
-        "Where is there demand for joint development, localisation and exchange of expertise? How can universities support applied research and new business initiatives?"
+        "Which projects make sense to build together?",
+        [
+          "Testing Chinese models on Russian-language industry tasks and sharing results with developers.",
+          "Joint educational materials: languages, video, technical terminology and teacher review.",
+          "A pilot involving a business customer, a technology team and a university: what will each party contribute?",
+          "How can a narrowly defined task reveal the potential for a long-term partnership?"
+        ]
       ]
     ],
     "programLabel": "04 / Sunday, 22 November 2026",
@@ -582,7 +647,7 @@ const CONTENT = {
     "calendarDescription": "22 November 2026. Shenzhen. MSU–BIT Business Day.",
     "visualCaption": "Depth × Momentum",
     "aiFormatLabel": "Format",
-    "aiFormat": "A moderated interview with roundtable participants: brief opening perspectives, thematic rounds, questions between speakers and an open discussion with the audience.",
+    "aiFormat": "Founders and developers in conversation with business representatives: questions from the host, different perspectives and concrete situations from the audience.",
     "aiParticipantsLabel": "Proposed roundtable participants",
     "aiParticipants": [
       [
@@ -593,7 +658,7 @@ const CONTENT = {
       [
         "Kliment Vikulov",
         "Co-founder, GPTunneL",
-        "AI models and platforms: in-house development, access to technology and opportunities for business applications."
+        "Co-founder of GPTunneL, a platform developed by the ScriptHeads team. The company provides access to multiple models, tools for text, images, video and audio, and its own Grom model family. The interview with Kliment will explore how corporate customer needs shape the platform, when combining models is useful, and what prevents a successful experiment from becoming part of everyday work."
       ],
       [
         "Darya Zhuykova",
@@ -644,7 +709,24 @@ const CONTENT = {
       "Learning",
       "Workflow",
       "Measurement"
-    ]
+    ],
+    "aiFormatDetails": [
+      "Each participant opens with one task brought to them by a business and one difficulty that technology alone does not solve.",
+      "Four themes guide the conversation. Darya Zhuykova asks questions; participants compare model development, platform building and corporate learning experiences.",
+      "Each round includes an example, a follow-up question and a discussion of limitations. Banks, industrial companies and universities can bring their own situations.",
+      "The final 15 minutes are reserved for audience questions and discussion of possible joint projects."
+    ],
+    "aiBricsTitle": "China × Russia: cooperation in the BRICS context",
+    "aiBricsLead": "What does a joint project need — from language and data to testing technology on a real business task?",
+    "aiBricsDetails": [
+      "Joint evaluation. How does a Chinese model handle Russian technical documents, specialist terminology and company materials? Who prepares examples and evaluates results?",
+      "Localisation and exchange of experience. What must change when a product enters another market: interface, content, integrations or user training?",
+      "The university as a project participant. Applied research, expert input, student teams and joint educational programmes built around business needs.",
+      "BRICS provides the context for scientific, technological and educational cooperation. This roundtable focuses on concrete opportunities for companies and universities in China and Russia."
+    ],
+    "aiExpand": "Expand details",
+    "aiCollapse": "Collapse details",
+    "aiHint": "Select a participant, topic or time slot to read more."
   },
   "zh": {
     "brand": "深圳北理莫斯科大学",
@@ -737,23 +819,47 @@ const CONTENT = {
     ],
     "aiLabel": "03 / 圆桌对话 · 14:00–15:30",
     "aiTitle": "人工智能\n与数字化转型",
-    "aiLead": "中俄商业、教育与合作。探讨人工智能如何改变金融服务、工业和文化创意产业，以及企业与高校如何共同把握新的合作机遇。",
+    "aiLead": "银行需要从数千份文档中找到答案，工程师需要核对技术要求，团队需要为另一个市场准备材料。人工智能参与这些任务后，会带来哪些变化？中俄企业又能在哪些方面相互支持？",
     "focus": [
       [
         "数字经济的新机遇",
-        "人工智能如何改变竞争、产品和客户关系？银行、工业企业与科技公司有哪些共同需求？"
+        "哪些企业任务值得现在就与人工智能开发者讨论？",
+        [
+          "银行：检索内部文档、起草客户回复、协助员工处理复杂咨询。",
+          "工业：查阅操作手册与技术要求、传承专业知识、准备培训材料。",
+          "贸易与创意产业：商品介绍、视频、翻译及面向新市场的内容改编。",
+          "客户如何区分真正有用的解决方案与令人印象深刻的演示？"
+        ]
       ],
       [
         "技术与信任",
-        "企业如何在现有平台与自主开发之间作出选择？如何把握人工智能应用的质量、可靠性与适用边界？"
+        "将模型用于企业工作前，需要了解什么？",
+        [
+          "除了通用测试，如何使用企业自身材料检验回答质量？",
+          "如何界定文档访问与操作权限？当错误可能影响客户或生产时，由谁审核结果？",
+          "使用一个还是多个模型，对质量、成本和供应商依赖有何影响？",
+          "如何让员工判断何时可以采用模型回答、何时需要咨询专家？"
+        ]
       ],
       [
         "教育与新职业角色",
-        "管理者、工程师与专业人员的能力要求正在发生怎样的变化？实践学习如何帮助团队掌握技术并开发自己的解决方案？"
+        "如何围绕自己的工作任务学习使用人工智能？",
+        [
+          "管理者需要了解什么，才能向开发者提出需求并评估结果？",
+          "领域专家与技术团队如何从描述任务走向构建原型？",
+          "实施工程师的职责：理解业务、连接工具、培训用户并持续支持解决方案。",
+          "工作坊或黑客松结束后，团队如何保持所学技能并继续推进项目？"
+        ]
       ],
       [
         "国际合作",
-        "哪些领域需要联合研发、本地化和专业知识交流？高校如何支持应用研究与新的商业合作项目？"
+        "哪些项目适合共同开发？",
+        [
+          "在俄语行业任务中评估中国模型，并与开发者交流测试结果。",
+          "联合制作教育内容：语言、视频、技术术语及教师审核。",
+          "企业客户、技术团队和高校共同参与试点：各方分别承担什么工作？",
+          "如何从范围明确的任务开始，判断长期合作的潜力？"
+        ]
       ]
     ],
     "programLabel": "04 / 2026年11月22日，星期日",
@@ -905,7 +1011,7 @@ const CONTENT = {
     "calendarDescription": "2026年11月22日，深圳。深圳北理莫斯科大学商务日。",
     "visualCaption": "学术深度 × 创新动力",
     "aiFormatLabel": "交流形式",
-    "aiFormat": "主持访谈式圆桌：嘉宾简短开场、分主题交流、嘉宾相互提问，并与现场观众展开开放讨论。",
+    "aiFormat": "创始人、开发者与企业代表面对面交流：主持人提问、嘉宾分享不同观点，并讨论观众提出的具体问题。",
     "aiParticipantsLabel": "拟邀圆桌嘉宾",
     "aiParticipants": [
       [
@@ -916,7 +1022,7 @@ const CONTENT = {
       [
         "克利缅特·维库洛夫（Kliment Vikulov）",
         "GPTunneL 联合创始人",
-        "人工智能模型与平台：自主研发、技术接入及企业应用机遇。"
+        "GPTunneL联合创始人。该平台由ScriptHeads团队开发，提供多种模型接入以及文本、图像、视频和音频工具，并发展自主Grom模型系列。访谈将围绕企业客户需求如何影响平台发展、何时需要组合不同模型，以及成功的实验为何难以转化为日常应用展开。"
       ],
       [
         "达里娅·茹伊科娃（Darya Zhuykova）",
@@ -967,6 +1073,23 @@ const CONTENT = {
       "培训",
       "工作流程",
       "效果评估"
-    ]
+    ],
+    "aiFormatDetails": [
+      "每位嘉宾首先介绍一项企业提出的真实需求，以及一个单靠技术无法解决的难题。",
+      "围绕四个主题展开交流。达里娅·茹伊科娃主持提问，嘉宾比较模型研发、平台建设与企业培训中的经验。",
+      "每轮包括具体案例、追问及对应用局限的讨论。银行、工业企业和高校代表可以提出自己的实际情况。",
+      "最后15分钟用于观众提问及潜在联合项目讨论。"
+    ],
+    "aiBricsTitle": "中国 × 俄罗斯：金砖合作背景下的交流",
+    "aiBricsLead": "一个联合项目需要哪些条件？从语言、数据到真实业务任务中的技术验证。",
+    "aiBricsDetails": [
+      "联合评估：中国模型如何处理俄语技术文档、行业术语和企业材料？由谁准备样例、评估结果？",
+      "本地化与经验交流：产品进入另一市场时，需要调整哪些环节——界面、内容、系统集成还是用户培训？",
+      "高校参与项目：围绕企业需求开展应用研究、专家评估、学生团队实践和联合教育项目。",
+      "金砖合作构成科研、技术与教育交流的背景。本次圆桌聚焦中俄企业和高校可以共同推进的具体合作方向。"
+    ],
+    "aiExpand": "展开详情",
+    "aiCollapse": "收起详情",
+    "aiHint": "点击嘉宾、议题或时间段，查看详细内容。"
   }
 };
