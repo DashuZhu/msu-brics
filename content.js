@@ -6,7 +6,7 @@ const CONTENT = {
     "skip": "Перейти к содержанию",
     "navLabel": "Навигация",
     "navAbout": "О бизнес-дне",
-    "navAI": "ИИ и образование",
+    "navAI": "Круглый стол",
     "navProgram": "Программа",
     "navFormat": "Формат",
     "title": "МГУ–ППИ · Китай × Россия · 22 ноября 2026",
@@ -89,36 +89,26 @@ const CONTENT = {
         false
       ]
     ],
-    "aiLabel": "03 / Центральная секция · 14:00–15:30",
-    "aiTitle": "ИИ в работе:\nот модели к новому процессу.",
-    "aiLead": "Как пройти путь от доступа к нейросетям до решения, которым пользуется команда. Соединяем технологию, обучение сотрудников и изменение ежедневной работы.",
+    "aiLabel": "03 / Круглый стол · 14:00–15:30",
+    "aiTitle": "Искусственный интеллект\nи цифровая трансформация",
+    "aiLead": "Бизнес, образование и сотрудничество Китая и России. Диалог о том, как развитие искусственного интеллекта меняет финансовые услуги, промышленность и творческие индустрии — и какие возможности открывает для совместной работы компаний и университетов.",
     "focus": [
       [
-        "Модели и платформы",
-        "Где мы сейчас: международные и российские модели, собственные разработки и платформа доступа. Предлагаемый разбор GPTunneL и заявленных платформой моделей Grom: как выбирать инструменты под задачу, данные и ограничения компании."
+        "Новые возможности для экономики",
+        "Как ИИ меняет конкуренцию, продукты и взаимодействие с клиентами? Какие задачи объединяют банки, промышленные предприятия и технологические компании?"
       ],
       [
-        "Образование через практику",
-        "Как строить обучение вокруг задач сотрудников: документы, поиск знаний, коммуникации, маркетинг. Что делает ИИ, что проверяет человек и как закрепляется новый навык."
+        "Технологии и доверие",
+        "Как выбирать между готовыми платформами и собственными решениями? Что определяет качество, надёжность и допустимые границы применения ИИ в бизнесе?"
       ],
       [
-        "Стартап как команда внедрения",
-        "Разбор стартапа с участием основателя: погружение в бизнес клиента, прототип, интеграция, обучение команды и сопровождение. Почему один инструмент требует разных решений для разных компаний."
+        "Образование и новые профессии",
+        "Как меняются компетенции руководителей, инженеров и специалистов? Как обучение через практику помогает командам осваивать технологии и создавать собственные решения?"
       ],
       [
-        "От пилота к рабочему процессу",
-        "Как назначить владельца процесса, сравнить качество и время до и после, измерить использование решения и принять решение о масштабировании."
+        "Международное сотрудничество",
+        "Где востребованы совместные разработки, локализация и обмен экспертизой? Как университетская среда может поддерживать прикладные исследования и новые инициативы бизнеса?"
       ]
-    ],
-    "manifesto": "Внедрение ИИ — это работа с людьми, процессами и технологиями.",
-    "manifestoBody": "Новая роль — инженер внедрения ИИ: специалист, который работает рядом с бизнесом, понимает его ограничения и доводит решение до ежедневного использования.",
-    "role": "Результат секции: понятная схема пилота — задача, команда, инструмент, правила проверки и метрика эффекта.",
-    "steps": [
-      "Задача",
-      "Прототип",
-      "Обучение",
-      "Новый процесс",
-      "Измерение"
     ],
     "programLabel": "04 / Воскресенье, 22 ноября 2026",
     "programTitle": "Программа\nбизнес-дня.",
@@ -183,14 +173,16 @@ const CONTENT = {
       ],
       [
         "14:00–15:30",
-        "ИИ в работе: от модели к новому процессу",
-        "Гостиничная площадка · Центральная секция",
+        "Круглый стол «Искусственный интеллект и цифровая трансформация»",
+        "Гостиничная площадка · Диалог-интервью",
         [
-          "14:00–14:20 · GPTunneL: карта технологий — модели, платформы и собственные разработки.",
-          "14:20–14:40 · Образовательный проект с ИИ: учимся на рабочих задачах и собираем первый прототип.",
-          "14:40–15:00 · От основателя стартапа к инженеру внедрения: как встроиться в бизнес клиента и изменить процесс вместе с командой.",
-          "15:00–15:20 · Практикум: выбираем один процесс, распределяем роли человека и ИИ, задаём критерии качества и метрику эффекта.",
-          "15:20–15:30 · Вопросы и выводы: что нужно для запуска пилота."
+          "Предлагаемый состав: представитель MiniMax (Китай); Климент Викулов, сооснователь GPTunneL. Ведущая диалога: Дарья Жуйкова, сооснователь WAI.",
+          "14:00–14:10 · Открытие диалога: ИИ в цифровой экономике",
+          "14:10–14:30 · Банки и промышленность: запрос бизнеса к технологиям",
+          "14:30–14:45 · Новые модели — новые продукты и формы творчества",
+          "14:45–15:00 · Образование как часть цифровой трансформации",
+          "15:00–15:15 · Китай × Россия: пространство совместных проектов",
+          "15:15–15:30 · Открытая дискуссия и вопросы участников"
         ],
         true
       ],
@@ -255,15 +247,81 @@ const CONTENT = {
     "footerBrand": "МГУ–ППИ · Китай × Россия · Бизнес-день 2026",
     "footerNote": "Проект программы · Воскресенье, 22 ноября 2026",
     "sourcesLabel": "Контекст и источники",
-    "sourcesNote": "БРИКС — тематический контекст сотрудничества. Информация о моделях Grom приведена по материалам GPTunneL.",
+    "sourcesNote": "БРИКС — тематический контекст сотрудничества. Сведения о технологиях и образовательных форматах приведены по материалам компаний.",
     "sources": [
-      "МГУ: соучредители Университета МГУ–ППИ",
+      "МГУ: учредители Университета МГУ–ППИ",
       "БРИКС: направления сотрудничества",
-      "GPTunneL: платформа и собственные разработки"
+      "GPTunneL: команда и технологии",
+      "WAI: корпоративное обучение ИИ",
+      "MiniMax: мультимодальные технологии"
     ],
     "calendarTitle": "Китай × Россия — бизнес-день МГУ–ППИ",
     "calendarDescription": "22 ноября 2026. Шэньчжэнь. Бизнес-день МГУ–ППИ.",
-    "visualCaption": "Глубина × Динамика"
+    "visualCaption": "Глубина × Динамика",
+    "aiFormatLabel": "Формат",
+    "aiFormat": "Модерируемое интервью с участниками круглого стола: короткие вступительные позиции, тематические раунды, встречные вопросы и открытое обсуждение с залом.",
+    "aiParticipantsLabel": "Предлагаемый состав круглого стола",
+    "aiParticipants": [
+      [
+        "MiniMax · Китай",
+        "Представитель компании",
+        "Развитие моделей ИИ, мультимодальные технологии и их применение в бизнесе, образовании и творческих индустриях."
+      ],
+      [
+        "Климент Викулов",
+        "Сооснователь GPTunneL",
+        "Модели и платформы ИИ: собственные разработки, доступ к технологиям и возможности их применения компаниями."
+      ],
+      [
+        "Дарья Жуйкова",
+        "Сооснователь WAI · Ведущая диалога",
+        "Образовательные проекты с искусственным интеллектом и внедрение ИИ-решений в корпоративные системы. Опыт проектов для Северстали и Nordgold. В центре разговора — развитие компетенций команд и изменение способов работы в крупных компаниях."
+      ]
+    ],
+    "aiQuestionsLabel": "Вопросы для обсуждения",
+    "aiScheduleLabel": "Ход круглого стола",
+    "aiSchedule": [
+      [
+        "14:00–14:10",
+        "Открытие диалога: ИИ в цифровой экономике",
+        "Знакомство с участниками. Каждый обозначает одно значимое изменение в своей отрасли и вопрос, который считает главным для бизнеса."
+      ],
+      [
+        "14:10–14:30",
+        "Банки и промышленность: запрос бизнеса к технологиям",
+        "ИИ в работе со знаниями, документами, клиентами и технической информацией. Где полезны универсальные модели, а где нужны отраслевые решения? Как соотносятся скорость внедрения, качество и доверие?"
+      ],
+      [
+        "14:30–14:45",
+        "Новые модели — новые продукты и формы творчества",
+        "Текст, изображения, видео и звук в едином контексте. Обсуждение возможностей для корпоративных коммуникаций, образовательных материалов, дизайна и выхода на новые рынки."
+      ],
+      [
+        "14:45–15:00",
+        "Образование как часть цифровой трансформации",
+        "Опыт обучения команд на собственных задачах. Как меняются роли разработчика, предметного специалиста и инженера внедрения? Почему создание прототипа должно сопровождаться освоением новых способов работы?"
+      ],
+      [
+        "15:00–15:15",
+        "Китай × Россия: пространство совместных проектов",
+        "Технологические партнёрства, обмен разработками и образовательные инициативы. Роль университетов в экспертной оценке, подготовке кадров и сопровождении прикладных исследований."
+      ],
+      [
+        "15:15–15:30",
+        "Открытая дискуссия и вопросы участников",
+        "Вопросы представителей банков, промышленности, образования и творческих индустрий. Обсуждение задач из зала и направлений для дальнейшего профессионального взаимодействия."
+      ]
+    ],
+    "manifesto": "Внедрение ИИ — это работа с людьми, процессами и технологиями.",
+    "manifestoBody": "Новая роль — инженер внедрения ИИ: специалист, который работает рядом с бизнесом, понимает его ограничения и доводит решение до ежедневного использования.",
+    "role": "Результат секции: понятная схема пилота — задача, команда, инструмент, правила проверки и метрика эффекта.",
+    "steps": [
+      "Задача",
+      "Прототип",
+      "Обучение",
+      "Новый процесс",
+      "Измерение"
+    ]
   },
   "en": {
     "brand": "MSU–BIT",
@@ -271,7 +329,7 @@ const CONTENT = {
     "skip": "Skip to content",
     "navLabel": "Navigation",
     "navAbout": "About",
-    "navAI": "AI & education",
+    "navAI": "Roundtable",
     "navProgram": "Programme",
     "navFormat": "Format",
     "title": "MSU–BIT · China × Russia · 22 November 2026",
@@ -354,36 +412,26 @@ const CONTENT = {
         false
       ]
     ],
-    "aiLabel": "03 / Featured session · 14:00–15:30",
-    "aiTitle": "AI at work:\nfrom model to workflow.",
-    "aiLead": "How to move from access to AI models to a solution a team actually uses. Connecting technology, employee learning and changes in everyday work.",
+    "aiLabel": "03 / Roundtable · 14:00–15:30",
+    "aiTitle": "Artificial intelligence\nand digital transformation",
+    "aiLead": "Business, education and cooperation between China and Russia. A dialogue on how AI is changing financial services, industry and the creative sector — and opening opportunities for companies and universities to work together.",
     "focus": [
       [
-        "Models and platforms",
-        "Where we are today: international and Russian models, proprietary developments and access platforms. A proposed case covering GPTunneL and its stated Grom models: choosing tools for the task, data and company constraints."
+        "New opportunities for the economy",
+        "How is AI changing competition, products and customer relationships? Which needs do banks, industrial businesses and technology companies share?"
       ],
       [
-        "Learning through practice",
-        "Building learning around employees’ tasks: documents, knowledge retrieval, communications and marketing. What AI does, what people check and how a new skill becomes a habit."
+        "Technology and trust",
+        "How should companies choose between existing platforms and their own solutions? What determines quality, reliability and appropriate boundaries for AI use in business?"
       ],
       [
-        "The startup as an implementation team",
-        "A founder-led startup case: understanding a client’s business, prototyping, integration, team training and ongoing support. Why the same tool needs different implementations in different companies."
+        "Education and emerging roles",
+        "How are the skills of executives, engineers and specialists changing? How can practical learning help teams adopt technology and build their own solutions?"
       ],
       [
-        "From pilot to daily workflow",
-        "Assigning a process owner, comparing time and quality before and after, measuring actual use and deciding whether to scale."
+        "International cooperation",
+        "Where is there demand for joint development, localisation and exchange of expertise? How can universities support applied research and new business initiatives?"
       ]
-    ],
-    "manifesto": "AI adoption brings people, processes and technology together.",
-    "manifestoBody": "An emerging role: the AI deployment engineer. A specialist who works alongside the business, understands its constraints and carries a solution through to everyday use.",
-    "role": "Session outcome: a clear pilot outline — task, team, tool, review rules and an impact metric.",
-    "steps": [
-      "Task",
-      "Prototype",
-      "Learning",
-      "Workflow",
-      "Measurement"
     ],
     "programLabel": "04 / Sunday, 22 November 2026",
     "programTitle": "Business Day\nprogramme.",
@@ -448,14 +496,16 @@ const CONTENT = {
       ],
       [
         "14:00–15:30",
-        "AI at work: from model to workflow",
-        "Hotel venue · Featured session",
+        "Roundtable: Artificial intelligence and digital transformation",
+        "Hotel venue · Interview and dialogue",
         [
-          "14:00–14:20 · GPTunneL: the technology landscape — models, platforms and proprietary developments.",
-          "14:20–14:40 · An AI learning project: using workplace tasks to learn and build a first prototype.",
-          "14:40–15:00 · From startup founder to deployment engineer: working inside a client’s business and changing a process with its team.",
-          "15:00–15:20 · Workshop: choose a process, assign human and AI roles, define quality criteria and an impact metric.",
-          "15:20–15:30 · Questions and takeaways: what it takes to launch a pilot."
+          "Proposed participants: a MiniMax representative (China); Kliment Vikulov, co-founder of GPTunneL. Discussion host: Darya Zhuykova, co-founder of WAI.",
+          "14:00–14:10 · Opening dialogue: AI in the digital economy",
+          "14:10–14:30 · Banking and industry: what business needs from technology",
+          "14:30–14:45 · New models, new products and creative possibilities",
+          "14:45–15:00 · Education as part of digital transformation",
+          "15:00–15:15 · China × Russia: opportunities for joint projects",
+          "15:15–15:30 · Open discussion and audience questions"
         ],
         true
       ],
@@ -520,15 +570,81 @@ const CONTENT = {
     "footerBrand": "MSU–BIT · China × Russia · Business Day 2026",
     "footerNote": "Proposed programme · Sunday, 22 November 2026",
     "sourcesLabel": "Context and sources",
-    "sourcesNote": "BRICS provides the thematic context for cooperation. Information about Grom models is based on GPTunneL materials.",
+    "sourcesNote": "BRICS provides the thematic context for cooperation. Technology and educational-format information is based on company materials.",
     "sources": [
-      "MSU: co-founders of Shenzhen MSU–BIT University",
+      "MSU: founders of Shenzhen MSU–BIT University",
       "BRICS: areas of cooperation",
-      "GPTunneL: platform and proprietary developments"
+      "GPTunneL: team and technology",
+      "WAI: corporate AI education",
+      "MiniMax: multimodal technologies"
     ],
     "calendarTitle": "China × Russia — MSU–BIT Business Day",
     "calendarDescription": "22 November 2026. Shenzhen. MSU–BIT Business Day.",
-    "visualCaption": "Depth × Momentum"
+    "visualCaption": "Depth × Momentum",
+    "aiFormatLabel": "Format",
+    "aiFormat": "A moderated interview with roundtable participants: brief opening perspectives, thematic rounds, questions between speakers and an open discussion with the audience.",
+    "aiParticipantsLabel": "Proposed roundtable participants",
+    "aiParticipants": [
+      [
+        "MiniMax · China",
+        "Company representative",
+        "AI model development, multimodal technologies and applications in business, education and the creative industries."
+      ],
+      [
+        "Kliment Vikulov",
+        "Co-founder, GPTunneL",
+        "AI models and platforms: in-house development, access to technology and opportunities for business applications."
+      ],
+      [
+        "Darya Zhuykova",
+        "Co-founder, WAI · Discussion host",
+        "AI education projects and implementation of AI solutions in corporate systems, including project experience with Severstal and Nordgold. Her focus is on developing team capabilities and changing how large companies work."
+      ]
+    ],
+    "aiQuestionsLabel": "Questions for discussion",
+    "aiScheduleLabel": "Roundtable programme",
+    "aiSchedule": [
+      [
+        "14:00–14:10",
+        "Opening dialogue: AI in the digital economy",
+        "Meet the participants. Each identifies one significant change in their sector and a question they consider essential for business."
+      ],
+      [
+        "14:10–14:30",
+        "Banking and industry: what business needs from technology",
+        "AI for knowledge, documents, customer interaction and technical information. Where are general-purpose models useful, and where are industry-specific solutions needed? How do adoption speed, quality and trust fit together?"
+      ],
+      [
+        "14:30–14:45",
+        "New models, new products and creative possibilities",
+        "Text, images, video and audio in a shared context. Opportunities for corporate communications, educational materials, design and reaching new markets."
+      ],
+      [
+        "14:45–15:00",
+        "Education as part of digital transformation",
+        "Learning through a team’s own tasks. How are the roles of developer, domain specialist and AI implementation engineer changing? Why must building a prototype go hand in hand with learning new ways of working?"
+      ],
+      [
+        "15:00–15:15",
+        "China × Russia: opportunities for joint projects",
+        "Technology partnerships, exchange of developments and educational initiatives. The role of universities in expert evaluation, talent development and applied research."
+      ],
+      [
+        "15:15–15:30",
+        "Open discussion and audience questions",
+        "Questions from banking, industry, education and the creative sector. Discussion of audience business challenges and opportunities for further professional cooperation."
+      ]
+    ],
+    "manifesto": "AI adoption brings people, processes and technology together.",
+    "manifestoBody": "An emerging role: the AI deployment engineer. A specialist who works alongside the business, understands its constraints and carries a solution through to everyday use.",
+    "role": "Session outcome: a clear pilot outline — task, team, tool, review rules and an impact metric.",
+    "steps": [
+      "Task",
+      "Prototype",
+      "Learning",
+      "Workflow",
+      "Measurement"
+    ]
   },
   "zh": {
     "brand": "深圳北理莫斯科大学",
@@ -536,7 +652,7 @@ const CONTENT = {
     "skip": "跳转到正文",
     "navLabel": "导航",
     "navAbout": "关于商务日",
-    "navAI": "人工智能与教育",
+    "navAI": "圆桌对话",
     "navProgram": "日程",
     "navFormat": "活动形式",
     "title": "深圳北理莫斯科大学 · 中俄商务日 · 2026年11月22日",
@@ -619,36 +735,26 @@ const CONTENT = {
         false
       ]
     ],
-    "aiLabel": "03 / 核心专题 · 14:00–15:30",
-    "aiTitle": "人工智能落地：\n从模型到工作流程。",
-    "aiLead": "如何从接入人工智能模型，走向团队日常使用的解决方案。将技术、员工学习与工作方式的改变结合起来。",
+    "aiLabel": "03 / 圆桌对话 · 14:00–15:30",
+    "aiTitle": "人工智能\n与数字化转型",
+    "aiLead": "中俄商业、教育与合作。探讨人工智能如何改变金融服务、工业和文化创意产业，以及企业与高校如何共同把握新的合作机遇。",
     "focus": [
       [
-        "模型与平台",
-        "梳理当前技术：国际与俄罗斯模型、自主研发成果及模型接入平台。拟以GPTunneL及其所介绍的Grom模型为案例，讨论如何根据任务、数据和企业限制选择工具。"
+        "数字经济的新机遇",
+        "人工智能如何改变竞争、产品和客户关系？银行、工业企业与科技公司有哪些共同需求？"
       ],
       [
-        "在实践中学习",
-        "围绕员工的真实任务开展培训：文档处理、知识检索、沟通和营销。明确人工智能承担什么、人需要检查什么，以及如何形成稳定的工作习惯。"
+        "技术与信任",
+        "企业如何在现有平台与自主开发之间作出选择？如何把握人工智能应用的质量、可靠性与适用边界？"
       ],
       [
-        "初创团队的实施角色",
-        "拟由创始人分享初创项目：理解客户业务、制作原型、系统集成、团队培训与持续支持。同一工具如何适应不同企业的需求。"
+        "教育与新职业角色",
+        "管理者、工程师与专业人员的能力要求正在发生怎样的变化？实践学习如何帮助团队掌握技术并开发自己的解决方案？"
       ],
       [
-        "从试点到日常使用",
-        "明确流程负责人，对比实施前后的时间与质量，衡量实际使用情况，并决定是否扩大应用。"
+        "国际合作",
+        "哪些领域需要联合研发、本地化和专业知识交流？高校如何支持应用研究与新的商业合作项目？"
       ]
-    ],
-    "manifesto": "人工智能落地，需要人才、流程与技术共同推进。",
-    "manifestoBody": "正在形成的新角色：人工智能实施工程师。深入业务现场，理解企业限制，并推动解决方案进入团队的日常工作。",
-    "role": "专题成果：一份清晰的试点框架——任务、团队、工具、审核规则与效果指标。",
-    "steps": [
-      "业务任务",
-      "原型",
-      "培训",
-      "工作流程",
-      "效果评估"
     ],
     "programLabel": "04 / 2026年11月22日，星期日",
     "programTitle": "商务日\n活动日程。",
@@ -713,14 +819,16 @@ const CONTENT = {
       ],
       [
         "14:00–15:30",
-        "人工智能落地：从模型到工作流程",
-        "酒店会场 · 核心专题",
+        "圆桌对话：人工智能与数字化转型",
+        "酒店会场 · 访谈与对话",
         [
-          "14:00–14:20 · GPTunneL：技术概览——模型、平台与自主研发。",
-          "14:20–14:40 · 人工智能教育项目：通过真实工作任务开展学习并搭建首个原型。",
-          "14:40–15:00 · 从初创企业创始人到实施工程师：深入客户业务，与团队共同改变工作流程。",
-          "15:00–15:20 · 实践讨论：选择一个流程，划分人与人工智能的职责，确定质量标准与效果指标。",
-          "15:20–15:30 · 提问与总结：启动试点需要哪些条件。"
+          "拟邀嘉宾：MiniMax公司代表（中国）；GPTunneL联合创始人克利缅特·维库洛夫。对话主持人：WAI联合创始人达里娅·茹伊科娃。",
+          "14:00–14:10 · 开场对话：数字经济中的人工智能",
+          "14:10–14:30 · 银行与工业：企业需要什么样的技术",
+          "14:30–14:45 · 新模型、新产品与创意表达",
+          "14:45–15:00 · 教育作为数字化转型的一部分",
+          "15:00–15:15 · 中国 × 俄罗斯：联合项目的合作空间",
+          "15:15–15:30 · 开放讨论与观众提问"
         ],
         true
       ],
@@ -785,14 +893,80 @@ const CONTENT = {
     "footerBrand": "深圳北理莫斯科大学 · 中俄商务日2026",
     "footerNote": "拟议日程 · 2026年11月22日，星期日",
     "sourcesLabel": "背景与资料来源",
-    "sourcesNote": "金砖合作是本次交流的主题背景。Grom模型相关信息引自GPTunneL资料。",
+    "sourcesNote": "金砖合作是本次交流的主题背景。技术与教育形式相关信息引自各公司公开资料。",
     "sources": [
       "莫斯科大学：深圳北理莫斯科大学的创办方",
       "金砖合作：合作领域",
-      "GPTunneL：平台与自主研发"
+      "GPTunneL：团队与技术",
+      "WAI：企业人工智能教育",
+      "MiniMax：多模态技术"
     ],
     "calendarTitle": "中俄商务日 — 深圳北理莫斯科大学",
     "calendarDescription": "2026年11月22日，深圳。深圳北理莫斯科大学商务日。",
-    "visualCaption": "学术深度 × 创新动力"
+    "visualCaption": "学术深度 × 创新动力",
+    "aiFormatLabel": "交流形式",
+    "aiFormat": "主持访谈式圆桌：嘉宾简短开场、分主题交流、嘉宾相互提问，并与现场观众展开开放讨论。",
+    "aiParticipantsLabel": "拟邀圆桌嘉宾",
+    "aiParticipants": [
+      [
+        "MiniMax · 中国",
+        "公司代表",
+        "人工智能模型研发、多模态技术及其在商业、教育和文化创意产业中的应用。"
+      ],
+      [
+        "克利缅特·维库洛夫（Kliment Vikulov）",
+        "GPTunneL 联合创始人",
+        "人工智能模型与平台：自主研发、技术接入及企业应用机遇。"
+      ],
+      [
+        "达里娅·茹伊科娃（Darya Zhuykova）",
+        "WAI 联合创始人 · 对话主持人",
+        "人工智能教育项目及企业系统中的人工智能应用，拥有为Severstal和Nordgold开展项目的经验。重点关注团队能力建设与大型企业工作方式的变革。"
+      ]
+    ],
+    "aiQuestionsLabel": "讨论议题",
+    "aiScheduleLabel": "圆桌议程",
+    "aiSchedule": [
+      [
+        "14:00–14:10",
+        "开场对话：数字经济中的人工智能",
+        "介绍嘉宾。每位嘉宾分享本行业的一项重要变化，并提出一个企业面临的关键问题。"
+      ],
+      [
+        "14:10–14:30",
+        "银行与工业：企业需要什么样的技术",
+        "人工智能在知识、文档、客户沟通和技术信息中的应用。通用模型与行业解决方案各适用于哪些场景？如何兼顾落地速度、质量与信任？"
+      ],
+      [
+        "14:30–14:45",
+        "新模型、新产品与创意表达",
+        "在统一语境中处理文本、图像、视频与音频。讨论企业传播、教育内容、设计及开拓新市场的应用机会。"
+      ],
+      [
+        "14:45–15:00",
+        "教育作为数字化转型的一部分",
+        "围绕团队自身任务开展学习。开发者、领域专家与人工智能实施工程师的角色如何变化？为什么构建原型需要与学习新的工作方式同步推进？"
+      ],
+      [
+        "15:00–15:15",
+        "中国 × 俄罗斯：联合项目的合作空间",
+        "技术伙伴关系、研发成果交流与教育合作。高校在专业评估、人才培养和应用研究中的作用。"
+      ],
+      [
+        "15:15–15:30",
+        "开放讨论与观众提问",
+        "来自银行、工业、教育和文化创意产业的观众提问。交流现场提出的业务需求，探讨后续专业合作方向。"
+      ]
+    ],
+    "manifesto": "人工智能落地，需要人才、流程与技术共同推进。",
+    "manifestoBody": "正在形成的新角色：人工智能实施工程师。深入业务现场，理解企业限制，并推动解决方案进入团队的日常工作。",
+    "role": "专题成果：一份清晰的试点框架——任务、团队、工具、审核规则与效果指标。",
+    "steps": [
+      "业务任务",
+      "原型",
+      "培训",
+      "工作流程",
+      "效果评估"
+    ]
   }
 };
