@@ -6,6 +6,7 @@ function el(tag, text, className) { const n = document.createElement(tag); if(te
 function render(lang) {
   if (!CONTENT[lang]) lang = 'ru';
   const openSlots = new Set([...document.querySelectorAll('.slot[open]')].map(n => n.dataset.index));
+  const openRoundtable = new Set([...document.querySelectorAll('.rt-detail[open]')].map(n=>n.dataset.rtKey));
   language = lang; const t = CONTENT[lang];
   document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
   document.title = t.title;
@@ -18,9 +19,20 @@ function render(lang) {
   $('#bridge').replaceChildren(...t.bridge.map(([a,b]) => {const n=el('div');n.append(el('b',a),el('span',b));return n;}));
   $('#topics').replaceChildren(...t.topics.map(([a,b],i) => {const n=el('article',undefined,'topic');n.append(el('span',`0${i+1}`, 'num'),el('h3',a),el('p',b));return n;}));
   $('#companyList').replaceChildren(...t.companies.map(([a,b,c,d])=>{const n=el('article',undefined,'company');n.append(el('h3',a),el('p',b),el('div',c,'status'+(d?' interest':'')));return n;}));
-  $('#focusList').replaceChildren(...t.focus.map(([a,b],i)=>{const n=el('article',undefined,'focusrow'),body=el('div');body.append(el('h3',a),el('p',b));n.append(el('span',`0${i+1}`),body);return n;}));
-  if ($('#aiParticipants')) $('#aiParticipants').replaceChildren(...t.aiParticipants.map(([name,role,description])=>{const n=el('article',undefined,'roundtable-person');n.append(el('h4',name),el('p',role,'person-role'),el('p',description));return n;}));
-  if ($('#aiSchedule')) $('#aiSchedule').replaceChildren(...t.aiSchedule.map(([time,title,description])=>{const n=el('article',undefined,'roundtable-block'),body=el('div');body.append(el('h4',title),el('p',description));n.append(el('time',time),body);return n;}));
+  function rtDetail(key, className, heading, intro, paragraphs, prefix) {
+    const n=el('details',undefined,'rt-detail '+className);n.dataset.rtKey=key;n.open=openRoundtable.has(key);
+    const summary=el('summary'),head=el('span',undefined,'rt-head');head.append(el('h4',heading));if(intro)head.append(el('small',intro));
+    if(prefix)summary.append(prefix);summary.append(head);
+    const body=el('div',undefined,'rt-body');
+    if(Array.isArray(paragraphs)){const list=el('ul');list.append(...paragraphs.map(x=>el('li',x)));body.append(list);}else body.append(el('p',paragraphs));
+    n.append(summary,body);n.addEventListener('toggle',syncRoundtable);return n;
+  }
+  if($('#aiPanels')) $('#aiPanels').replaceChildren(
+    rtDetail('format','',t.aiFormatLabel,t.aiFormat,t.aiFormatDetails),
+    rtDetail('brics','',t.aiBricsTitle,t.aiBricsLead,t.aiBricsDetails));
+  $('#focusList').replaceChildren(...t.focus.map(([title,intro,items],i)=>rtDetail('topic-'+i,'focusrow',title,intro,items||intro,el('span',`0${i+1}`,'rt-number'))));
+  if($('#aiParticipants')) $('#aiParticipants').replaceChildren(...t.aiParticipants.map(([name,role,description],i)=>rtDetail('person-'+i,'roundtable-person',name,role,description)));
+  if($('#aiSchedule')) $('#aiSchedule').replaceChildren(...t.aiSchedule.map(([time,title,description],i)=>rtDetail('time-'+i,'roundtable-block',title,'',description,el('time',time))));
   if ($('#steps')) $('#steps').replaceChildren(...t.steps.map(s=>el('span',s)));
   $('#agenda').replaceChildren(...t.agenda.map(([time,title,place,items,featured],i)=>{
     const n=el('details',undefined,'slot'+(featured?' feature':''));n.dataset.index=String(i);n.open=openSlots.has(String(i));
@@ -30,9 +42,12 @@ function render(lang) {
   $('#formatBlocks').replaceChildren(...t.formatBlocks.map(([a,b])=>{const n=el('div');n.append(el('h3',a),el('p',b,'muted'));return n;}));
   $('#sources').replaceChildren(...t.sources.map((s,i)=>{const li=el('li'),a=el('a',s);a.href=sourceUrls[i];a.target='_blank';a.rel='noopener noreferrer';li.append(a);return li;}));
   syncExpand();
+  syncRoundtable();
   try{localStorage.setItem('msu-brics-language',lang);}catch{}
 }
 function syncExpand(){const all=[...document.querySelectorAll('.slot')];const expanded=all.length>0&&all.every(n=>n.open);$('#expand').textContent=CONTENT[language][expanded?'collapse':'expand'];$('#expand').setAttribute('aria-expanded',String(expanded));}
+function syncRoundtable(){const button=$('#aiExpand');if(!button)return;const all=[...document.querySelectorAll('#ai .rt-detail')];const expanded=all.length>0&&all.every(n=>n.open);button.textContent=CONTENT[language][expanded?'aiCollapse':'aiExpand'];button.setAttribute('aria-expanded',String(expanded));}
+if($('#aiExpand')) $('#aiExpand').addEventListener('click',()=>{const target=$('#aiExpand').getAttribute('aria-expanded')!=='true';document.querySelectorAll('#ai .rt-detail').forEach(n=>n.open=target);syncRoundtable();});
 document.querySelectorAll('[data-lang]').forEach(n=>n.addEventListener('click',()=>{render(n.dataset.lang);const u=new URL(location.href);u.searchParams.set('lang',n.dataset.lang);history.replaceState(null,'',u);}));
 $('#expand').addEventListener('click',()=>{const target=$('#expand').getAttribute('aria-expanded')!=='true';document.querySelectorAll('.slot').forEach(n=>n.open=target);syncExpand();});
 function icsEscape(s){return s.replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');}
