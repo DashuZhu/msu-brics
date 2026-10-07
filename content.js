@@ -5,10 +5,10 @@ const CONTENT = {
     "brandSub": "BUSINESS DAY · BRICS",
     "skip": "Перейти к содержанию",
     "navLabel": "Навигация",
-    "navAbout": "О бизнес-дне",
+    "navAbout": "О встрече",
     "navAI": "Диалог об ИИ",
-    "navProgram": "Программа",
-    "navFormat": "Формат",
+    "navProgram": "Программа дня",
+    "navFormat": "Участие и место",
     "title": "МГУ–ППИ · Китай × Россия · 22 ноября 2026",
     "description": "Китай. Россия. Технологии будущей интеграции. Развитие науки и бизнеса внутри БРИКС. Встреча компаний, исследователей и университетских команд Китая и России в Шэньчжэне.",
     "eyebrow": "Шэньчжэнь · Воскресенье, 22 ноября 2026",
@@ -17,7 +17,7 @@ const CONTENT = {
       "Россия."
     ],
     "heroSub": "Технологии будущей интеграции",
-    "intro": "Развитие науки и бизнеса внутри БРИКС. Встреча компаний, исследователей и университетских команд Китая и России в Шэньчжэне.",
+    "intro": "Развитие науки и бизнеса внутри БРИКС. Встреча компаний, исследователей и университетских команд Китая и России.",
     "viewProgram": "Смотреть программу",
     "saveDate": "Сохранить дату",
     "month": "ноября 2026",
@@ -28,7 +28,7 @@ const CONTENT = {
     "ticker1": "БИЗНЕС И ДОВЕРИЕ",
     "ticker2": "ОБРАЗОВАНИЕ И ТЕХНОЛОГИИ",
     "ticker3": "КИТАЙ × РОССИЯ × БРИКС",
-    "aboutLabel": "01 / Общая тема",
+    "aboutLabel": "О встрече",
     "aboutTitle": "Развитие науки и бизнеса\nвнутри БРИКС",
     "aboutLead": "Китай. Россия. Технологии будущей интеграции.",
     "aboutBody": "На площадке МГУ–ППИ встречаются фундаментальная наука, инженерная практика и предпринимательство. Университет основан МГУ имени М. В. Ломоносова, Пекинским политехническим институтом и правительством Шэньчжэня.",
@@ -61,7 +61,7 @@ const CONTENT = {
         "Нетворкинг, встречи компаний и университетов, обсуждение взаимных интересов. Экспертная поддержка и модерация как основа долгосрочного сотрудничества."
       ]
     ],
-    "companiesLabel": "03 / Компании",
+    "companiesLabel": "Деловой круг",
     "companiesTitle": "Кого приглашаем к разговору",
     "companies": [
       [
@@ -110,9 +110,9 @@ const CONTENT = {
         "Обучение на задачах компании, новые роли в командах и участие университетов. Возможные форматы сотрудничества: совместные испытания моделей, отраслевые пилоты и подготовка специалистов."
       ]
     ],
-    "programLabel": "02 / 22 ноября 2026 · Воскресенье",
+    "programLabel": "22 ноября 2026 · Воскресенье",
     "programTitle": "Расписание дня",
-    "programLead": "Время Шэньчжэня (UTC+8). Нажмите на сессию, чтобы прочитать подробности.",
+    "programLead": "Весь день на одной странице. Выберите интересующую сессию и раскройте её программу. Время местное, Шэньчжэнь (UTC+8).",
     "expand": "Развернуть всю программу",
     "collapse": "Свернуть программу",
     "agenda": [
@@ -215,9 +215,9 @@ const CONTENT = {
       ]
     ],
     "programNote": "Программа бизнес-дня · 22 ноября 2026 года.",
-    "formatLabel": "04 / Участие",
-    "formatTitle": "Участники и\nорганизация встречи.",
-    "formatLead": "Воскресенье, 22 ноября 2026 года. Пленарная дискуссия, тематические сессии и вечернее общение.",
+    "formatLabel": "Участие",
+    "formatTitle": "Будем рады знакомству",
+    "formatLead": "Приезжайте с задачей, идеей или интересом к сотрудничеству. В программе есть время для разговора с участниками и знакомства с университетом.",
     "formatBlocks": [
       [
         "Участники",
@@ -245,7 +245,8 @@ const CONTENT = {
       "БРИКС: направления сотрудничества",
       "GPTunneL: команда и технологии",
       "WAI: корпоративное обучение ИИ",
-      "Z.ai: модели GLM и инструменты разработчика"
+      "Z.ai: модели GLM и инструменты разработчика",
+      "Фотография: Университет МГУ–ППИ"
     ],
     "calendarTitle": "Китай × Россия — бизнес-день МГУ–ППИ",
     "calendarDescription": "22 ноября 2026. Шэньчжэнь. Бизнес-день МГУ–ППИ.",
@@ -270,7 +271,29 @@ const CONTENT = {
         "Сооснователь WAI. Занимается обучением команд работе с ИИ и внедрением решений в корпоративные системы. В опыте проектов — Северсталь и Nordgold. Ведёт разговор о том, как меняются навыки, роли и повседневная работа в компаниях."
       ]
     ],
-    "aiQuestionsLabel": "В центре разговора"
+    "aiQuestionsLabel": "В центре разговора",
+    "menu": "Меню",
+    "join": "Об участии",
+    "heroKicker": "Бизнес-день · МГУ–ППИ · БРИКС",
+    "welcome": "Приглашаем к разговору",
+    "welcomeBody": "Если вы развиваете бизнес, создаёте технологии или занимаетесь исследованиями, здесь можно встретить людей с близкими задачами. Познакомиться, сравнить опыт и обсудить, что получится сделать вместе.",
+    "campusCaption": "Кампус Университета МГУ–ППИ · Шэньчжэнь",
+    "photoCredit": "Фотография: Университет МГУ–ППИ",
+    "dayParts": [
+      "Утро · Знакомство и общая повестка",
+      "День · Технологии и партнёрства",
+      "Вечер · Продолжение разговора"
+    ],
+    "dayNav": [
+      "Утро",
+      "Дневные сессии",
+      "Вечер"
+    ],
+    "detailLabel": "Подробнее",
+    "closeLabel": "Свернуть",
+    "venueTitle": "Встречаемся\nв Шэньчжэне",
+    "venueBody": "Университет МГУ–ППИ, район Лунган, International University Park Road, 1.",
+    "venueLink": "Познакомиться с кампусом ↗"
   },
   "en": {
     "brand": "MSU–BIT",
@@ -280,7 +303,7 @@ const CONTENT = {
     "navAbout": "About",
     "navAI": "AI conversation",
     "navProgram": "Programme",
-    "navFormat": "Format",
+    "navFormat": "Visit & take part",
     "title": "MSU–BIT · China × Russia · 22 November 2026",
     "description": "China. Russia. Technologies for future integration. Science and business development within BRICS. Companies, researchers and university teams from China and Russia meet in Shenzhen.",
     "eyebrow": "Shenzhen · Sunday, 22 November 2026",
@@ -289,7 +312,7 @@ const CONTENT = {
       "Russia."
     ],
     "heroSub": "Technologies for future integration",
-    "intro": "Science and business development within BRICS. Companies, researchers and university teams from China and Russia meet in Shenzhen.",
+    "intro": "Science and business development within BRICS. A meeting of companies, researchers and university teams from China and Russia.",
     "viewProgram": "Explore the programme",
     "saveDate": "Save the date",
     "month": "November 2026",
@@ -300,7 +323,7 @@ const CONTENT = {
     "ticker1": "BUSINESS & TRUST",
     "ticker2": "EDUCATION & TECHNOLOGY",
     "ticker3": "CHINA × RUSSIA × BRICS",
-    "aboutLabel": "01 / Main theme",
+    "aboutLabel": "About the meeting",
     "aboutTitle": "Science and business\nwithin BRICS",
     "aboutLead": "China. Russia. Technologies for future integration.",
     "aboutBody": "Shenzhen MSU–BIT University brings fundamental research, engineering and entrepreneurship together. It was founded by Lomonosov Moscow State University, Beijing Institute of Technology and the Shenzhen Municipal Government.",
@@ -333,7 +356,7 @@ const CONTENT = {
         "Networking, company–university meetings and discussions of shared interests. Expert support and facilitation as a basis for long-term cooperation."
       ]
     ],
-    "companiesLabel": "03 / Companies",
+    "companiesLabel": "Business community",
     "companiesTitle": "Companies we propose to invite",
     "companies": [
       [
@@ -382,9 +405,9 @@ const CONTENT = {
         "Learning on company tasks, new roles in teams and university involvement. Possible collaborations include joint model evaluations, industry pilots and specialist training."
       ]
     ],
-    "programLabel": "02 / Sunday, 22 November 2026",
+    "programLabel": "Sunday, 22 November 2026",
     "programTitle": "The day’s programme",
-    "programLead": "Shenzhen time (UTC+8). Select a session to read more.",
+    "programLead": "The whole day at a glance. Select a session to read its programme. All times are local to Shenzhen (UTC+8).",
     "expand": "Expand all sessions",
     "collapse": "Collapse all sessions",
     "agenda": [
@@ -487,9 +510,9 @@ const CONTENT = {
       ]
     ],
     "programNote": "Business Day programme · 22 November 2026.",
-    "formatLabel": "04 / Taking part",
-    "formatTitle": "Participants and\nevent arrangements.",
-    "formatLead": "Sunday, 22 November 2026. Plenary discussion, thematic sessions and evening networking.",
+    "formatLabel": "Taking part",
+    "formatTitle": "We look forward to meeting you",
+    "formatLead": "Bring a question, an idea or an interest in working together. There is time to meet other participants and get to know the university.",
     "formatBlocks": [
       [
         "Participants",
@@ -517,7 +540,8 @@ const CONTENT = {
       "BRICS: areas of cooperation",
       "GPTunneL: team and technology",
       "WAI: corporate AI education",
-      "Z.ai: GLM models and developer tools"
+      "Z.ai: GLM models and developer tools",
+      "Photography: Shenzhen MSU–BIT University"
     ],
     "calendarTitle": "China × Russia — MSU–BIT Business Day",
     "calendarDescription": "22 November 2026. Shenzhen. MSU–BIT Business Day.",
@@ -542,17 +566,39 @@ const CONTENT = {
         "Co-founder of WAI. Works on team training in AI and implementation in corporate systems, with project experience for Severstal and Nordgold. Hosts the conversation about changing skills, roles and everyday work."
       ]
     ],
-    "aiQuestionsLabel": "Discussion themes"
+    "aiQuestionsLabel": "Discussion themes",
+    "menu": "Menu",
+    "join": "Taking part",
+    "heroKicker": "Business Day · MSU–BIT · BRICS",
+    "welcome": "Join the conversation",
+    "welcomeBody": "If you run a business, develop technology or work in research, come and meet people facing similar questions. Compare experiences, make connections and explore what you could build together.",
+    "campusCaption": "Shenzhen MSU–BIT University campus",
+    "photoCredit": "Photography: Shenzhen MSU–BIT University",
+    "dayParts": [
+      "Morning · Meeting and shared priorities",
+      "Afternoon · Technology and partnerships",
+      "Evening · Continuing the conversation"
+    ],
+    "dayNav": [
+      "Morning",
+      "Afternoon",
+      "Evening"
+    ],
+    "detailLabel": "Details",
+    "closeLabel": "Close",
+    "venueTitle": "Meet us\nin Shenzhen",
+    "venueBody": "Shenzhen MSU–BIT University, 1 International University Park Road, Longgang District.",
+    "venueLink": "Explore the campus ↗"
   },
   "zh": {
     "brand": "深圳北理莫斯科大学",
     "brandSub": "BUSINESS DAY · BRICS",
     "skip": "跳转到正文",
     "navLabel": "导航",
-    "navAbout": "关于商务日",
+    "navAbout": "关于活动",
     "navAI": "人工智能对话",
-    "navProgram": "日程",
-    "navFormat": "活动形式",
+    "navProgram": "全天日程",
+    "navFormat": "地点与参与",
     "title": "深圳北理莫斯科大学 · 中俄商务日 · 2026年11月22日",
     "description": "中国。俄罗斯。面向未来融合的技术。 金砖国家框架内的科学与商业发展。来自中俄两国的企业、科研人员和高校团队相聚深圳。",
     "eyebrow": "深圳 · 2026年11月22日，星期日",
@@ -561,7 +607,7 @@ const CONTENT = {
       "俄罗斯。"
     ],
     "heroSub": "面向未来融合的技术",
-    "intro": "金砖国家框架内的科学与商业发展。来自中俄两国的企业、科研人员和高校团队相聚深圳。",
+    "intro": "金砖国家框架内的科学与商业发展。来自中俄两国的企业、科研人员与高校团队相聚交流。",
     "viewProgram": "查看日程",
     "saveDate": "保存日期",
     "month": "2026年11月",
@@ -572,7 +618,7 @@ const CONTENT = {
     "ticker1": "商业与信任",
     "ticker2": "教育与技术",
     "ticker3": "中国 × 俄罗斯 × 金砖合作",
-    "aboutLabel": "01 / 总体主题",
+    "aboutLabel": "关于活动",
     "aboutTitle": "金砖国家框架内的\n科学与商业发展",
     "aboutLead": "中国。俄罗斯。面向未来融合的技术。",
     "aboutBody": "深圳北理莫斯科大学汇聚基础研究、工程实践与创业力量。大学由莫斯科国立罗蒙诺索夫大学、北京理工大学和深圳市人民政府共同创办。",
@@ -605,7 +651,7 @@ const CONTENT = {
         "开展商务社交、校企对接与共同兴趣讨论，以专业支持和对话协调促进长期合作。"
       ]
     ],
-    "companiesLabel": "03 / 企业",
+    "companiesLabel": "企业交流",
     "companiesTitle": "拟邀请交流的企业",
     "companies": [
       [
@@ -654,9 +700,9 @@ const CONTENT = {
         "围绕企业任务开展培训，讨论团队中的新角色及高校参与。合作形式包括联合模型评估、行业试点和专业人才培养。"
       ]
     ],
-    "programLabel": "02 / 2026年11月22日 · 星期日",
+    "programLabel": "2026年11月22日 · 星期日",
     "programTitle": "全天日程",
-    "programLead": "深圳当地时间（UTC+8）。点击各场次查看详情。",
+    "programLead": "一页查看全天安排。点击感兴趣的场次，展开详细议程。均为深圳当地时间（UTC+8）。",
     "expand": "展开全部日程",
     "collapse": "收起全部日程",
     "agenda": [
@@ -759,9 +805,9 @@ const CONTENT = {
       ]
     ],
     "programNote": "商务日日程 · 2026年11月22日。",
-    "formatLabel": "04 / 参与活动",
-    "formatTitle": "参与者与\n活动安排。",
-    "formatLead": "2026年11月22日，星期日。全体讨论、专题交流与晚间商务交流。",
+    "formatLabel": "参与活动",
+    "formatTitle": "期待与您相识",
+    "formatLead": "欢迎带着问题、想法或合作意愿参加。日程留出了时间，供大家交流并了解大学。",
     "formatBlocks": [
       [
         "参与者",
@@ -789,7 +835,8 @@ const CONTENT = {
       "金砖合作：合作领域",
       "GPTunneL：团队与技术",
       "WAI：企业人工智能教育",
-      "Z.ai：GLM模型与开发工具"
+      "Z.ai：GLM模型与开发工具",
+      "图片来源：深圳北理莫斯科大学"
     ],
     "calendarTitle": "中俄商务日 — 深圳北理莫斯科大学",
     "calendarDescription": "2026年11月22日，深圳。深圳北理莫斯科大学商务日。",
@@ -814,6 +861,28 @@ const CONTENT = {
         "WAI联合创始人，从事团队人工智能培训与企业系统中的应用实施，拥有为Severstal和Nordgold开展项目的经验。主持讨论技能、岗位及日常工作方式的变化。"
       ]
     ],
-    "aiQuestionsLabel": "讨论重点"
+    "aiQuestionsLabel": "讨论重点",
+    "menu": "菜单",
+    "join": "参与活动",
+    "heroKicker": "商务日 · 深圳北理莫斯科大学 · 金砖合作",
+    "welcome": "欢迎加入交流",
+    "welcomeBody": "无论您经营企业、开发技术，还是从事科研，都欢迎在这里结识关注相似问题的伙伴。交流经验，建立联系，一起探讨可以开展的合作。",
+    "campusCaption": "深圳北理莫斯科大学校园",
+    "photoCredit": "图片来源：深圳北理莫斯科大学",
+    "dayParts": [
+      "上午 · 相识与共同议题",
+      "下午 · 技术与伙伴关系",
+      "晚间 · 继续交流"
+    ],
+    "dayNav": [
+      "上午",
+      "下午场次",
+      "晚间"
+    ],
+    "detailLabel": "查看详情",
+    "closeLabel": "收起",
+    "venueTitle": "相聚\n深圳",
+    "venueBody": "深圳北理莫斯科大学，深圳市龙岗区国际大学园路1号。",
+    "venueLink": "了解校园 ↗"
   }
 };
