@@ -7,7 +7,7 @@ const CONTENT = {
     "navAbout": "О встрече",
     "navAI": "Диалог об ИИ",
     "navProgram": "Программа дня",
-    "navFormat": "Участие и место",
+    "navFormat": "Участие",
     "title": "МГУ–ППИ · Китай × Россия · 22 ноября 2026",
     "description": "Китай. Россия. Технологии будущей интеграции. Развитие науки и бизнеса внутри БРИКС. Встреча компаний, исследователей и университетских команд Китая и России в Шэньчжэне.",
     "eyebrow": "Шэньчжэнь · Воскресенье, 22 ноября 2026",
@@ -30,7 +30,7 @@ const CONTENT = {
     "aboutLabel": "О встрече",
     "aboutTitle": "Развитие науки и бизнеса\nвнутри БРИКС",
     "aboutLead": "Китай. Россия. Технологии будущей интеграции.",
-    "aboutBody": "На площадке МГУ–ППИ встречаются фундаментальная наука, инженерная практика и предпринимательство. Университет основан МГУ имени М. В. Ломоносова, Пекинским политехническим институтом и правительством Шэньчжэня.",
+    "aboutBody": "Университет МГУ–ППИ основан МГУ имени М. В. Ломоносова, Пекинским политехническим институтом и правительством Шэньчжэня. Здесь научные и инженерные команды встречаются с бизнесом.",
     "aboutBRICS": "Обсудим, как компаниям и научным командам работать вместе: проверять разработки на реальных задачах, готовить специалистов и находить партнёров в другой стране. Китайско-российское сотрудничество рассматриваем в общем контексте БРИКС.",
     "bridge": [
       [
@@ -57,7 +57,7 @@ const CONTENT = {
       ],
       [
         "Деловые связи и научная среда",
-        "Нетворкинг, встречи компаний и университетов, обсуждение взаимных интересов. Экспертная поддержка и модерация как основа долгосрочного сотрудничества."
+        "Знакомство компаний и университетов, обмен опытом и обсуждение совместной работы. Университет помогает вести этот разговор и предоставляет экспертную поддержку."
       ]
     ],
     "companiesLabel": "Деловой круг",
@@ -111,7 +111,7 @@ const CONTENT = {
     ],
     "programLabel": "22 ноября 2026 · Воскресенье",
     "programTitle": "Расписание дня",
-    "programLead": "Весь день на одной странице. Выберите интересующую сессию и раскройте её программу. Время местное, Шэньчжэнь (UTC+8).",
+    "programLead": "22 ноября, воскресенье. Время местное: Шэньчжэнь (UTC+8). Нажмите на сессию, чтобы увидеть подробности.",
     "expand": "Развернуть всю программу",
     "collapse": "Свернуть программу",
     "agenda": [
@@ -151,7 +151,7 @@ const CONTENT = {
       [
         "14:00–15:30",
         "ИИ между двумя рынками: Китай и Россия",
-        "THE COLI HOTEL SHENZHEN · Модерируемое интервью · Z.ai · GLM, Климент Викулов, Мик Вайсман, Дарья Жуйкова, Николай Сорокин",
+        "THE COLI HOTEL SHENZHEN · Модерируемое интервью",
         [],
         true
       ],
@@ -202,7 +202,7 @@ const CONTENT = {
     "programNote": "Утро проходит в МГУ–ППИ, обед и вторая часть — в гостинице. Для второй площадки предложен THE COLI HOTEL SHENZHEN, примерно в 20 минутах от университета.",
     "formatLabel": "Участие",
     "formatTitle": "Будем рады знакомству",
-    "formatLead": "Приезжайте с задачей, идеей или интересом к сотрудничеству. В программе есть время для разговора с участниками и знакомства с университетом.",
+    "formatLead": "Встреча проходит очно. Между сессиями будет время познакомиться, обсудить задачи и договориться о дальнейшем разговоре.",
     "formatBlocks": [
       [
         "Участники",
@@ -210,11 +210,11 @@ const CONTENT = {
       ],
       [
         "Деловое общение",
-        "Знакомство с партнёрами, обмен опытом и обсуждение взаимных интересов. В программе предусмотрено время для профессионального нетворкинга и неформальных встреч."
+        "В перерывах можно познакомиться с участниками, обменяться контактами и обсудить совместную работу."
       ],
       [
-        "Площадка и логистика",
-        "МГУ–ППИ: актовый зал библиотеки. Адрес: Китай, Шэньчжэнь, район Лунган, Даюнь, International University Park Road, 1. Обед, дневные дискуссии и фуршет — на гостиничной площадке. Предлагаемый отель: THE COLI HOTEL SHENZHEN (深圳中海凯骊酒店), No. 168 Dayun Road, Longgang, Shenzhen. Трансфер между площадками — около 20 минут. Для проживания предложены THE COLI HOTEL SHENZHEN и Park Hyatt Shenzhen (ул. Итянь, 5023)."
+        "Проживание и трансфер",
+        "Для проживания предложены THE COLI HOTEL SHENZHEN и Park Hyatt Shenzhen (ул. Итянь, 5023). Переезд из университета в гостиницу — в 12:30. После фуршета предусмотрен трансфер по необходимости."
       ],
       [
         "Официальные приглашения",
@@ -307,7 +307,7 @@ const CONTENT = {
     "join": "Об участии",
     "heroKicker": "Бизнес-день · МГУ–ППИ · БРИКС",
     "welcome": "Приглашаем к разговору",
-    "welcomeBody": "Если вы развиваете бизнес, создаёте технологии или занимаетесь исследованиями, здесь можно встретить людей с близкими задачами. Познакомиться, сравнить опыт и обсудить, что получится сделать вместе.",
+    "welcomeBody": "Встреча для тех, кто развивает бизнес, создаёт технологии и занимается исследованиями. Обсудим совместные проекты Китая и России и познакомимся с командами, которым они могут быть полезны.",
     "campusCaption": "Кампус Университета МГУ–ППИ · Шэньчжэнь",
     "photoCredit": "Фотография: Университет МГУ–ППИ",
     "dayParts": [
@@ -322,10 +322,35 @@ const CONTENT = {
     ],
     "detailLabel": "Подробнее",
     "closeLabel": "Свернуть",
-    "venueTitle": "Встречаемся\nв Шэньчжэне",
+    "venueTitle": "Две площадки\nв Шэньчжэне",
     "venueBody": "МГУ–ППИ: актовый зал библиотеки. Адрес: Китай, Шэньчжэнь, район Лунган, Даюнь, International University Park Road, 1. Обед, дневные дискуссии и фуршет — на гостиничной площадке. Предлагаемый отель: THE COLI HOTEL SHENZHEN (深圳中海凯骊酒店), No. 168 Dayun Road, Longgang, Shenzhen.",
     "venueLink": "Познакомиться с кампусом ↗",
-    "calendarLocation": "МГУ–ППИ: актовый зал библиотеки. Адрес: Китай, Шэньчжэнь, район Лунган, Даюнь, International University Park Road, 1. Обед, дневные дискуссии и фуршет — на гостиничной площадке. Предлагаемый отель: THE COLI HOTEL SHENZHEN (深圳中海凯骊酒店), No. 168 Dayun Road, Longgang, Shenzhen."
+    "calendarLocation": "МГУ–ППИ: актовый зал библиотеки. Адрес: Китай, Шэньчжэнь, район Лунган, Даюнь, International University Park Road, 1. Обед, дневные дискуссии и фуршет — на гостиничной площадке. Предлагаемый отель: THE COLI HOTEL SHENZHEN (深圳中海凯骊酒店), No. 168 Dayun Road, Longgang, Shenzhen.",
+    "navVenue": "Как добраться",
+    "copyAddress": "Скопировать адрес",
+    "copied": "Адрес скопирован",
+    "copyFailed": "Выделите и скопируйте адрес ниже",
+    "bioLabel": "Опыт и проекты",
+    "languageLabel": "Язык сайта",
+    "cityCaption": "Шэньчжэнь · Район Футянь",
+    "cityAlt": "Панорама района Футянь в Шэньчжэне с башней Ping An",
+    "venueIntro": "Утром встречаемся в университете. В 12:30 переезжаем на обед и дневные сессии в гостиницу. Дорога занимает около 20 минут.",
+    "venues": [
+      [
+        "08:30–12:30 · Университет",
+        "Кампус МГУ–ППИ",
+        "Регистрация и пленарная часть. Актовый зал библиотеки.",
+        "Китай, Шэньчжэнь, Лунган, Даюнь, International University Park Road, 1.",
+        "深圳市龙岗区大运新城国际大学园路1号"
+      ],
+      [
+        "12:30–20:00 · Гостиница",
+        "THE COLI HOTEL SHENZHEN",
+        "Предложенная площадка для обеда, дискуссий и фуршета. Дискуссия об ИИ: 14:00–15:30.",
+        "Китай, Шэньчжэнь, Лунган, Dayun Road, 168.",
+        "深圳市龙岗区大运路168号 · 深圳中海凯骊酒店"
+      ]
+    ]
   },
   "en": {
     "brand": "MSU–BIT",
@@ -335,7 +360,7 @@ const CONTENT = {
     "navAbout": "About",
     "navAI": "AI conversation",
     "navProgram": "Programme",
-    "navFormat": "Visit & take part",
+    "navFormat": "Taking part",
     "title": "MSU–BIT · China × Russia · 22 November 2026",
     "description": "China. Russia. Technologies for future integration. Science and business development within BRICS. Companies, researchers and university teams from China and Russia meet in Shenzhen.",
     "eyebrow": "Shenzhen · Sunday, 22 November 2026",
@@ -358,7 +383,7 @@ const CONTENT = {
     "aboutLabel": "About the meeting",
     "aboutTitle": "Science and business\nwithin BRICS",
     "aboutLead": "China. Russia. Technologies for future integration.",
-    "aboutBody": "Shenzhen MSU–BIT University brings fundamental research, engineering and entrepreneurship together. It was founded by Lomonosov Moscow State University, Beijing Institute of Technology and the Shenzhen Municipal Government.",
+    "aboutBody": "Shenzhen MSU–BIT University was founded by Lomonosov Moscow State University, Beijing Institute of Technology and the Shenzhen Municipal Government. It brings research and engineering teams together with business.",
     "aboutBRICS": "We will discuss how companies and researchers can test technology on real business tasks, train specialists and find partners in another country. China–Russia cooperation is the focus within the wider BRICS context.",
     "bridge": [
       [
@@ -385,7 +410,7 @@ const CONTENT = {
       ],
       [
         "Business connections in an academic setting",
-        "Networking, company–university meetings and discussions of shared interests. Expert support and facilitation as a basis for long-term cooperation."
+        "Companies and universities meet to share experience and discuss working together. The university facilitates the conversation and provides expert support."
       ]
     ],
     "companiesLabel": "Business community",
@@ -439,7 +464,7 @@ const CONTENT = {
     ],
     "programLabel": "Sunday, 22 November 2026",
     "programTitle": "The day’s programme",
-    "programLead": "The whole day at a glance. Select a session to read its programme. All times are local to Shenzhen (UTC+8).",
+    "programLead": "Sunday, 22 November. All times are Shenzhen local time (UTC+8). Select a session for details.",
     "expand": "Expand all sessions",
     "collapse": "Collapse all sessions",
     "agenda": [
@@ -479,7 +504,7 @@ const CONTENT = {
       [
         "14:00–15:30",
         "AI across two markets: China and Russia",
-        "THE COLI HOTEL SHENZHEN · Moderated interview · Z.ai · GLM, Kliment Vikulov, Mik Vaisman, Darya Zhuykova, Nikolay Sorokin",
+        "THE COLI HOTEL SHENZHEN · Moderated interview",
         [],
         true
       ],
@@ -530,7 +555,7 @@ const CONTENT = {
     "programNote": "The morning programme takes place at MSU–BIT; lunch and part two are at a hotel. The proposed venue is THE COLI HOTEL SHENZHEN, approximately 20 minutes from the university.",
     "formatLabel": "Taking part",
     "formatTitle": "We look forward to meeting you",
-    "formatLead": "Bring a question, an idea or an interest in working together. There is time to meet other participants and get to know the university.",
+    "formatLead": "This is an in-person event. Breaks between sessions give you time to meet people, discuss your work and arrange a follow-up conversation.",
     "formatBlocks": [
       [
         "Participants",
@@ -538,11 +563,11 @@ const CONTENT = {
       ],
       [
         "Business networking",
-        "Meeting potential partners, sharing experience and exploring mutual interests. The programme includes time for professional networking and informal conversations."
+        "Use the breaks to meet other participants, exchange contacts and discuss working together."
       ],
       [
-        "Venue and logistics",
-        "MSU–BIT: library auditorium. Address: 1 International University Park Road, Dayun New Town, Longgang District, Shenzhen, China. Lunch, afternoon discussions and the reception take place at a hotel. Proposed hotel: THE COLI HOTEL SHENZHEN (深圳中海凯骊酒店), No. 168 Dayun Road, Longgang, Shenzhen. Transfer between venues takes approximately 20 minutes. Proposed accommodation: THE COLI HOTEL SHENZHEN or Park Hyatt Shenzhen (5023 Yitian Road)."
+        "Accommodation and transfers",
+        "Accommodation options are THE COLI HOTEL SHENZHEN and Park Hyatt Shenzhen (5023 Yitian Road). The university-to-hotel transfer is at 12:30. Transfers after the reception are available as needed."
       ],
       [
         "Official invitations",
@@ -635,7 +660,7 @@ const CONTENT = {
     "join": "Taking part",
     "heroKicker": "Business Day · MSU–BIT · BRICS",
     "welcome": "Join the conversation",
-    "welcomeBody": "If you run a business, develop technology or work in research, come and meet people facing similar questions. Compare experiences, make connections and explore what you could build together.",
+    "welcomeBody": "Meet people building businesses, developing technology and doing research. Discuss projects between China and Russia and get to know teams with shared interests.",
     "campusCaption": "Shenzhen MSU–BIT University campus",
     "photoCredit": "Photography: Shenzhen MSU–BIT University",
     "dayParts": [
@@ -650,10 +675,35 @@ const CONTENT = {
     ],
     "detailLabel": "Details",
     "closeLabel": "Close",
-    "venueTitle": "Meet us\nin Shenzhen",
+    "venueTitle": "Two venues\nin Shenzhen",
     "venueBody": "MSU–BIT: library auditorium. Address: 1 International University Park Road, Dayun New Town, Longgang District, Shenzhen, China. Lunch, afternoon discussions and the reception take place at a hotel. Proposed hotel: THE COLI HOTEL SHENZHEN (深圳中海凯骊酒店), No. 168 Dayun Road, Longgang, Shenzhen.",
     "venueLink": "Explore the campus ↗",
-    "calendarLocation": "MSU–BIT: library auditorium. Address: 1 International University Park Road, Dayun New Town, Longgang District, Shenzhen, China. Lunch, afternoon discussions and the reception take place at a hotel. Proposed hotel: THE COLI HOTEL SHENZHEN (深圳中海凯骊酒店), No. 168 Dayun Road, Longgang, Shenzhen."
+    "calendarLocation": "MSU–BIT: library auditorium. Address: 1 International University Park Road, Dayun New Town, Longgang District, Shenzhen, China. Lunch, afternoon discussions and the reception take place at a hotel. Proposed hotel: THE COLI HOTEL SHENZHEN (深圳中海凯骊酒店), No. 168 Dayun Road, Longgang, Shenzhen.",
+    "navVenue": "Getting here",
+    "copyAddress": "Copy address",
+    "copied": "Address copied",
+    "copyFailed": "Select and copy the address below",
+    "bioLabel": "Experience and projects",
+    "languageLabel": "Site language",
+    "cityCaption": "Shenzhen · Futian district",
+    "cityAlt": "Shenzhen’s Futian skyline with the Ping An Finance Center",
+    "venueIntro": "We meet at the university in the morning. At 12:30, we transfer to the hotel for lunch and afternoon sessions. The journey takes about 20 minutes.",
+    "venues": [
+      [
+        "08:30–12:30 · University",
+        "Shenzhen MSU–BIT University",
+        "Registration and plenary programme in the library auditorium.",
+        "1 International University Park Road, Dayun New Town, Longgang, Shenzhen, China.",
+        "深圳市龙岗区大运新城国际大学园路1号"
+      ],
+      [
+        "12:30–20:00 · Hotel",
+        "THE COLI HOTEL SHENZHEN",
+        "Proposed venue for lunch, discussions and the evening reception. AI session: 14:00–15:30.",
+        "168 Dayun Road, Longgang, Shenzhen, China.",
+        "深圳市龙岗区大运路168号 · 深圳中海凯骊酒店"
+      ]
+    ]
   },
   "zh": {
     "brand": "深圳北理莫斯科大学",
@@ -663,7 +713,7 @@ const CONTENT = {
     "navAbout": "关于活动",
     "navAI": "人工智能对话",
     "navProgram": "全天日程",
-    "navFormat": "地点与参与",
+    "navFormat": "参会信息",
     "title": "深圳北理莫斯科大学 · 中俄商务日 · 2026年11月22日",
     "description": "中国。俄罗斯。面向未来融合的技术。 金砖国家框架内的科学与商业发展。来自中俄两国的企业、科研人员和高校团队相聚深圳。",
     "eyebrow": "深圳 · 2026年11月22日，星期日",
@@ -686,7 +736,7 @@ const CONTENT = {
     "aboutLabel": "关于活动",
     "aboutTitle": "金砖国家框架内的\n科学与商业发展",
     "aboutLead": "中国。俄罗斯。面向未来融合的技术。",
-    "aboutBody": "深圳北理莫斯科大学汇聚基础研究、工程实践与创业力量。大学由莫斯科国立罗蒙诺索夫大学、北京理工大学和深圳市人民政府共同创办。",
+    "aboutBody": "深圳北理莫斯科大学由莫斯科国立罗蒙诺索夫大学、北京理工大学和深圳市人民政府合作举办，为科研、工程团队与企业提供交流平台。",
     "aboutBRICS": "讨论企业与科研团队如何围绕真实业务验证技术、培养人才，并在另一国寻找合作伙伴。以金砖合作为背景，聚焦中俄两国的具体合作。",
     "bridge": [
       [
@@ -713,7 +763,7 @@ const CONTENT = {
       ],
       [
         "学术环境中的商务交流",
-        "开展商务社交、校企对接与共同兴趣讨论，以专业支持和对话协调促进长期合作。"
+        "企业与高校交流经验、探讨合作。大学为交流提供专业支持与协调。"
       ]
     ],
     "companiesLabel": "企业交流",
@@ -767,7 +817,7 @@ const CONTENT = {
     ],
     "programLabel": "2026年11月22日 · 星期日",
     "programTitle": "全天日程",
-    "programLead": "一页查看全天安排。点击感兴趣的场次，展开详细议程。均为深圳当地时间（UTC+8）。",
+    "programLead": "11月22日，星期日。以下均为深圳当地时间（UTC+8）。点击场次可查看详细安排。",
     "expand": "展开全部日程",
     "collapse": "收起全部日程",
     "agenda": [
@@ -807,7 +857,7 @@ const CONTENT = {
       [
         "14:00–15:30",
         "人工智能连接两个市场：中国与俄罗斯",
-        "深圳中海凯骊酒店 · 主持访谈 · Z.ai · GLM, 克利缅特·维库洛夫（Kliment Vikulov）, 米克·魏斯曼（Mik Vaisman）, 达里娅·茹伊科娃（Darya Zhuykova）, 尼古拉·索罗金（Nikolay Sorokin）",
+        "深圳中海凯骊酒店 · 主持访谈",
         [],
         true
       ],
@@ -858,7 +908,7 @@ const CONTENT = {
     "programNote": "上午活动在深圳北理莫斯科大学举行，午餐及第二部分在酒店举行。拟选酒店为深圳中海凯骊酒店，距大学约20分钟车程。",
     "formatLabel": "参与活动",
     "formatTitle": "期待与您相识",
-    "formatLead": "欢迎带着问题、想法或合作意愿参加。日程留出了时间，供大家交流并了解大学。",
+    "formatLead": "本次活动为线下会议。茶歇和交流时段可用于认识同行、讨论业务需求并安排后续沟通。",
     "formatBlocks": [
       [
         "参与者",
@@ -866,11 +916,11 @@ const CONTENT = {
       ],
       [
         "商务交流",
-        "结识潜在合作伙伴，分享经验，探讨共同利益。日程安排了专业交流与非正式会谈时间。"
+        "茶歇期间可结识其他与会者、交换联系方式，并探讨合作。"
       ],
       [
-        "场地与交通",
-        "大学会场：深圳北理莫斯科大学图书馆报告厅。地址：中国广东省深圳市龙岗区大运新城国际大学园路1号。午餐、下午讨论及酒会在酒店举行。拟选酒店：深圳中海凯骊酒店（THE COLI HOTEL SHENZHEN），深圳市龙岗区大运路168号。 两处会场之间车程约20分钟。住宿备选：深圳中海凯骊酒店或深圳柏悦酒店（益田路5023号）。"
+        "住宿与接送",
+        "住宿备选为深圳中海凯骊酒店和深圳柏悦酒店（益田路5023号）。12:30从大学前往酒店，酒会后根据需要安排接送。"
       ],
       [
         "正式邀请函",
@@ -963,7 +1013,7 @@ const CONTENT = {
     "join": "参与活动",
     "heroKicker": "商务日 · 深圳北理莫斯科大学 · 金砖合作",
     "welcome": "欢迎加入交流",
-    "welcomeBody": "无论您经营企业、开发技术，还是从事科研，都欢迎在这里结识关注相似问题的伙伴。交流经验，建立联系，一起探讨可以开展的合作。",
+    "welcomeBody": "欢迎企业、高校和科研团队参与。围绕中俄合作项目交流经验，认识有共同需求的合作伙伴。",
     "campusCaption": "深圳北理莫斯科大学校园",
     "photoCredit": "图片来源：深圳北理莫斯科大学",
     "dayParts": [
@@ -978,9 +1028,34 @@ const CONTENT = {
     ],
     "detailLabel": "查看详情",
     "closeLabel": "收起",
-    "venueTitle": "相聚\n深圳",
+    "venueTitle": "深圳两处会场",
     "venueBody": "大学会场：深圳北理莫斯科大学图书馆报告厅。地址：中国广东省深圳市龙岗区大运新城国际大学园路1号。午餐、下午讨论及酒会在酒店举行。拟选酒店：深圳中海凯骊酒店（THE COLI HOTEL SHENZHEN），深圳市龙岗区大运路168号。",
     "venueLink": "了解校园 ↗",
-    "calendarLocation": "大学会场：深圳北理莫斯科大学图书馆报告厅。地址：中国广东省深圳市龙岗区大运新城国际大学园路1号。午餐、下午讨论及酒会在酒店举行。拟选酒店：深圳中海凯骊酒店（THE COLI HOTEL SHENZHEN），深圳市龙岗区大运路168号。"
+    "calendarLocation": "大学会场：深圳北理莫斯科大学图书馆报告厅。地址：中国广东省深圳市龙岗区大运新城国际大学园路1号。午餐、下午讨论及酒会在酒店举行。拟选酒店：深圳中海凯骊酒店（THE COLI HOTEL SHENZHEN），深圳市龙岗区大运路168号。",
+    "navVenue": "会场交通",
+    "copyAddress": "复制地址",
+    "copied": "地址已复制",
+    "copyFailed": "请选中并复制下方地址",
+    "bioLabel": "经历与项目",
+    "languageLabel": "网站语言",
+    "cityCaption": "深圳 · 福田区",
+    "cityAlt": "深圳福田区城市天际线及平安金融中心",
+    "venueIntro": "上午在大学会场集合。12:30乘车前往酒店用午餐，并参加下午的讨论。两处会场之间车程约20分钟。",
+    "venues": [
+      [
+        "08:30–12:30 · 大学会场",
+        "深圳北理莫斯科大学",
+        "签到及全体会议在图书馆报告厅举行。",
+        "中国广东省深圳市龙岗区大运新城国际大学园路1号。",
+        "深圳市龙岗区大运新城国际大学园路1号"
+      ],
+      [
+        "12:30–20:00 · 酒店会场",
+        "深圳中海凯骊酒店",
+        "拟选午餐、专题讨论及酒会场地。人工智能专题时间：14:00–15:30。",
+        "中国广东省深圳市龙岗区大运路168号。",
+        "深圳市龙岗区大运路168号 · 深圳中海凯骊酒店"
+      ]
+    ]
   }
 };
