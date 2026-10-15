@@ -30,7 +30,7 @@ function render(lang) {
         const person=el('article',undefined,'speaker');
         if(portrait){const frame=el('div',undefined,'portrait '+(['mick','nikolay'].includes(portrait)?'portrait-single':portrait==='kliment'?'portrait-left':'portrait-right'));const photo=el('img');photo.src=portrait==='nikolay'?'nikolay-sorokin.png':portrait==='mick'?'mick-vaisman.png':'speakers.png';photo.alt=name;photo.loading='lazy';frame.append(photo);person.append(frame);}
         else {const brand=el('div',undefined,'speaker-brand');brand.append(el('strong','Z.ai'),el('span','GLM'));person.append(brand);}
-        person.append(el('h4',name),el('p',role,'speaker-role'),el('p',bio));if(links.length){const projects=el('div',undefined,'speaker-projects');links.forEach(([label,url])=>{const link=el('a',label);link.href=url;link.target='_blank';link.rel='noopener noreferrer';projects.append(link);});person.append(projects);}people.append(person);
+        person.append(el('h4',name),el('p',role,'speaker-role'),...bio.split('\n\n').map(paragraph=>el('p',paragraph)));if(links.length){const projects=el('div',undefined,'speaker-projects');links.forEach(([label,url])=>{const link=el('a',label);link.href=url;link.target='_blank';link.rel='noopener noreferrer';projects.append(link);});person.append(projects);}people.append(person);
       });body.append(people,el('h3',t.aiQuestionsLabel));
       const themes=el('div',undefined,'session-themes');t.focus.forEach(([title,description])=>{const theme=el('article');theme.append(el('h4',title),el('p',description));themes.append(theme);});
       body.append(themes,el('h3',t.aiFormatLabel),el('p',t.aiFormat));
