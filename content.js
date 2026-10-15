@@ -1,4 +1,3 @@
-'use strict';
 const CONTENT = {
   "ru": {
     "brand": "МГУ–ППИ",
@@ -21,7 +20,7 @@ const CONTENT = {
     "viewProgram": "Смотреть программу",
     "saveDate": "Сохранить дату",
     "month": "ноября 2026",
-    "location": "Шэньчжэнь, Китай",
+    "location": "Кампус МГУ–ППИ · Китай, провинция Гуандун, Шэньчжэнь, район Лунган, Даюнь, International University Park Road, 1.",
     "herotag": "Совместные исследования, выход на новые рынки и знакомство с будущими партнёрами.",
     "herobar1": "На площадке Университета МГУ–ППИ",
     "herobar2": "Проект программы",
@@ -119,7 +118,7 @@ const CONTENT = {
       [
         "08:30–09:30",
         "Регистрация и знакомство",
-        "МГУ–ППИ · Приветственный кофе",
+        "Кампус МГУ–ППИ · Приветственный кофе",
         [
           "Встреча участников и знакомство с университетской площадкой.",
           "Первые деловые знакомства: компании, университеты и технологические команды."
@@ -128,7 +127,7 @@ const CONTENT = {
       [
         "09:30–10:00",
         "Открытие бизнес-дня",
-        "МГУ–ППИ · Общая сессия",
+        "Кампус МГУ–ППИ · Общая сессия",
         [
           "Китайско-российское сотрудничество бизнеса и науки в контексте БРИКС.",
           "Университет как экспертная площадка, модератор делового диалога и среда развития совместных инициатив."
@@ -137,7 +136,7 @@ const CONTENT = {
       [
         "10:00–11:10",
         "Китай–Россия: инфраструктура доверия",
-        "МГУ–ППИ · Пленарная сессия",
+        "Кампус МГУ–ППИ · Пленарная сессия",
         [
           "10:00–10:20 · ВТБ: от финансовой инфраструктуры к инфраструктуре доверия. Образовательные инициативы и деловое сотрудничество.",
           "10:20–10:40 · Альфа-Банк: партнёрство бизнеса и университетов, развитие талантов.",
@@ -148,7 +147,7 @@ const CONTENT = {
       [
         "11:10–11:30",
         "Кофе и продолжение разговора",
-        "МГУ–ППИ · Нетворкинг",
+        "Кампус МГУ–ППИ · Нетворкинг",
         [
           "Время для обмена контактами и уточнения общих интересов."
         ]
@@ -156,7 +155,7 @@ const CONTENT = {
       [
         "11:30–12:30",
         "Технологические рынки Китая и России: искусство, индустрия, обмен разработками",
-        "МГУ–ППИ · Межотраслевая дискуссия",
+        "Кампус МГУ–ППИ · Межотраслевая дискуссия",
         [
           "11:30–11:50 · Технологические рынки Китая и России: новые направления, потребности компаний и возможности обмена разработками.",
           "11:50–12:10 · Искусство и технологии: ИИ, цифровое творчество и сотрудничество бизнеса с творческими индустриями.",
@@ -165,23 +164,23 @@ const CONTENT = {
       ],
       [
         "12:30–14:00",
-        "Обед и трансфер",
-        "Организационный блок",
+        "Обед",
+        "Кампус МГУ–ППИ",
         [
-          "Перерыв на обед и переезд между площадками."
+          "Перерыв на обед в кампусе."
         ]
       ],
       [
         "14:00–15:30",
         "ИИ между двумя рынками: Китай и Россия",
-        "Модерируемое интервью · Дарья Жуйкова, Климент Викулов, Z.ai / GLM",
+        "Кампус МГУ–ППИ · Модерируемое интервью · Z.ai · GLM, Климент Викулов, Мик Вайсман, Дарья Жуйкова, Николай Сорокин",
         [],
         true
       ],
       [
         "15:30–16:00",
         "Кофе и деловые знакомства",
-        "Гостиничная площадка · Нетворкинг",
+        "Кампус МГУ–ППИ · Нетворкинг",
         [
           "Профессиональное общение участников, обмен опытом и обсуждение общих деловых интересов."
         ]
@@ -189,7 +188,7 @@ const CONTENT = {
       [
         "16:00–17:00",
         "Бизнес и университет: партнёрства и развитие инициатив",
-        "Гостиничная площадка · Модерируемая дискуссия и деловые встречи",
+        "Кампус МГУ–ППИ · Модерируемая дискуссия и деловые встречи",
         [
           "16:00–16:20 · Взаимные интересы компаний: технологии, экспертиза, образование и доступ к новым рынкам.",
           "16:20–16:40 · Научная и акселерационная поддержка: экспертная оценка, прикладные исследования и сопровождение совместных инициатив — возможные форматы взаимодействия с университетом.",
@@ -199,7 +198,7 @@ const CONTENT = {
       [
         "17:00–17:30",
         "Итоги деловой программы",
-        "Гостиничная площадка · Заключительная дискуссия",
+        "Кампус МГУ–ППИ · Заключительная дискуссия",
         [
           "Обобщение тем и предложений, прозвучавших в ходе сессий.",
           "Перспективы научного, образовательного и делового сотрудничества."
@@ -214,7 +213,7 @@ const CONTENT = {
         ]
       ]
     ],
-    "programNote": "Программа бизнес-дня · 22 ноября 2026 года.",
+    "programNote": "Вся дневная программа проходит в кампусе Университета МГУ–ППИ. Китай, провинция Гуандун, Шэньчжэнь, район Лунган, Даюнь, International University Park Road, 1.",
     "formatLabel": "Участие",
     "formatTitle": "Будем рады знакомству",
     "formatLead": "Приезжайте с задачей, идеей или интересом к сотрудничеству. В программе есть время для разговора с участниками и знакомства с университетом.",
@@ -229,7 +228,7 @@ const CONTENT = {
       ],
       [
         "Площадка и логистика",
-        "Шэньчжэнь · Университет МГУ–ППИ."
+        "Вся дневная программа проходит в кампусе Университета МГУ–ППИ. Китай, провинция Гуандун, Шэньчжэнь, район Лунган, Даюнь, International University Park Road, 1."
       ],
       [
         "Официальные приглашения",
@@ -263,12 +262,58 @@ const CONTENT = {
       [
         "Климент Викулов",
         "Сооснователь GPTunneL",
-        "Сооснователь GPTunneL, платформы команды ScriptHeads для работы с моделями ИИ. Команда также развивает собственную линейку Grom. Климент расскажет о запросах пользователей и корпоративных заказчиков, выборе моделей и опыте создания ИИ-продукта."
+        "Сооснователь GPTunneL, платформы команды ScriptHeads для работы с моделями ИИ. Команда также развивает собственную линейку Grom. Климент расскажет о запросах пользователей и корпоративных заказчиков, выборе моделей и опыте создания ИИ-продукта.",
+        "kliment",
+        [
+          [
+            "GPTunneL — платформа ИИ",
+            "https://gptunnel.ru/"
+          ]
+        ]
+      ],
+      [
+        "Мик Вайсман",
+        "IT-предприниматель и разработчик · Основатель Trinity Monsters и WaiWai",
+        "В дискуссии — разработка ИИ-продуктов и внедрение технологий в работу компаний: от выбора задачи до решения, которым пользуется команда.",
+        "mick",
+        [
+          [
+            "WaiWai — разработка и обучение",
+            "https://ru.waiwai.is/"
+          ],
+          [
+            "WAI School — ИИ-проекты для детей",
+            "https://wai.school/"
+          ]
+        ]
       ],
       [
         "Дарья Жуйкова",
-        "Сооснователь WAI · Ведущая диалога",
-        "Сооснователь WAI. Занимается обучением команд работе с ИИ и внедрением решений в корпоративные системы. В опыте проектов — Северсталь и Nordgold. Ведёт разговор о том, как меняются навыки, роли и повседневная работа в компаниях."
+        "Партнёр WaiWai · Преподаватель МФТИ · ex-Северсталь",
+        "Ведущая дискуссии. Занимается обучением команд работе с ИИ и внедрением решений в корпоративные процессы. Ведёт разговор о том, как меняются навыки, роли и повседневная работа в компаниях.",
+        "darya",
+        [
+          [
+            "WaiWai — разработка и обучение",
+            "https://ru.waiwai.is/"
+          ],
+          [
+            "WAI School — ИИ-проекты для детей",
+            "https://wai.school/"
+          ]
+        ]
+      ],
+      [
+        "Николай Сорокин",
+        "Основатель «Лаборатории №40»",
+        "Призёр грантового конкурса Сколтеха. Занимается разработкой и адаптацией продуктов, исследованиями потребностей клиентов (CustDev) и помогает компаниям выходить на новые рынки. В дискуссии расскажет, как проверять спрос и учитывать потребности покупателей в другой стране.",
+        "nikolay",
+        [
+          [
+            "Лаборатория №40 — исследования рынка",
+            "https://lab-40.ru/"
+          ]
+        ]
       ]
     ],
     "aiQuestionsLabel": "В центре разговора",
@@ -292,7 +337,7 @@ const CONTENT = {
     "detailLabel": "Подробнее",
     "closeLabel": "Свернуть",
     "venueTitle": "Встречаемся\nв Шэньчжэне",
-    "venueBody": "Университет МГУ–ППИ, район Лунган, International University Park Road, 1.",
+    "venueBody": "Вся дневная программа проходит в кампусе Университета МГУ–ППИ. Китай, провинция Гуандун, Шэньчжэнь, район Лунган, Даюнь, International University Park Road, 1.",
     "venueLink": "Познакомиться с кампусом ↗"
   },
   "en": {
@@ -316,7 +361,7 @@ const CONTENT = {
     "viewProgram": "Explore the programme",
     "saveDate": "Save the date",
     "month": "November 2026",
-    "location": "Shenzhen, China",
+    "location": "MSU–BIT campus · 1 International University Park Road, Dayun New Town, Longgang District, Shenzhen, Guangdong Province, China.",
     "herotag": "Joint research, new markets and conversations with potential partners.",
     "herobar1": "At Shenzhen MSU–BIT University",
     "herobar2": "Draft programme",
@@ -414,7 +459,7 @@ const CONTENT = {
       [
         "08:30–09:30",
         "Registration and introductions",
-        "MSU–BIT · Welcome coffee",
+        "MSU–BIT campus · Welcome coffee",
         [
           "Welcome and an introduction to the university setting.",
           "First connections between companies, universities and technology teams."
@@ -423,7 +468,7 @@ const CONTENT = {
       [
         "09:30–10:00",
         "Opening of Business Day",
-        "MSU–BIT · Opening session",
+        "MSU–BIT campus · Opening session",
         [
           "China–Russia business and research cooperation in the BRICS context.",
           "The university as a source of expertise, a facilitator of business dialogue and a setting for joint initiatives."
@@ -432,7 +477,7 @@ const CONTENT = {
       [
         "10:00–11:10",
         "China–Russia: an infrastructure of trust",
-        "MSU–BIT · Plenary session",
+        "MSU–BIT campus · Plenary session",
         [
           "10:00–10:20 · VTB: from financial infrastructure to an infrastructure of trust. Educational initiatives and business cooperation.",
           "10:20–10:40 · Alfa-Bank: business–university partnerships and talent development.",
@@ -443,7 +488,7 @@ const CONTENT = {
       [
         "11:10–11:30",
         "Coffee and conversation",
-        "MSU–BIT · Networking",
+        "MSU–BIT campus · Networking",
         [
           "Time to exchange contacts and explore shared interests."
         ]
@@ -451,7 +496,7 @@ const CONTENT = {
       [
         "11:30–12:30",
         "China–Russia technology markets: art, industry and innovation exchange",
-        "MSU–BIT · Cross-sector discussion",
+        "MSU–BIT campus · Cross-sector discussion",
         [
           "11:30–11:50 · Technology markets in China and Russia: emerging trends, company needs and opportunities to exchange innovations.",
           "11:50–12:10 · Art and technology: AI, digital creativity and business collaboration with the creative industries.",
@@ -460,23 +505,23 @@ const CONTENT = {
       ],
       [
         "12:30–14:00",
-        "Lunch and transfer",
-        "Logistics",
+        "Lunch",
+        "MSU–BIT campus",
         [
-          "Lunch break and transfer between venues."
+          "Lunch break on campus."
         ]
       ],
       [
         "14:00–15:30",
         "AI across two markets: China and Russia",
-        "Moderated interview · Darya Zhuykova, Kliment Vikulov, Z.ai / GLM",
+        "MSU–BIT campus · Moderated interview · Z.ai · GLM, Kliment Vikulov, Mik Vaisman, Darya Zhuykova, Nikolay Sorokin",
         [],
         true
       ],
       [
         "15:30–16:00",
         "Coffee and business connections",
-        "Hotel venue · Networking",
+        "MSU–BIT campus · Networking",
         [
           "Professional networking, experience sharing and discussion of mutual business interests."
         ]
@@ -484,7 +529,7 @@ const CONTENT = {
       [
         "16:00–17:00",
         "Business and universities: partnerships and joint initiatives",
-        "Hotel venue · Moderated discussion and business meetings",
+        "MSU–BIT campus · Moderated discussion and business meetings",
         [
           "16:00–16:20 · Mutual business interests: technology, expertise, education and access to new markets.",
           "16:20–16:40 · Research and acceleration support: expert assessment, applied research and support for joint initiatives as potential forms of university cooperation.",
@@ -494,7 +539,7 @@ const CONTENT = {
       [
         "17:00–17:30",
         "Closing discussion",
-        "Hotel venue · Programme conclusions",
+        "MSU–BIT campus · Programme conclusions",
         [
           "Reviewing the themes and proposals raised during the sessions.",
           "Prospects for research, educational and business cooperation."
@@ -509,7 +554,7 @@ const CONTENT = {
         ]
       ]
     ],
-    "programNote": "Business Day programme · 22 November 2026.",
+    "programNote": "The entire daytime programme takes place on the Shenzhen MSU–BIT University campus. 1 International University Park Road, Dayun New Town, Longgang District, Shenzhen, Guangdong Province, China.",
     "formatLabel": "Taking part",
     "formatTitle": "We look forward to meeting you",
     "formatLead": "Bring a question, an idea or an interest in working together. There is time to meet other participants and get to know the university.",
@@ -524,7 +569,7 @@ const CONTENT = {
       ],
       [
         "Venue and logistics",
-        "Shenzhen · MSU–BIT University."
+        "The entire daytime programme takes place on the Shenzhen MSU–BIT University campus. 1 International University Park Road, Dayun New Town, Longgang District, Shenzhen, Guangdong Province, China."
       ],
       [
         "Official invitations",
@@ -558,12 +603,58 @@ const CONTENT = {
       [
         "Kliment Vikulov",
         "Co-founder, GPTunneL",
-        "Co-founder of GPTunneL, an AI platform built by the ScriptHeads team, which also develops the Grom model family. Kliment will discuss user and corporate needs, model selection and the experience of building an AI product."
+        "Co-founder of GPTunneL, an AI platform built by the ScriptHeads team, which also develops the Grom model family. Kliment will discuss user and corporate needs, model selection and the experience of building an AI product.",
+        "kliment",
+        [
+          [
+            "GPTunneL — AI platform",
+            "https://gptunnel.ru/"
+          ]
+        ]
+      ],
+      [
+        "Mik Vaisman",
+        "IT entrepreneur and developer · Founder of Trinity Monsters and WaiWai",
+        "The discussion will cover building AI products and introducing them into companies: from choosing a problem to delivering a solution that teams use.",
+        "mick",
+        [
+          [
+            "WaiWai — development and training",
+            "https://ru.waiwai.is/"
+          ],
+          [
+            "WAI School — AI projects for children",
+            "https://wai.school/"
+          ]
+        ]
       ],
       [
         "Darya Zhuykova",
-        "Co-founder, WAI · Discussion host",
-        "Co-founder of WAI. Works on team training in AI and implementation in corporate systems, with project experience for Severstal and Nordgold. Hosts the conversation about changing skills, roles and everyday work."
+        "Partner at WaiWai · Lecturer at MIPT · Formerly at Severstal",
+        "Discussion host. Works on AI training for teams and implementation in corporate workflows. Leads the conversation about changing skills, roles and everyday work in companies.",
+        "darya",
+        [
+          [
+            "WaiWai — development and training",
+            "https://ru.waiwai.is/"
+          ],
+          [
+            "WAI School — AI projects for children",
+            "https://wai.school/"
+          ]
+        ]
+      ],
+      [
+        "Nikolay Sorokin",
+        "Founder of Lab 40",
+        "Prize winner in a Skoltech grant competition. Works on product development and adaptation, customer development research (CustDev), and helps companies enter new markets. In the discussion, he will address testing demand and understanding customers in another country.",
+        "nikolay",
+        [
+          [
+            "Lab 40 — market research",
+            "https://lab-40.ru/"
+          ]
+        ]
       ]
     ],
     "aiQuestionsLabel": "Discussion themes",
@@ -587,7 +678,7 @@ const CONTENT = {
     "detailLabel": "Details",
     "closeLabel": "Close",
     "venueTitle": "Meet us\nin Shenzhen",
-    "venueBody": "Shenzhen MSU–BIT University, 1 International University Park Road, Longgang District.",
+    "venueBody": "The entire daytime programme takes place on the Shenzhen MSU–BIT University campus. 1 International University Park Road, Dayun New Town, Longgang District, Shenzhen, Guangdong Province, China.",
     "venueLink": "Explore the campus ↗"
   },
   "zh": {
@@ -611,7 +702,7 @@ const CONTENT = {
     "viewProgram": "查看日程",
     "saveDate": "保存日期",
     "month": "2026年11月",
-    "location": "中国 · 深圳",
+    "location": "深圳北理莫斯科大学校园 · 中国广东省深圳市龙岗区大运新城国际大学园路1号。",
     "herotag": "开展联合研究，了解新市场，结识合作伙伴。",
     "herobar1": "拟于深圳北理莫斯科大学举行",
     "herobar2": "日程草案",
@@ -709,7 +800,7 @@ const CONTENT = {
       [
         "08:30–09:30",
         "签到与交流",
-        "深圳北理莫斯科大学 · 欢迎茶歇",
+        "深圳北理莫斯科大学校园 · 欢迎茶歇",
         [
           "欢迎与会者，了解大学环境。",
           "企业、高校与技术团队初步交流。"
@@ -718,7 +809,7 @@ const CONTENT = {
       [
         "09:30–10:00",
         "商务日开幕",
-        "深圳北理莫斯科大学 · 开幕环节",
+        "深圳北理莫斯科大学校园 · 开幕环节",
         [
           "金砖合作背景下的中俄商业与科研合作。",
           "大学作为专业支持平台、商务对话协调者与共同倡议的培育环境。"
@@ -727,7 +818,7 @@ const CONTENT = {
       [
         "10:00–11:10",
         "中俄合作：构建信任基础",
-        "深圳北理莫斯科大学 · 全体会议",
+        "深圳北理莫斯科大学校园 · 全体会议",
         [
           "10:00–10:20 · VTB银行：从金融基础设施到信任基础设施。教育项目与商务合作。",
           "10:20–10:40 · 阿尔法银行：校企合作与人才发展。",
@@ -738,7 +829,7 @@ const CONTENT = {
       [
         "11:10–11:30",
         "茶歇与交流",
-        "深圳北理莫斯科大学 · 自由交流",
+        "深圳北理莫斯科大学校园 · 自由交流",
         [
           "交换联系方式，进一步了解共同兴趣。"
         ]
@@ -746,7 +837,7 @@ const CONTENT = {
       [
         "11:30–12:30",
         "中俄技术市场：艺术、产业与技术成果交流",
-        "深圳北理莫斯科大学 · 跨领域讨论",
+        "深圳北理莫斯科大学校园 · 跨领域讨论",
         [
           "11:30–11:50 · 中俄技术市场：新兴趋势、企业需求与技术成果交流机遇。",
           "11:50–12:10 · 艺术与技术：人工智能、数字创意及企业与文化创意产业的合作。",
@@ -755,23 +846,23 @@ const CONTENT = {
       ],
       [
         "12:30–14:00",
-        "午餐与转场",
-        "行程安排",
+        "午餐",
+        "深圳北理莫斯科大学校园",
         [
-          "午餐休息及会场间转场。"
+          "校内午餐休息。"
         ]
       ],
       [
         "14:00–15:30",
         "人工智能连接两个市场：中国与俄罗斯",
-        "主持访谈 · 达里娅·茹伊科娃、克利缅特·维库洛夫、Z.ai / GLM",
+        "深圳北理莫斯科大学校园 · 主持访谈 · Z.ai · GLM, 克利缅特·维库洛夫（Kliment Vikulov）, 米克·魏斯曼（Mik Vaisman）, 达里娅·茹伊科娃（Darya Zhuykova）, 尼古拉·索罗金（Nikolay Sorokin）",
         [],
         true
       ],
       [
         "15:30–16:00",
         "茶歇与商务交流",
-        "酒店会场 · 自由交流",
+        "深圳北理莫斯科大学校园 · 自由交流",
         [
           "开展专业交流，分享经验，探讨共同的商业利益。"
         ]
@@ -779,7 +870,7 @@ const CONTENT = {
       [
         "16:00–17:00",
         "企业与大学：伙伴关系与共同倡议",
-        "酒店会场 · 主持讨论与商务会谈",
+        "深圳北理莫斯科大学校园 · 主持讨论与商务会谈",
         [
           "16:00–16:20 · 企业的共同利益：技术、专业知识、教育与新市场。",
           "16:20–16:40 · 科研与加速发展支持：专业评估、应用研究及共同倡议支持等潜在校企合作形式。",
@@ -789,7 +880,7 @@ const CONTENT = {
       [
         "17:00–17:30",
         "商务日总结讨论",
-        "酒店会场 · 闭幕讨论",
+        "深圳北理莫斯科大学校园 · 闭幕讨论",
         [
           "梳理各专题提出的议题与合作建议。",
           "展望科研、教育与商业合作。"
@@ -804,7 +895,7 @@ const CONTENT = {
         ]
       ]
     ],
-    "programNote": "商务日日程 · 2026年11月22日。",
+    "programNote": "全部日间活动均在深圳北理莫斯科大学校园内举行。 中国广东省深圳市龙岗区大运新城国际大学园路1号。",
     "formatLabel": "参与活动",
     "formatTitle": "期待与您相识",
     "formatLead": "欢迎带着问题、想法或合作意愿参加。日程留出了时间，供大家交流并了解大学。",
@@ -819,7 +910,7 @@ const CONTENT = {
       ],
       [
         "场地与交通",
-        "深圳 · 深圳北理莫斯科大学。"
+        "全部日间活动均在深圳北理莫斯科大学校园内举行。 中国广东省深圳市龙岗区大运新城国际大学园路1号。"
       ],
       [
         "正式邀请函",
@@ -853,12 +944,58 @@ const CONTENT = {
       [
         "克利缅特·维库洛夫（Kliment Vikulov）",
         "GPTunneL 联合创始人",
-        "GPTunneL联合创始人。该平台由ScriptHeads团队开发，团队同时研发Grom模型系列。克利缅特将分享用户与企业需求、模型选择及人工智能产品开发经验。"
+        "GPTunneL联合创始人。该平台由ScriptHeads团队开发，团队同时研发Grom模型系列。克利缅特将分享用户与企业需求、模型选择及人工智能产品开发经验。",
+        "kliment",
+        [
+          [
+            "GPTunneL：人工智能平台",
+            "https://gptunnel.ru/"
+          ]
+        ]
+      ],
+      [
+        "米克·魏斯曼（Mik Vaisman）",
+        "IT企业家、开发者 · Trinity Monsters与WaiWai创始人",
+        "本场讨论将涉及人工智能产品开发与企业应用：从确定要解决的问题，到交付团队实际使用的工具。",
+        "mick",
+        [
+          [
+            "WaiWai：产品开发与培训",
+            "https://ru.waiwai.is/"
+          ],
+          [
+            "WAI School：儿童人工智能项目",
+            "https://wai.school/"
+          ]
+        ]
       ],
       [
         "达里娅·茹伊科娃（Darya Zhuykova）",
-        "WAI 联合创始人 · 对话主持人",
-        "WAI联合创始人，从事团队人工智能培训与企业系统中的应用实施，拥有为Severstal和Nordgold开展项目的经验。主持讨论技能、岗位及日常工作方式的变化。"
+        "WaiWai合伙人 · 莫斯科物理技术学院教师 · 曾任职于Severstal",
+        "本场对话主持人。从事团队人工智能培训与企业工作流程中的应用实施，主持讨论人工智能如何改变员工的技能、岗位及日常工作。",
+        "darya",
+        [
+          [
+            "WaiWai：产品开发与培训",
+            "https://ru.waiwai.is/"
+          ],
+          [
+            "WAI School：儿童人工智能项目",
+            "https://wai.school/"
+          ]
+        ]
+      ],
+      [
+        "尼古拉·索罗金（Nikolay Sorokin）",
+        "Lab 40 创始人",
+        "斯科尔科沃科学技术学院（Skoltech）资助竞赛获奖者。从事产品开发与适配、客户需求研究（CustDev），帮助企业进入新市场。本场将讨论如何验证市场需求，以及如何了解另一国家的客户。",
+        "nikolay",
+        [
+          [
+            "Lab 40：市场研究",
+            "https://lab-40.ru/"
+          ]
+        ]
       ]
     ],
     "aiQuestionsLabel": "讨论重点",
@@ -882,7 +1019,7 @@ const CONTENT = {
     "detailLabel": "查看详情",
     "closeLabel": "收起",
     "venueTitle": "相聚\n深圳",
-    "venueBody": "深圳北理莫斯科大学，深圳市龙岗区国际大学园路1号。",
+    "venueBody": "全部日间活动均在深圳北理莫斯科大学校园内举行。 中国广东省深圳市龙岗区大运新城国际大学园路1号。",
     "venueLink": "了解校园 ↗"
   }
 };
