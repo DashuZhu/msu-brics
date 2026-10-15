@@ -274,7 +274,7 @@ const CONTENT = {
       [
         "Мик Вайсман",
         "Основатель и CEO Trinity Monsters, WaiWai и WAI School",
-        "IT-предприниматель и разработчик. Команда Trinity Monsters создаёт цифровые продукты для ВТБ, BORK, Nespresso и музея «Гараж». В WaiWai развивает разработку с ИИ и обучение команд на задачах бизнеса; среди клиентов обучения — Альфа-Банк и «Самолёт». В WAI School дети создают игры, сайты и приложения с ИИ и личным ментором.",
+        "IT-предприниматель и разработчик. Создаёт цифровые продукты и ИИ-агентов. Команда Trinity Monsters работает с 2013 года: среди её проектов — QR-платежи для бизнеса ВТБ, управление умной кухней BORK, приложения для бутиков и сотрудников Nespresso, доступные цифровые проекты музея «Гараж».",
         "mick",
         [
           [
@@ -615,7 +615,7 @@ const CONTENT = {
       [
         "Mik Vaisman",
         "Founder and CEO of Trinity Monsters, WaiWai and WAI School",
-        "IT entrepreneur and developer. The Trinity Monsters team builds digital products for VTB, BORK, Nespresso and Garage Museum. At WaiWai, he develops AI-assisted products and practical training for business teams, with training clients including Alfa-Bank and Samolet. At WAI School, children build games, websites and applications using AI with a personal mentor.",
+        "IT entrepreneur and developer building digital products and AI agents. The Trinity Monsters team has worked since 2013. Its projects include QR payments for VTB business customers, smart kitchen controls for BORK, applications for Nespresso boutiques and staff, and accessible digital projects for Garage Museum.",
         "mick",
         [
           [
@@ -956,7 +956,7 @@ const CONTENT = {
       [
         "米克·魏斯曼（Mik Vaisman）",
         "Trinity Monsters、WaiWai及WAI School创始人兼CEO",
-        "IT企业家、开发者。Trinity Monsters团队为VTB、BORK、Nespresso及Garage当代艺术博物馆开发数字产品。在WaiWai推动人工智能辅助开发和基于企业实际任务的团队培训，培训客户包括阿尔法银行和Samolet。在WAI School，儿童在专属导师指导下，借助人工智能制作游戏、网站和应用。",
+        "IT企业家、开发者，开发数字产品与人工智能智能体。Trinity Monsters团队自2013年开展业务，项目包括为VTB企业客户开发二维码支付服务、BORK智能厨房控制系统、Nespresso门店与员工应用，以及Garage当代艺术博物馆的无障碍数字项目。",
         "mick",
         [
           [
