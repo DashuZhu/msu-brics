@@ -20,7 +20,7 @@ function render(lang) {
   $('#topics').replaceChildren(...t.topics.map(([a,b],i) => {const n=el('article',undefined,'topic');n.append(el('span',`0${i+1}`, 'num'),el('h3',a),el('p',b));return n;}));
   $('#companyList').replaceChildren(...t.companies.map(([a,b,c,d])=>{const n=el('article',undefined,'company');n.append(el('h3',a),el('p',b),el('div',c,'status'+(d?' interest':'')));return n;}));
   $('#agenda').replaceChildren(...t.agenda.map(([time,title,place,items,featured],i)=>{
-    const n=el('details',undefined,'slot'+(featured?' feature':''));n.dataset.index=String(i);if(i===0)n.id='morning';if(i===5)n.id='afternoon';if(i===10)n.id='evening';n.open=openSlots.has(String(i));
+    const n=el('details',undefined,'slot'+(featured?' feature':''));n.dataset.index=String(i);if(i===0)n.id='morning';if(i===2)n.id='afternoon';if(i===7)n.id='evening';n.open=openSlots.has(String(i));
     const summary=el('summary'),head=el('span',title,'slottitle');head.append(el('small',place));const plus=el('span','+','plus');plus.setAttribute('aria-hidden','true');summary.append(el('span',time,'time'),head,plus);
     const body=el('div',undefined,'slotbody'),list=el('ul');list.append(...items.map(s=>el('li',s)));if(featured){
       n.id='ai';body.classList.add('interview');
@@ -38,7 +38,7 @@ function render(lang) {
   }));
   $('#formatBlocks').replaceChildren(...t.formatBlocks.map(([a,b])=>{const n=el('div');n.append(el('h3',a),el('p',b,'muted'));return n;}));
   $('#sources').replaceChildren(...t.sources.map((s,i)=>{const li=el('li'),a=el('a',s);a.href=sourceUrls[i];a.target='_blank';a.rel='noopener noreferrer';li.append(a);return li;}));
-  [0,5,10].forEach((index,j)=>{const h=el('h3',t.dayParts[j],'day-heading');$('#agenda').insertBefore(h,$('#agenda').querySelector('[data-index="'+index+'"]'));});
+  [0,2,7].forEach((index,j)=>{const h=el('h3',t.dayParts[j],'day-heading');$('#agenda').insertBefore(h,$('#agenda').querySelector('[data-index="'+index+'"]'));});
   $('#dayNav').replaceChildren(...t.dayNav.map((label,j)=>{const a=el('a',label);a.href='#'+['morning','afternoon','evening'][j];return a;}));
   syncExpand();
   try{localStorage.setItem('msu-brics-language',lang);}catch{}
@@ -49,7 +49,7 @@ $('#expand').addEventListener('click',()=>{const target=$('#expand').getAttribut
 function icsEscape(s){return s.replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');}
 function foldLine(line){const encoder=new TextEncoder();let out='',part='',bytes=0;for(const c of line){const size=encoder.encode(c).length;if(bytes+size>73){out+=part+'\r\n ';part='';bytes=1;}part+=c;bytes+=size;}return out+part;}
 $('#calendar').addEventListener('click',()=>{
- const t=CONTENT[language];const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//MSU BRICS Business Day//2026//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT','UID:business-day-20261122@msu-brics.ru','DTSTAMP:20261005T000000Z','DTSTART;VALUE=DATE:20261122','DTEND;VALUE=DATE:20261123','SUMMARY:'+icsEscape(t.calendarTitle),'LOCATION:'+icsEscape(t.location),'DESCRIPTION:'+icsEscape(t.calendarDescription),'STATUS:TENTATIVE','END:VEVENT','END:VCALENDAR'];
+ const t=CONTENT[language];const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//MSU BRICS Business Day//2026//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT','UID:business-day-20261122@msu-brics.ru','DTSTAMP:20261005T000000Z','DTSTART;VALUE=DATE:20261122','DTEND;VALUE=DATE:20261123','SUMMARY:'+icsEscape(t.calendarTitle),'LOCATION:'+icsEscape(t.calendarLocation || t.location),'DESCRIPTION:'+icsEscape(t.calendarDescription),'STATUS:TENTATIVE','END:VEVENT','END:VCALENDAR'];
  const url=URL.createObjectURL(new Blob([lines.map(foldLine).join('\r\n')+'\r\n'],{type:'text/calendar;charset=utf-8'}));const a=el('a');a.href=url;a.download='msu-brics-2026-11-22.ics';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
 });
 let preferred=new URL(location.href).searchParams.get('lang');if(!preferred){try{preferred=localStorage.getItem('msu-brics-language');}catch{}}
