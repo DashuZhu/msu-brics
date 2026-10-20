@@ -46,6 +46,7 @@ function render(lang) {
     venue.append(el('p',time,'venue-time'),el('h3',name),el('p',description),addr,copy);return venue;
   }));
   $('#copyStatus').textContent='';
+  $('#organizerPeople').replaceChildren(...t.organizerPeople.map(([name,role,bio],i)=>{const person=el('article',undefined,'organizer-person');const photo=el('img');photo.src=i===0?'igor-saveliev.jpg':'ekaterina-buzulukova.jpg';photo.alt=name;photo.loading='lazy';photo.width=150;photo.height=180;const text=el('div');const link=el('a',t.profileLink,'textlink');link.href='https://www.econ.msu.ru/departments/BRICS-center/Staff/'+(i===0?'I.I.Saveliev/':'E.V.Buzulukova/');link.target='_blank';link.rel='noopener noreferrer';text.append(el('h4',name),el('p',role),el('p',bio,'muted'),link);person.append(photo,text);return person;}));
   $('#formatBlocks').replaceChildren(...t.formatBlocks.map(([a,b])=>{const n=el('div');n.append(el('h3',a),el('p',b,'muted'));return n;}));
   $('#sources').replaceChildren(...t.sources.map((s,i)=>{const li=el('li'),a=el('a',s);a.href=sourceUrls[i];a.target='_blank';a.rel='noopener noreferrer';li.append(a);return li;}));
   [0,2,7].forEach((index,j)=>{const h=el('h3',t.dayParts[j],'day-heading');$('#agenda').insertBefore(h,$('#agenda').querySelector('[data-index="'+index+'"]'));});

@@ -350,6 +350,30 @@ const CONTENT = {
         "Китай, Шэньчжэнь, Лунган, Dayun Road, 168.",
         "深圳市龙岗区大运路168号 · 深圳中海凯骊酒店"
       ]
+    ],
+    "navOrganizers": "Организаторы",
+    "organizersTitle": "Инициаторы и соорганизаторы",
+    "centerName": "Центр коммуникаций и делового партнерства БРИКС",
+    "centerAffiliation": "Экономический факультет МГУ имени М. В. Ломоносова",
+    "centerBody": "Центр создан 1 декабря 2025 года. Он объединяет научную и образовательную работу факультета с сотрудничеством университетов, бизнеса и государственных структур.",
+    "coorganizerName": "Университет МГУ–ППИ в Шэньчжэне",
+    "coorganizerBody": "Соорганизатор и университетская площадка бизнес-дня. В кампусе пройдёт первая часть конференции.",
+    "centerLink": "Официальный сайт Центра",
+    "leadershipTitle": "Дирекция и проектное направление Центра",
+    "teamLink": "Вся команда Центра",
+    "profileLink": "Профиль на сайте МГУ",
+    "organizerCredit": "Сведения и фотографии: экономический факультет МГУ.",
+    "organizerPeople": [
+      [
+        "Игорь Игоревич Савельев",
+        "Директор Центра коммуникаций и делового партнерства БРИКС",
+        "Кандидат экономических наук, доцент, старший научный сотрудник экономического факультета МГУ."
+      ],
+      [
+        "Екатерина Валерьевна Бузулукова",
+        "Руководитель проектного направления на экономическом факультете МГУ",
+        "Кандидат экономических наук, старший научный сотрудник."
+      ]
     ]
   },
   "en": {
@@ -703,6 +727,30 @@ const CONTENT = {
         "168 Dayun Road, Longgang, Shenzhen, China.",
         "深圳市龙岗区大运路168号 · 深圳中海凯骊酒店"
       ]
+    ],
+    "navOrganizers": "Organisers",
+    "organizersTitle": "Initiators and co-organisers",
+    "centerName": "BRICS Centre for Communications and Business Partnership",
+    "centerAffiliation": "Faculty of Economics, Lomonosov Moscow State University",
+    "centerBody": "Established on 1 December 2025, the Centre connects the Faculty’s research and education with cooperation between universities, businesses and public institutions.",
+    "coorganizerName": "Shenzhen MSU–BIT University",
+    "coorganizerBody": "Co-organiser and university venue for Business Day. The first part of the conference takes place on campus.",
+    "centerLink": "Visit the Centre’s website",
+    "leadershipTitle": "Centre leadership and project coordination",
+    "teamLink": "Meet the full team",
+    "profileLink": "Profile on the MSU website",
+    "organizerCredit": "Information and photographs: MSU Faculty of Economics.",
+    "organizerPeople": [
+      [
+        "Igor Igorevich Saveliev",
+        "Director, BRICS Centre for Communications and Business Partnership",
+        "Candidate of Economic Sciences, Associate Professor and Senior Research Fellow at the MSU Faculty of Economics."
+      ],
+      [
+        "Ekaterina Valeryevna Buzulukova",
+        "Head of the project direction at the MSU Faculty of Economics",
+        "Candidate of Economic Sciences and Senior Research Fellow."
+      ]
     ]
   },
   "zh": {
@@ -1055,6 +1103,30 @@ const CONTENT = {
         "拟选午餐、专题讨论及酒会场地。人工智能专题时间：14:00–15:30。",
         "中国广东省深圳市龙岗区大运路168号。",
         "深圳市龙岗区大运路168号 · 深圳中海凯骊酒店"
+      ]
+    ],
+    "navOrganizers": "组织方",
+    "organizersTitle": "发起与联合组织单位",
+    "centerName": "金砖国家交流与商业合作中心",
+    "centerAffiliation": "莫斯科国立罗蒙诺索夫大学经济系",
+    "centerBody": "中心成立于2025年12月1日，将经济系的科研与教育工作同高校、企业及政府机构之间的合作相结合。",
+    "coorganizerName": "深圳北理莫斯科大学",
+    "coorganizerBody": "联合组织单位及大学会场。会议第一部分在校园内举行。",
+    "centerLink": "访问中心官方网站",
+    "leadershipTitle": "中心负责人及项目负责人",
+    "teamLink": "查看中心完整团队",
+    "profileLink": "查看莫斯科大学官方简介",
+    "organizerCredit": "资料与照片来源：莫斯科大学经济系。",
+    "organizerPeople": [
+      [
+        "伊戈尔·伊戈列维奇·萨韦利耶夫（Igor Saveliev）",
+        "金砖国家交流与商业合作中心主任",
+        "经济学副博士、副教授、莫斯科大学经济系高级研究员。"
+      ],
+      [
+        "叶卡捷琳娜·瓦列里耶芙娜·布祖卢科娃（Ekaterina Buzulukova）",
+        "莫斯科大学经济系项目方向负责人",
+        "经济学副博士、高级研究员。"
       ]
     ]
   }
