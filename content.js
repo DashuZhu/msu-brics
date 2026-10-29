@@ -374,6 +374,109 @@ const CONTENT = {
         "Руководитель проектного направления на экономическом факультете МГУ",
         "Кандидат экономических наук, старший научный сотрудник."
       ]
+    ],
+    "participantsTitle": "Приглашённые участники",
+    "navParticipants": "Участники",
+    "participantsLead": "Участники без привязки к отдельной сессии.",
+    "aiParticipantsLink": "Участники дискуссии об ИИ",
+    "photoSource": "Источник фотографии",
+    "generalParticipants": [
+      [
+        "Константин Борисович Вернигоров",
+        "Директор по развитию продуктовых решений и технического сервиса ПАО «СИБУР Холдинг»",
+        "",
+        ""
+      ],
+      [
+        "Владимир Вячеславович Верхошинский",
+        "Главный управляющий директор АО «АЛЬФА-БАНК»",
+        "verkhoshinsky.webp",
+        "https://verkhoshinskiy.info/"
+      ],
+      [
+        "Павел Андреевич Демидов",
+        "Вице-президент ООО «Яндекс» по корпоративным отношениям",
+        "",
+        ""
+      ],
+      [
+        "Ольга Константиновна Дергунова",
+        "Старший вице-президент Банка ВТБ, руководитель «ВТБ Образование»",
+        "dergunova.jpg",
+        "https://www.vtbeducation.ru/vtb-obrazovanie-ii-peregovory-s-kitaem.html"
+      ],
+      [
+        "Ольга Вячеславовна Заузелкова",
+        "Председатель РАПЭТ — Ассоциации развития полимерных эффективных технологий",
+        "",
+        ""
+      ],
+      [
+        "Клара Туламатовна Ким",
+        "Директор Хабаровского филиала АО «СОГАЗ»",
+        "",
+        ""
+      ],
+      [
+        "Михаил Евгеньевич Кузнецов",
+        "Директор ФАНУ «Восточный центр государственного планирования»",
+        "",
+        ""
+      ],
+      [
+        "Эльвира Юрьевна Кускова",
+        "Член Генерального совета «Деловой России», руководитель подкомитета по таможенной логистике (ВЭД)",
+        "kuskova.jpg",
+        "https://deloros.ru/litsa/kuskova-elvira-yurevna-/"
+      ],
+      [
+        "Андрей Владимирович Лакеев",
+        "Вице-президент, управляющий по Дальневосточному региону Газпромбанка",
+        "",
+        ""
+      ],
+      [
+        "Владимир Валериевич Марков",
+        "Генеральный директор производственной компании «Технониколь»",
+        "markov.jpg",
+        "https://www.tn.ru/about/press/press-kit/vladimir-markov/"
+      ],
+      [
+        "Юлия Сергеевна Морозова",
+        "Председатель Правительства Камчатского края",
+        "",
+        ""
+      ],
+      [
+        "Евгений Анатольевич Орлов",
+        "Вице-президент Банка ВТБ, управляющий операционным офисом в Хабаровске",
+        "",
+        ""
+      ],
+      [
+        "Мария Игоревна Полякова",
+        "Директор департамента Арктики ФАНУ «Восточный центр государственного планирования»",
+        "",
+        ""
+      ],
+      [
+        "Юлия Викторовна Фомина",
+        "Руководитель Дирекции развития бренда работодателя и проекта «АЛЬФА-Будущее»",
+        "",
+        ""
+      ],
+      [
+        "Юрий Владимирович Шейко",
+        "Региональный управляющий, управляющий филиалом «Хабаровский» АО «АЛЬФА-БАНК»",
+        "",
+        ""
+      ],
+      [
+        "Илья Анатольевич Шконда",
+        "Управляющий филиалом Банка ВТБ в Шанхае",
+        "",
+        ""
+      ]
     ]
   },
   "en": {
@@ -751,6 +854,109 @@ const CONTENT = {
         "Head of the project direction at the MSU Faculty of Economics",
         "Candidate of Economic Sciences and Senior Research Fellow."
       ]
+    ],
+    "participantsTitle": "Invited participants",
+    "navParticipants": "Participants",
+    "participantsLead": "Participants not assigned to a specific session.",
+    "aiParticipantsLink": "AI discussion participants",
+    "photoSource": "Photo source",
+    "generalParticipants": [
+      [
+        "Konstantin Vernigorov",
+        "Director for Product Solutions and Technical Service Development, SIBUR Holding",
+        "",
+        ""
+      ],
+      [
+        "Vladimir Verkhoshinsky",
+        "Chief Executive Officer, Alfa-Bank",
+        "verkhoshinsky.webp",
+        "https://verkhoshinskiy.info/"
+      ],
+      [
+        "Pavel Demidov",
+        "Vice President for Corporate Relations, Yandex",
+        "",
+        ""
+      ],
+      [
+        "Olga Dergunova",
+        "Senior Vice President of VTB Bank, Head of VTB Education",
+        "dergunova.jpg",
+        "https://www.vtbeducation.ru/vtb-obrazovanie-ii-peregovory-s-kitaem.html"
+      ],
+      [
+        "Olga Zauzelkova",
+        "Chair of RAPET, Association for the Development of Polymer Efficient Technologies",
+        "",
+        ""
+      ],
+      [
+        "Klara Kim",
+        "Director of the Khabarovsk Branch, SOGAZ",
+        "",
+        ""
+      ],
+      [
+        "Mikhail Kuznetsov",
+        "Director, Eastern Center for State Planning",
+        "",
+        ""
+      ],
+      [
+        "Elvira Kuskova",
+        "Member of the General Council of Delovaya Rossiya; Head of the Subcommittee on Customs Logistics and Foreign Economic Activity",
+        "kuskova.jpg",
+        "https://deloros.ru/litsa/kuskova-elvira-yurevna-/"
+      ],
+      [
+        "Andrey Lakeev",
+        "Vice President and Managing Director for the Far Eastern Region, Gazprombank",
+        "",
+        ""
+      ],
+      [
+        "Vladimir Markov",
+        "General Director, TechnoNICOL manufacturing company",
+        "markov.jpg",
+        "https://www.tn.ru/about/press/press-kit/vladimir-markov/"
+      ],
+      [
+        "Yulia Morozova",
+        "Chair of the Government of Kamchatka Krai",
+        "",
+        ""
+      ],
+      [
+        "Evgeny Orlov",
+        "Vice President of VTB Bank; Manager of the Khabarovsk Operational Office",
+        "",
+        ""
+      ],
+      [
+        "Maria Polyakova",
+        "Director of the Arctic Department, Eastern Center for State Planning",
+        "",
+        ""
+      ],
+      [
+        "Yulia Fomina",
+        "Head of Employer Brand Development and the Alfa-Future Project",
+        "",
+        ""
+      ],
+      [
+        "Yuri Sheiko",
+        "Regional Manager and Head of the Khabarovsk Branch, Alfa-Bank",
+        "",
+        ""
+      ],
+      [
+        "Ilya Shkonda",
+        "Manager of VTB Bank’s Shanghai Branch",
+        "",
+        ""
+      ]
     ]
   },
   "zh": {
@@ -1127,6 +1333,109 @@ const CONTENT = {
         "叶卡捷琳娜·瓦列里耶芙娜·布祖卢科娃（Ekaterina Buzulukova）",
         "莫斯科大学经济系项目方向负责人",
         "经济学副博士、高级研究员。"
+      ]
+    ],
+    "participantsTitle": "受邀参会者",
+    "navParticipants": "参会者",
+    "participantsLead": "以下参会者尚未安排至具体场次。",
+    "aiParticipantsLink": "人工智能讨论嘉宾",
+    "photoSource": "照片来源",
+    "generalParticipants": [
+      [
+        "康斯坦丁·韦尔尼戈罗夫 (Konstantin Vernigorov)",
+        "西布尔控股产品解决方案与技术服务发展总监",
+        "",
+        ""
+      ],
+      [
+        "弗拉基米尔·韦尔霍申斯基 (Vladimir Verkhoshinsky)",
+        "阿尔法银行首席执行官",
+        "verkhoshinsky.webp",
+        "https://verkhoshinskiy.info/"
+      ],
+      [
+        "帕维尔·杰米多夫 (Pavel Demidov)",
+        "Yandex企业关系副总裁",
+        "",
+        ""
+      ],
+      [
+        "奥尔加·杰尔古诺娃 (Olga Dergunova)",
+        "VTB银行高级副总裁、VTB教育负责人",
+        "dergunova.jpg",
+        "https://www.vtbeducation.ru/vtb-obrazovanie-ii-peregovory-s-kitaem.html"
+      ],
+      [
+        "奥尔加·扎乌泽尔科娃 (Olga Zauzelkova)",
+        "RAPET高效聚合物技术发展协会主席",
+        "",
+        ""
+      ],
+      [
+        "克拉拉·金 (Klara Kim)",
+        "SOGAZ哈巴罗夫斯克分公司总经理",
+        "",
+        ""
+      ],
+      [
+        "米哈伊尔·库兹涅佐夫 (Mikhail Kuznetsov)",
+        "东方国家规划中心主任",
+        "",
+        ""
+      ],
+      [
+        "埃尔维拉·库斯科娃 (Elvira Kuskova)",
+        "俄罗斯实业总委员会成员、海关物流与对外经济活动分委员会负责人",
+        "kuskova.jpg",
+        "https://deloros.ru/litsa/kuskova-elvira-yurevna-/"
+      ],
+      [
+        "安德烈·拉克耶夫 (Andrey Lakeev)",
+        "俄罗斯天然气工业银行副总裁、远东地区负责人",
+        "",
+        ""
+      ],
+      [
+        "弗拉基米尔·马尔科夫 (Vladimir Markov)",
+        "TECHNONICOL生产公司总经理",
+        "markov.jpg",
+        "https://www.tn.ru/about/press/press-kit/vladimir-markov/"
+      ],
+      [
+        "尤利娅·莫罗佐娃 (Yulia Morozova)",
+        "堪察加边疆区政府主席",
+        "",
+        ""
+      ],
+      [
+        "叶夫根尼·奥尔洛夫 (Evgeny Orlov)",
+        "VTB银行副总裁、哈巴罗夫斯克营业部负责人",
+        "",
+        ""
+      ],
+      [
+        "玛丽亚·波利亚科娃 (Maria Polyakova)",
+        "东方国家规划中心北极事务部主任",
+        "",
+        ""
+      ],
+      [
+        "尤利娅·福米娜 (Yulia Fomina)",
+        "雇主品牌发展部门及Alfa-Future项目负责人",
+        "",
+        ""
+      ],
+      [
+        "尤里·舍伊科 (Yuri Sheiko)",
+        "阿尔法银行区域经理、哈巴罗夫斯克分行行长",
+        "",
+        ""
+      ],
+      [
+        "伊利亚·什孔达 (Ilya Shkonda)",
+        "VTB银行上海分行行长",
+        "",
+        ""
       ]
     ]
   }

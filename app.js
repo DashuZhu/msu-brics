@@ -21,6 +21,7 @@ function render(lang) {
   const title = $('#heroTitle'); title.replaceChildren(document.createTextNode(t.heroCountries[0]),el('br'),el('span',t.heroCountries[1]));
   $('#bridge').replaceChildren(...t.bridge.map(([a,b]) => {const n=el('div');n.append(el('b',a),el('span',b));return n;}));
   $('#topics').replaceChildren(...t.topics.map(([a,b],i) => {const n=el('article',undefined,'topic');n.append(el('span',`0${i+1}`, 'num'),el('h3',a),el('p',b));return n;}));
+  $('#generalParticipants').replaceChildren(...t.generalParticipants.map(([name,role,photo,source])=>{const person=el('article',undefined,'invitee'+(photo?' has-photo':''));if(photo){const img=el('img');img.src=photo;img.alt=name;img.loading='lazy';img.width=100;img.height=125;person.append(img);}const text=el('div');text.append(el('h3',name),el('p',role));if(source){const link=el('a',t.photoSource,'textlink');link.href=source;link.target='_blank';link.rel='noopener noreferrer';text.append(link);}person.append(text);return person;}));
   $('#companyList').replaceChildren(...t.companies.map(([a,b,c,d])=>{const n=el('article',undefined,'company');n.append(el('h3',a),el('p',b),el('div',c,'status'+(d?' interest':'')));return n;}));
   $('#agenda').replaceChildren(...t.agenda.map(([time,title,place,items,featured],i)=>{
     const n=el('details',undefined,'slot'+(featured?' feature':''));n.dataset.index=String(i);if(i===0)n.id='morning';if(i===2)n.id='afternoon';if(i===7)n.id='evening';n.open=openSlots.has(String(i));
