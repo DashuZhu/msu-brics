@@ -333,7 +333,7 @@ const CONTENT = {
     "coorganizerName": "Университет МГУ–ППИ в Шэньчжэне",
     "coorganizerBody": "Соорганизатор и университетская площадка бизнес-дня. В кампусе пройдёт первая часть конференции.",
     "centerLink": "Официальный сайт Центра",
-    "leadershipTitle": "Дирекция и проектное направление Центра",
+    "leadershipTitle": "Директор Центра",
     "teamLink": "Вся команда Центра",
     "profileLink": "Профиль на сайте МГУ",
     "organizerCredit": "Сведения и фотографии: экономический факультет МГУ.",
@@ -342,11 +342,6 @@ const CONTENT = {
         "Игорь Игоревич Савельев",
         "Директор Центра коммуникаций и делового партнерства БРИКС",
         "Кандидат экономических наук, доцент, старший научный сотрудник экономического факультета МГУ."
-      ],
-      [
-        "Екатерина Валерьевна Бузулукова",
-        "Руководитель проектного направления на экономическом факультете МГУ",
-        "Кандидат экономических наук, старший научный сотрудник."
       ]
     ],
     "participantsTitle": "Приглашённые участники",
@@ -787,7 +782,7 @@ const CONTENT = {
     "coorganizerName": "Shenzhen MSU–BIT University",
     "coorganizerBody": "Co-organiser and university venue for Business Day. The first part of the conference takes place on campus.",
     "centerLink": "Visit the Centre’s website",
-    "leadershipTitle": "Centre leadership and project coordination",
+    "leadershipTitle": "Centre Director",
     "teamLink": "Meet the full team",
     "profileLink": "Profile on the MSU website",
     "organizerCredit": "Information and photographs: MSU Faculty of Economics.",
@@ -796,11 +791,6 @@ const CONTENT = {
         "Igor Igorevich Saveliev",
         "Director, BRICS Centre for Communications and Business Partnership",
         "Candidate of Economic Sciences, Associate Professor and Senior Research Fellow at the MSU Faculty of Economics."
-      ],
-      [
-        "Ekaterina Valeryevna Buzulukova",
-        "Head of the project direction at the MSU Faculty of Economics",
-        "Candidate of Economic Sciences and Senior Research Fellow."
       ]
     ],
     "participantsTitle": "Invited participants",
@@ -1241,7 +1231,7 @@ const CONTENT = {
     "coorganizerName": "深圳北理莫斯科大学",
     "coorganizerBody": "联合组织单位及大学会场。会议第一部分在校园内举行。",
     "centerLink": "访问中心官方网站",
-    "leadershipTitle": "中心负责人及项目负责人",
+    "leadershipTitle": "中心主任",
     "teamLink": "查看中心完整团队",
     "profileLink": "查看莫斯科大学官方简介",
     "organizerCredit": "资料与照片来源：莫斯科大学经济系。",
@@ -1250,11 +1240,6 @@ const CONTENT = {
         "伊戈尔·伊戈列维奇·萨韦利耶夫（Igor Saveliev）",
         "金砖国家交流与商业合作中心主任",
         "经济学副博士、副教授、莫斯科大学经济系高级研究员。"
-      ],
-      [
-        "叶卡捷琳娜·瓦列里耶芙娜·布祖卢科娃（Ekaterina Buzulukova）",
-        "莫斯科大学经济系项目方向负责人",
-        "经济学副博士、高级研究员。"
       ]
     ],
     "participantsTitle": "受邀参会者",
