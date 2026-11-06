@@ -229,7 +229,6 @@ const CONTENT = {
       "МГУ: учредители Университета МГУ–ППИ",
       "БРИКС: направления сотрудничества",
       "GPTunneL: команда и технологии",
-      "WAI: корпоративное обучение ИИ",
       "Z.ai: модели GLM и инструменты разработчика",
       "Фотография: Университет МГУ–ППИ"
     ],
@@ -258,36 +257,11 @@ const CONTENT = {
         ]
       ],
       [
-        "Мик Вайсман",
-        "Основатель и CEO Trinity Monsters, WaiWai и WAI School",
-        "IT-предприниматель и разработчик. Создаёт цифровые продукты и ИИ-агентов. Команда Trinity Monsters работает с 2013 года: среди её проектов — QR-платежи для бизнеса ВТБ, управление умной кухней BORK, приложения для бутиков и сотрудников Nespresso, доступные цифровые проекты музея «Гараж».",
-        "mick",
-        [
-          [
-            "WaiWai — разработка и обучение",
-            "https://ru.waiwai.is/"
-          ],
-          [
-            "WAI School — ИИ-проекты для детей",
-            "https://wai.school/"
-          ]
-        ]
-      ],
-      [
         "Дарья Жуйкова",
-        "Партнёр WaiWai · Преподаватель МФТИ · ex-Северсталь",
+        "Разработка ИИ-агентов и обучение команд · Преподаватель МФТИ · ex-Северсталь",
         "Ведущая дискуссии. Занимается обучением команд работе с ИИ и внедрением решений в корпоративные процессы. Ведёт разговор о том, как меняются навыки, роли и повседневная работа в компаниях.",
         "darya",
-        [
-          [
-            "WaiWai — разработка и обучение",
-            "https://ru.waiwai.is/"
-          ],
-          [
-            "WAI School — ИИ-проекты для детей",
-            "https://wai.school/"
-          ]
-        ]
+        []
       ],
       [
         "Николай Сорокин",
@@ -709,7 +683,6 @@ const CONTENT = {
       "MSU: founders of Shenzhen MSU–BIT University",
       "BRICS: areas of cooperation",
       "GPTunneL: team and technology",
-      "WAI: corporate AI education",
       "Z.ai: GLM models and developer tools",
       "Photography: Shenzhen MSU–BIT University"
     ],
@@ -738,36 +711,11 @@ const CONTENT = {
         ]
       ],
       [
-        "Mik Vaisman",
-        "Founder and CEO of Trinity Monsters, WaiWai and WAI School",
-        "IT entrepreneur and developer building digital products and AI agents. The Trinity Monsters team has worked since 2013. Its projects include QR payments for VTB business customers, smart kitchen controls for BORK, applications for Nespresso boutiques and staff, and accessible digital projects for Garage Museum.",
-        "mick",
-        [
-          [
-            "WaiWai — development and training",
-            "https://ru.waiwai.is/"
-          ],
-          [
-            "WAI School — AI projects for children",
-            "https://wai.school/"
-          ]
-        ]
-      ],
-      [
         "Darya Zhuykova",
-        "Partner at WaiWai · Lecturer at MIPT · Formerly at Severstal",
+        "AI agent development and team training · Lecturer at MIPT · Formerly at Severstal",
         "Discussion host. Works on AI training for teams and implementation in corporate workflows. Leads the conversation about changing skills, roles and everyday work in companies.",
         "darya",
-        [
-          [
-            "WaiWai — development and training",
-            "https://ru.waiwai.is/"
-          ],
-          [
-            "WAI School — AI projects for children",
-            "https://wai.school/"
-          ]
-        ]
+        []
       ],
       [
         "Nikolay Sorokin",
@@ -1189,7 +1137,6 @@ const CONTENT = {
       "莫斯科大学：深圳北理莫斯科大学的创办方",
       "金砖合作：合作领域",
       "GPTunneL：团队与技术",
-      "WAI：企业人工智能教育",
       "Z.ai：GLM模型与开发工具",
       "图片来源：深圳北理莫斯科大学"
     ],
@@ -1218,36 +1165,11 @@ const CONTENT = {
         ]
       ],
       [
-        "米克·魏斯曼（Mik Vaisman）",
-        "Trinity Monsters、WaiWai及WAI School创始人兼CEO",
-        "IT企业家、开发者，开发数字产品与人工智能智能体。Trinity Monsters团队自2013年开展业务，项目包括为VTB企业客户开发二维码支付服务、BORK智能厨房控制系统、Nespresso门店与员工应用，以及Garage当代艺术博物馆的无障碍数字项目。",
-        "mick",
-        [
-          [
-            "WaiWai：产品开发与培训",
-            "https://ru.waiwai.is/"
-          ],
-          [
-            "WAI School：儿童人工智能项目",
-            "https://wai.school/"
-          ]
-        ]
-      ],
-      [
         "达里娅·茹伊科娃（Darya Zhuykova）",
-        "WaiWai合伙人 · 莫斯科物理技术学院教师 · 曾任职于Severstal",
+        "AI智能体开发与团队培训 · 莫斯科物理技术学院教师 · 曾任职于Severstal",
         "本场对话主持人。从事团队人工智能培训与企业工作流程中的应用实施，主持讨论人工智能如何改变员工的技能、岗位及日常工作。",
         "darya",
-        [
-          [
-            "WaiWai：产品开发与培训",
-            "https://ru.waiwai.is/"
-          ],
-          [
-            "WAI School：儿童人工智能项目",
-            "https://wai.school/"
-          ]
-        ]
+        []
       ],
       [
         "尼古拉·索罗金（Nikolay Sorokin）",
