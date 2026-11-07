@@ -264,6 +264,13 @@ const CONTENT = {
         []
       ],
       [
+        "Иван Шаповал",
+        "Сооснователь «РобоТехнологии» · ex-Яндекс · ex-Uber Russia",
+        "Сооснователь компании по ремонту и обслуживанию роботов. Последние три года занимается операционным сопровождением роботов-доставщиков Яндекса в Москве: организует работу сервисной команды, полевое обслуживание и ремонт. Использует ИИ для улучшения операционных процессов компании.\n\nВ дискуссии расскажет о ежедневной эксплуатации роверов: надёжности, ремонтопригодности, доступности комплектующих и влиянии простоев на экономику.",
+        "ivan",
+        []
+      ],
+      [
         "Николай Сорокин",
         "Основатель «Лаборатории №40»",
         "Призёр грантового конкурса Сколтеха. Занимается разработкой и адаптацией продуктов, исследованиями потребностей клиентов (CustDev) и помогает компаниям выходить на новые рынки. В дискуссии расскажет, как проверять спрос и учитывать потребности покупателей в другой стране.",
@@ -713,6 +720,13 @@ const CONTENT = {
         []
       ],
       [
+        "Ivan Shapoval",
+        "Co-founder, RoboTechnologies · Formerly at Yandex and Uber Russia",
+        "Co-founder of a robot repair and maintenance company. For the past three years, he has supported the operation of Yandex delivery robots in Moscow, coordinating the service team, field maintenance and repairs. He uses AI to improve the company’s operational processes.\n\nIn the discussion, he will share his experience of day-to-day rover operations, covering reliability, repairability, component availability and the business cost of downtime.",
+        "ivan",
+        []
+      ],
+      [
         "Nikolay Sorokin",
         "Founder of Lab 40",
         "Prize winner in a Skoltech grant competition. Works on product development and adaptation, customer development research (CustDev), and helps companies enter new markets. In the discussion, he will address testing demand and understanding customers in another country.",
@@ -1159,6 +1173,13 @@ const CONTENT = {
         "AI智能体开发与团队培训 · 莫斯科物理技术学院教师 · 曾任职于Severstal",
         "本场对话主持人。从事团队人工智能培训与企业工作流程中的应用实施，主持讨论人工智能如何改变员工的技能、岗位及日常工作。",
         "darya",
+        []
+      ],
+      [
+        "伊万·沙波瓦尔（Ivan Shapoval）",
+        "RoboTechnologies 联合创始人 · 曾任职于 Yandex 和 Uber Russia",
+        "机器人维修与保养公司 RoboTechnologies 联合创始人。过去三年，他在莫斯科从事 Yandex 配送机器人的运营支持，组织服务团队的日常工作、现场维护与维修，并运用人工智能改善公司的运营流程。\n\n本场将分享配送机器人日常运行中的经验，讨论可靠性、可维修性、零部件供应，以及停机对运营成本和收益的影响。",
+        "ivan",
         []
       ],
       [

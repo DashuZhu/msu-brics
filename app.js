@@ -32,7 +32,7 @@ function render(lang) {
       const people=el('div',undefined,'speakers');
       t.aiParticipants.forEach(([name,role,bio,portrait,links=[]],personIndex)=>{
         const person=el('article',undefined,'speaker');
-        if(portrait){const frame=el('div',undefined,'portrait '+(portrait==='nikolay'?'portrait-single':portrait==='kliment'?'portrait-left':'portrait-right'));const photo=el('img');photo.src=portrait==='nikolay'?'nikolay-sorokin.png':'speakers.png';photo.alt=name;photo.loading='lazy';frame.append(photo);person.append(frame);}
+        if(portrait){const frame=el('div',undefined,'portrait '+(['nikolay','ivan'].includes(portrait)?'portrait-single':portrait==='kliment'?'portrait-left':'portrait-right'));const photo=el('img');photo.src=portrait==='ivan'?'ivan-shapoval.png':portrait==='nikolay'?'nikolay-sorokin.png':'speakers.png';photo.alt=name;photo.loading='lazy';frame.append(photo);person.append(frame);}
         else {const brand=el('div',undefined,'speaker-brand');brand.append(el('strong','Z.ai'),el('span','GLM'));person.append(brand);}
         person.append(el('h4',name),el('p',role,'speaker-role'));const biography=el('details',undefined,'speaker-bio');biography.dataset.person=String(personIndex);biography.open=openBios.has(String(personIndex));biography.append(el('summary',t.bioLabel),...bio.split('\n\n').map(paragraph=>el('p',paragraph)));person.append(biography);if(links.length){const projects=el('div',undefined,'speaker-projects');links.forEach(([label,url])=>{const link=el('a',label);link.href=url;link.target='_blank';link.rel='noopener noreferrer';projects.append(link);});person.append(projects);}people.append(person);
       });body.append(people,el('h3',t.aiQuestionsLabel));
