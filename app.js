@@ -23,17 +23,17 @@ function render(lang) {
   $('#topics').replaceChildren(...t.topics.map(([a,b],i) => {const n=el('article',undefined,'topic');n.append(el('span',`0${i+1}`, 'num'),el('h3',a),el('p',b));return n;}));
   $('#generalParticipants').replaceChildren(...t.generalParticipants.map(([name,role,photo,source])=>{const person=el('article',undefined,'invitee'+(photo?' has-photo':''));if(photo){const img=el('img');img.src=photo;img.alt=name;img.loading='lazy';img.width=100;img.height=125;person.append(img);}const text=el('div');text.append(el('h3',name),el('p',role));if(source){const link=el('a',t.photoSource,'textlink');link.href=source;link.target='_blank';link.rel='noopener noreferrer';text.append(link);}person.append(text);return person;}));
   $('#companyList').replaceChildren(...t.companies.map(([a,b,c,d])=>{const n=el('article',undefined,'company');n.append(el('h3',a),el('p',b),el('div',c,'status'+(d?' interest':'')));return n;}));
-  $('#agenda').replaceChildren(...t.agenda.map(([time,title,place,items,featured],i)=>{
-    const n=el('details',undefined,'slot'+(featured?' feature':''));n.dataset.index=String(i);if(i===0)n.id='morning';if(i===2)n.id='afternoon';if(i===7)n.id='evening';n.open=openSlots.has(String(i));
+  $('#agenda').replaceChildren(...t.agenda.map(([time,title,place,items,featured,anchor],i)=>{
+    const n=el('details',undefined,'slot'+(featured?' feature':''));n.dataset.index=String(i);if(anchor)n.id=anchor;n.open=openSlots.has(String(i));
     const summary=el('summary'),head=el('span',title,'slottitle');head.append(el('small',place));const plus=el('span','+','plus');plus.setAttribute('aria-hidden','true');summary.append(el('span',time,'time'),head,plus);
     const body=el('div',undefined,'slotbody'),list=el('ul');list.append(...items.map(s=>el('li',s)));if(featured){
       n.id='ai';body.classList.add('interview');
       body.append(el('p',t.aiLead,'session-lead'),el('h3',t.aiParticipantsLabel));
       const people=el('div',undefined,'speakers');
-      t.aiParticipants.forEach(([name,role,bio,portrait,links=[]],personIndex)=>{
+      t.aiParticipants.forEach(([name,role,bio,portrait,links=[],brandLabel],personIndex)=>{
         const person=el('article',undefined,'speaker');
         if(portrait){const frame=el('div',undefined,'portrait '+(['nikolay','ivan'].includes(portrait)?'portrait-single':portrait==='kliment'?'portrait-left':'portrait-right'));const photo=el('img');photo.src=portrait==='ivan'?'ivan-shapoval.png':portrait==='nikolay'?'nikolay-sorokin.png':'speakers.png';photo.alt=name;photo.loading='lazy';frame.append(photo);person.append(frame);}
-        else {const brand=el('div',undefined,'speaker-brand');brand.append(el('strong','Z.ai'),el('span','GLM'));person.append(brand);}
+        else {const brand=el('div',undefined,'speaker-brand');brand.append(el('strong',brandLabel||name),el('span',brandLabel==='Z.AI'?'GLM':''));person.append(brand);}
         person.append(el('h4',name),el('p',role,'speaker-role'));const biography=el('details',undefined,'speaker-bio');biography.dataset.person=String(personIndex);biography.open=openBios.has(String(personIndex));biography.append(el('summary',t.bioLabel),...bio.split('\n\n').map(paragraph=>el('p',paragraph)));person.append(biography);if(links.length){const projects=el('div',undefined,'speaker-projects');links.forEach(([label,url])=>{const link=el('a',label);link.href=url;link.target='_blank';link.rel='noopener noreferrer';projects.append(link);});person.append(projects);}people.append(person);
       });body.append(people,el('h3',t.aiQuestionsLabel));
       const themes=el('div',undefined,'session-themes');t.focus.forEach(([title,description])=>{const theme=el('article');theme.append(el('h4',title),el('p',description));themes.append(theme);});
@@ -50,8 +50,10 @@ function render(lang) {
   $('#organizerPeople').replaceChildren(...t.organizerPeople.map(([name,role,bio],i)=>{const person=el('article',undefined,'organizer-person');const photo=el('img');photo.src='igor-saveliev.jpg';photo.alt=name;photo.loading='lazy';photo.width=150;photo.height=180;const text=el('div');const link=el('a',t.profileLink,'textlink');link.href='https://www.econ.msu.ru/departments/BRICS-center/Staff/'+'I.I.Saveliev/';link.target='_blank';link.rel='noopener noreferrer';text.append(el('h4',name),el('p',role),el('p',bio,'muted'),link);person.append(photo,text);return person;}));
   $('#formatBlocks').replaceChildren(...t.formatBlocks.map(([a,b])=>{const n=el('div');n.append(el('h3',a),el('p',b,'muted'));return n;}));
   $('#sources').replaceChildren(...t.sources.map((s,i)=>{const li=el('li'),a=el('a',s);a.href=sourceUrls[i];a.target='_blank';a.rel='noopener noreferrer';li.append(a);return li;}));
-  [0,2,7].forEach((index,j)=>{const h=el('h3',t.dayParts[j],'day-heading');$('#agenda').insertBefore(h,$('#agenda').querySelector('[data-index="'+index+'"]'));});
+  t.dayPartIndices.forEach((index,j)=>{const h=el('h3',t.dayParts[j],'day-heading');$('#agenda').insertBefore(h,$('#agenda').querySelector('[data-index="'+index+'"]'));});
   $('#dayNav').replaceChildren(...t.dayNav.map((label,j)=>{const a=el('a',label);a.href='#'+['morning','afternoon','evening'][j];return a;}));
+  $('#supportGroups').replaceChildren(...t.supportGroups.map(([name,body])=>{const n=el('div');n.append(el('h3',name),el('p',body));return n;}));
+  $('#committeeList').replaceChildren(...t.committee.map(([name,role])=>{const n=el('li');n.append(el('strong',name),document.createTextNode(' — '+role));return n;}));
   syncExpand();
   try{localStorage.setItem('msu-brics-language',lang);}catch{}
 }
@@ -61,7 +63,7 @@ $('#expand').addEventListener('click',()=>{const target=$('#expand').getAttribut
 function icsEscape(s){return s.replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');}
 function foldLine(line){const encoder=new TextEncoder();let out='',part='',bytes=0;for(const c of line){const size=encoder.encode(c).length;if(bytes+size>73){out+=part+'\r\n ';part='';bytes=1;}part+=c;bytes+=size;}return out+part;}
 $('#calendar').addEventListener('click',()=>{
- const t=CONTENT[language];const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//MSU BRICS Business Day//2026//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT','UID:business-day-20261122@msu-brics.ru','DTSTAMP:20261005T000000Z','DTSTART;VALUE=DATE:20261122','DTEND;VALUE=DATE:20261123','SUMMARY:'+icsEscape(t.calendarTitle),'LOCATION:'+icsEscape(t.calendarLocation || t.location),'DESCRIPTION:'+icsEscape(t.calendarDescription),'STATUS:TENTATIVE','END:VEVENT','END:VCALENDAR'];
+ const t=CONTENT[language];const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//MSU BRICS Business Day//2026//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT','UID:business-day-20261122@msu-brics.ru','DTSTAMP:20261119T000000Z','DTSTART;VALUE=DATE:20261122','DTEND;VALUE=DATE:20261123','SUMMARY:'+icsEscape(t.calendarTitle),'LOCATION:'+icsEscape(t.calendarLocation || t.location),'DESCRIPTION:'+icsEscape(t.calendarDescription),'STATUS:CONFIRMED','END:VEVENT','END:VCALENDAR'];
  const url=URL.createObjectURL(new Blob([lines.map(foldLine).join('\r\n')+'\r\n'],{type:'text/calendar;charset=utf-8'}));const a=el('a');a.href=url;a.download='msu-brics-2026-11-22.ics';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
 });
 let preferred=new URL(location.href).searchParams.get('lang');if(!preferred){try{preferred=localStorage.getItem('msu-brics-language');}catch{}}
