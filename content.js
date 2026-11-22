@@ -314,6 +314,10 @@ const CONTENT = {
           [
             "GPTunneL — платформа ИИ",
             "https://gptunnel.ru/"
+          ],
+          [
+            "Презентация / 演示文稿 · PDF",
+            "GPTunneL-Shenzhen-2026.pdf"
           ]
         ]
       ],
@@ -322,7 +326,12 @@ const CONTENT = {
         "Сооснователь «РобоТехнологии» · ex-Яндекс · ex-Uber Russia",
         "Сооснователь компании по ремонту и обслуживанию роботов. Последние три года занимается операционным сопровождением роботов-доставщиков Яндекса в Москве: организует работу сервисной команды, полевое обслуживание и ремонт. Использует ИИ для улучшения операционных процессов компании.\n\nВ дискуссии расскажет о ежедневной эксплуатации роверов: надёжности, ремонтопригодности, доступности комплектующих и влиянии простоев на экономику.",
         "ivan",
-        []
+        [
+          [
+            "Презентация / 演示文稿 · PDF",
+            "RTS-Forum-2026.pdf"
+          ]
+        ]
       ],
       [
         "Николай Сорокин",
@@ -333,6 +342,10 @@ const CONTENT = {
           [
             "Лаборатория №40 — исследования рынка",
             "https://lab-40.ru/"
+          ],
+          [
+            "Презентация / 演示文稿 · PDF",
+            "Lab40-Slides.pdf"
           ]
         ]
       ],
@@ -470,7 +483,8 @@ const CONTENT = {
       ]
     ],
     "presentationLabel": "14:40 · Дарья Жуйкова — презентация AInomics (PDF)",
-    "presentationDownload": "Скачать PDF"
+    "presentationDownload": "Скачать PDF",
+    "navCooperation": "Сотрудничество"
   },
   "en": {
     "brand": "MSU–BIT",
@@ -787,6 +801,10 @@ const CONTENT = {
           [
             "GPTunneL — AI platform",
             "https://gptunnel.ru/"
+          ],
+          [
+            "Презентация / 演示文稿 · PDF",
+            "GPTunneL-Shenzhen-2026.pdf"
           ]
         ]
       ],
@@ -795,7 +813,12 @@ const CONTENT = {
         "Co-founder, RoboTechnologies · Formerly at Yandex and Uber Russia",
         "Co-founder of a robot repair and maintenance company. For the past three years, he has supported the operation of Yandex delivery robots in Moscow, coordinating the service team, field maintenance and repairs. He uses AI to improve the company’s operational processes.\n\nIn the discussion, he will share his experience of day-to-day rover operations, covering reliability, repairability, component availability and the business cost of downtime.",
         "ivan",
-        []
+        [
+          [
+            "Презентация / 演示文稿 · PDF",
+            "RTS-Forum-2026.pdf"
+          ]
+        ]
       ],
       [
         "Nikolay Sorokin",
@@ -806,6 +829,10 @@ const CONTENT = {
           [
             "Lab 40 — market research",
             "https://lab-40.ru/"
+          ],
+          [
+            "Презентация / 演示文稿 · PDF",
+            "Lab40-Slides.pdf"
           ]
         ]
       ],
@@ -943,7 +970,8 @@ const CONTENT = {
       ]
     ],
     "presentationLabel": "14:40 · Darya Zhuykova — AInomics presentation (PDF)",
-    "presentationDownload": "Download PDF"
+    "presentationDownload": "Download PDF",
+    "navCooperation": "Cooperation"
   },
   "zh": {
     "brand": "深圳北理莫斯科大学",
@@ -1260,6 +1288,10 @@ const CONTENT = {
           [
             "GPTunneL：人工智能平台",
             "https://gptunnel.ru/"
+          ],
+          [
+            "Презентация / 演示文稿 · PDF",
+            "GPTunneL-Shenzhen-2026.pdf"
           ]
         ]
       ],
@@ -1268,7 +1300,12 @@ const CONTENT = {
         "RoboTechnologies 联合创始人 · 曾任职于 Yandex 和 Uber Russia",
         "机器人维修与保养公司 RoboTechnologies 联合创始人。过去三年，他在莫斯科从事 Yandex 配送机器人的运营支持，组织服务团队的日常工作、现场维护与维修，并运用人工智能改善公司的运营流程。\n\n本场将分享配送机器人日常运行中的经验，讨论可靠性、可维修性、零部件供应，以及停机对运营成本和收益的影响。",
         "ivan",
-        []
+        [
+          [
+            "Презентация / 演示文稿 · PDF",
+            "RTS-Forum-2026.pdf"
+          ]
+        ]
       ],
       [
         "尼古拉·索罗金（Nikolay Sorokin）",
@@ -1279,6 +1316,10 @@ const CONTENT = {
           [
             "Lab 40：市场研究",
             "https://lab-40.ru/"
+          ],
+          [
+            "Презентация / 演示文稿 · PDF",
+            "Lab40-Slides.pdf"
           ]
         ]
       ],
@@ -1416,6 +1457,7 @@ const CONTENT = {
       ]
     ],
     "presentationLabel": "14:40 · Darya Zhuykova — AInomics 演示文稿（PDF）",
-    "presentationDownload": "下载 PDF"
+    "presentationDownload": "下载 PDF",
+    "navCooperation": "合作"
   }
 };
