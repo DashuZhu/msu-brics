@@ -28,7 +28,8 @@ function render(lang) {
     const summary=el('summary'),head=el('span',title,'slottitle');head.append(el('small',place));const plus=el('span','+','plus');plus.setAttribute('aria-hidden','true');summary.append(el('span',time,'time'),head,plus);
     const body=el('div',undefined,'slotbody'),list=el('ul');list.append(...items.map(s=>el('li',s)));if(featured){
       n.id='ai';body.classList.add('interview');
-      body.append(el('p',t.aiLead,'session-lead'),el('h3',t.aiParticipantsLabel));
+      body.append(el('p',t.aiLead,'session-lead'));
+      const materials=el('div',undefined,'speaker-projects');const presentation=el('a',t.presentationLabel,'textlink');presentation.href='AInomics_Russia_China_v3.pdf';presentation.target='_blank';presentation.rel='noopener noreferrer';const download=el('a',t.presentationDownload);download.href=presentation.href;download.download='AInomics_Russia_China_v3.pdf';materials.append(presentation,download);body.append(materials,el('h3',t.aiParticipantsLabel));
       const people=el('div',undefined,'speakers');
       t.aiParticipants.forEach(([name,role,bio,portrait,links=[],brandLabel],personIndex)=>{
         const person=el('article',undefined,'speaker');

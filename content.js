@@ -468,7 +468,9 @@ const CONTENT = {
         "Игорь Савельев",
         "Директор Центра коммуникаций и делового партнёрства БРИКС экономического факультета МГУ"
       ]
-    ]
+    ],
+    "presentationLabel": "14:40 · Дарья Жуйкова — презентация AInomics (PDF)",
+    "presentationDownload": "Скачать PDF"
   },
   "en": {
     "brand": "MSU–BIT",
@@ -939,7 +941,9 @@ const CONTENT = {
         "Igor Saveliev",
         "Director, BRICS Business Partnership Communications Centre, MSU Faculty of Economics"
       ]
-    ]
+    ],
+    "presentationLabel": "14:40 · Darya Zhuykova — AInomics presentation (PDF)",
+    "presentationDownload": "Download PDF"
   },
   "zh": {
     "brand": "深圳北理莫斯科大学",
@@ -1410,6 +1414,8 @@ const CONTENT = {
         "Igor Saveliev",
         "莫大经济系金砖国家商务伙伴关系交流中心主任"
       ]
-    ]
+    ],
+    "presentationLabel": "14:40 · Darya Zhuykova — AInomics 演示文稿（PDF）",
+    "presentationDownload": "下载 PDF"
   }
 };
