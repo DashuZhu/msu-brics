@@ -124,7 +124,7 @@ const CONTENT = {
         "Передовые технологии и новые возможности промышленного сотрудничества России и Китая",
         "Библиотека · конференц-зал, 9-й этаж",
         [
-          "Модераторы: Ирина Никитушкина, декан экономического факультета МГУ–ППИ; Игорь Цзян-Нын-Цай, директор по международным проектам ПАО «ПИК СЗ», эксперт Центра БРИКС экономического факультета МГУ.",
+          "Модераторы: Ирина Никитушкина, декан экономического факультета МГУ–ППИ; Игорь Цзян-Нын-Цай, эксперт Центра БРИКС экономического факультета МГУ.",
           "09:40–09:50 · Сунь Цзие, председатель и главный представитель Представительства по торгово-экономическому сотрудничеству провинции Гуандун в России.",
           "09:50–10:00 · Национальный режим в России: новые возможности для совместных проектов России и Китая. Эльвира Кускова, член Генерального совета «Деловой России», руководитель подкомитета по таможенной логистике.",
           "10:00–10:10 · Развитие новых энергетических транспортных средств в Китае. Ши Цзэнчао, вице-президент Seres (AITO).",
@@ -162,9 +162,9 @@ const CONTENT = {
         "Практическое бизнес-взаимодействие: цифровая экономика, финансы, торговля",
         "Библиотека · конференц-зал, 9-й этаж",
         [
-          "Модератор: Константин Яникович, ex-ПИК, ex-Росатом, ex-ЧТПЗ; Центр БРИКС экономического факультета МГУ.",
+          "Модератор: Константин Яникович, ex-Росатом, ex-ЧТПЗ; Центр БРИКС экономического факультета МГУ.",
           "11:30–11:40 · Шэнь Цзюньин, исполнительный председатель Шэньчжэньской ассоциации международных инвестиций и финансирования.",
-          "11:40–11:50 · Неформальные институты России и Китая: снижение транзакционных издержек, понимание и доверие в бизнесе. Игорь Цзян-Нын-Цай, директор по международным проектам ПАО «ПИК СЗ», эксперт Центра БРИКС экономического факультета МГУ.",
+          "11:40–11:50 · Неформальные институты России и Китая: снижение транзакционных издержек, понимание и доверие в бизнесе. Игорь Цзян-Нын-Цай, эксперт Центра БРИКС экономического факультета МГУ.",
           "11:50–12:00 · Программа полного жизненного цикла обслуживания технологических предприятий. У Цзя, генеральный директор департамента технологического финансирования Шэньчжэньского филиала Сельскохозяйственного банка Китая.",
           "12:00–12:10 · Доверие как фундамент внешнеэкономической деятельности. Владислав Ли, управляющий директор SouthPoint International.",
           "12:10–12:20 · Дмитрий Павлов, заместитель председателя Экспортного совета Приморского края, руководитель комитета по развитию туризма Приморского отделения «Опоры России»."
@@ -611,7 +611,7 @@ const CONTENT = {
         "Advanced technologies and new opportunities for Russia–China industrial cooperation",
         "Library · conference hall, 9th floor",
         [
-          "Moderators: Irina Nikitushkina, Dean of Economics, Shenzhen MSU–BIT; Igor Jiang-Nyn-Tsai, Director of International Projects at PIK SZ and expert at the MSU Economics BRICS Centre.",
+          "Moderators: Irina Nikitushkina, Dean of Economics, Shenzhen MSU–BIT; Igor Jiang-Nyn-Tsai, expert at the MSU Economics BRICS Centre.",
           "09:40–09:50 · Sun Jie, Chairman and Chief Representative of the Guangdong Trade and Economic Cooperation Office in Russia.",
           "09:50–10:00 · Russia’s national treatment regime: new opportunities for joint projects. Elvira Kuskova, General Council member and Customs Logistics Subcommittee Head, Business Russia.",
           "10:00–10:10 · New energy vehicle development in China. Shi Zengchao, Vice President, Seres (AITO).",
@@ -649,9 +649,9 @@ const CONTENT = {
         "Business cooperation: digital economy, finance and trade",
         "Library · conference hall, 9th floor",
         [
-          "Moderator: Konstantin Yanikovich, formerly at PIK, Rosatom and ChTPZ; MSU Economics BRICS Centre.",
+          "Moderator: Konstantin Yanikovich, formerly at Rosatom and ChTPZ; MSU Economics BRICS Centre.",
           "11:30–11:40 · Shen Junying, Executive Chairman, Shenzhen International Investment and Financing Association.",
-          "11:40–11:50 · Informal institutions in Russia and China: reducing transaction costs and building understanding and trust. Igor Jiang-Nyn-Tsai, PIK SZ International Projects Director and MSU Economics BRICS Centre expert.",
+          "11:40–11:50 · Informal institutions in Russia and China: reducing transaction costs and building understanding and trust. Igor Jiang-Nyn-Tsai, MSU Economics BRICS Centre expert.",
           "11:50–12:00 · Full-lifecycle services for technology companies. Wu Jia, General Manager of Technology Finance, Agricultural Bank of China, Shenzhen Branch.",
           "12:00–12:10 · Trust as the foundation of foreign trade. Vladislav Li, Managing Director, SouthPoint International.",
           "12:10–12:20 · Dmitry Pavlov, Deputy Chair of the Primorsky Krai Export Council and Head of the Tourism Development Committee, OPORA Russia’s Primorsky branch."
@@ -1098,7 +1098,7 @@ const CONTENT = {
         "前沿技术与中俄产业合作新机遇",
         "图书馆九楼会议厅",
         [
-          "主持人：Irina Nikitushkina，深圳北理莫斯科大学经济系主任；Igor Jiang-Nyn-Tsai，PIK SZ 国际项目总监、莫大经济系金砖中心专家。",
+          "主持人：Irina Nikitushkina，深圳北理莫斯科大学经济系主任；Igor Jiang-Nyn-Tsai，莫大经济系金砖中心专家。",
           "09:40–09:50 · Sun Jie，广东省驻俄罗斯经贸合作代表处主席、首席代表。",
           "09:50–10:00 · 俄罗斯国民待遇制度：中俄合作项目的新机遇。Elvira Kuskova，“商业俄罗斯”总委员会成员、海关物流分委会负责人。",
           "10:00–10:10 · 中国新能源汽车发展。Shi Zengchao，Seres（AITO）副总裁。",
@@ -1136,9 +1136,9 @@ const CONTENT = {
         "务实商业合作：数字经济、金融与贸易",
         "图书馆九楼会议厅",
         [
-          "主持人：Konstantin Yanikovich，曾任职于 PIK、Rosatom、ChTPZ；莫大经济系金砖中心。",
+          "主持人：Konstantin Yanikovich，曾任职于 Rosatom、ChTPZ；莫大经济系金砖中心。",
           "11:30–11:40 · Shen Junying，深圳国际投融资协会执行会长。",
-          "11:40–11:50 · 中俄非正式制度：降低交易成本，增进商业理解与信任。Igor Jiang-Nyn-Tsai，PIK SZ 国际项目总监、莫大经济系金砖中心专家。",
+          "11:40–11:50 · 中俄非正式制度：降低交易成本，增进商业理解与信任。Igor Jiang-Nyn-Tsai，莫大经济系金砖中心专家。",
           "11:50–12:00 · 科技企业全生命周期金融服务。Wu Jia，中国农业银行深圳分行科技金融部门总经理。",
           "12:00–12:10 · 信任作为对外经贸活动的基础。Vladislav Li，SouthPoint International 董事总经理。",
           "12:10–12:20 · Dmitry Pavlov，滨海边疆区出口委员会副主席、“俄罗斯支柱”滨海分部旅游发展委员会负责人。"
